@@ -819,7 +819,7 @@
     summary:
       "50 mots indispensables : informatique, science, culture g&eacute;n&eacute;rale, action, Afrique.",
     text: [
-      "Objectif : m&eacute;moriser 30 mots-cl&eacute;s utiles en anglais.",
+      "Objectif : m&eacute;moriser 50 mots-cl&eacute;s utiles en anglais.",
       "Astuce : lis le mot, devine le sens, puis clique pour voir la d&eacute;finition + un mini-exemple.",
       "Rappel : r&eacute;p&egrave;te &agrave; voix haute pour mieux m&eacute;moriser."
     ],
@@ -1737,6 +1737,7 @@ window.GENIUS_COURSES = [
     extraPoints: ["avoid contractions", "use complete sentences"]
   }
 ];
+
 
 
 

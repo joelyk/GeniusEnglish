@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   const modules = window.GENIUS_MODULES || [];
 
   const page = document.body.dataset.page;
@@ -118,7 +118,7 @@
 
       progressCount.textContent = `${currentIndex + 1}/${module.questions.length}`;
       questionNumber.textContent = `Question ${currentIndex + 1}`;
-      questionTitle.textContent = question.prompt;
+      questionTitle.innerHTML = question.prompt;
       optionsForm.innerHTML = question.choices
         .map((choice, index) => {
           return `
@@ -159,8 +159,8 @@
       feedbackText.textContent = isCorrect
         ? "Tu as trouvé la bonne option. Continue comme ça."
         : "Regarde la correction et retiens le point clé.";
-      feedbackExplain.textContent = module.questions[currentIndex].explanation;
-      feedbackIcon.textContent = isCorrect ? "✓" : "!";
+      feedbackExplain.innerHTML = module.questions[currentIndex].explanation;
+      feedbackIcon.textContent = isCorrect ? "âœ“" : "!";
       feedbackIcon.classList.toggle("bad", !isCorrect);
     }
 
@@ -336,3 +336,4 @@
     `;
   }
 })();
+
