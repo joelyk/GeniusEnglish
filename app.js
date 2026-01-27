@@ -41,6 +41,10 @@
     const moduleText = document.getElementById("module-text");
     const moduleDuration = document.getElementById("module-duration");
     const progressCount = document.getElementById("progress-count");
+    const progressLabel = document.getElementById("progress-label");
+    const quizPanel = document.querySelector(".quiz-panel");
+    const translationPanel = document.getElementById("translation-panel");
+    const translationContent = document.getElementById("translation-content");
     const questionNumber = document.getElementById("question-number");
     const questionTitle = document.getElementById("question-title");
     const optionsForm = document.getElementById("options-form");
@@ -61,7 +65,29 @@
     moduleTitle.textContent = module.title;
     moduleTag.textContent = `Module ${module.id}`;
     moduleDuration.textContent = module.duration;
-    moduleText.innerHTML = module.text.map((p) => `<p>${p}</p>`).join("");
+    if (module.text && module.text.length > 0) {
+      moduleText.innerHTML = module.text.map((p) => `<p>${p}</p>`).join("");
+      moduleText.parentElement.classList.remove("hidden");
+    } else {
+      moduleText.parentElement.classList.add("hidden");
+    }
+    moduleDuration.textContent = module.duration || "00:00";
+
+    if (module.type === "translation") {
+      if (quizPanel) quizPanel.classList.add("hidden");
+      if (translationPanel) translationPanel.classList.remove("hidden");
+      if (progressLabel) progressLabel.textContent = "exercices";
+      const totalItems = module.translations
+        ? module.translations.reduce((sum, block) => sum + block.items.length, 0)
+        : 0;
+      progressCount.textContent = `${totalItems}`;
+      renderTranslations();
+      return;
+    }
+
+    if (translationPanel) translationPanel.classList.add("hidden");
+    if (quizPanel) quizPanel.classList.remove("hidden");
+    if (progressLabel) progressLabel.textContent = "questions";
     progressCount.textContent = `1/${module.questions.length}`;
 
     function renderQuestion() {
@@ -182,5 +208,45 @@
     });
 
     renderQuestion();
+
+    function renderTranslations() {
+      if (!translationContent || !module.translations) return;
+      translationContent.innerHTML = module.translations
+        .map((block) => {
+          const items = block.items
+            .map((item, index) => {
+              return `
+              <li class="translation-item">
+                <p><strong>${index + 1}.</strong> ${item.prompt}</p>
+                <button class="ghost-btn" type="button" data-toggle>
+                  Voir la traduction
+                </button>
+                <div class="translation-answer hidden">${item.answer}</div>
+              </li>
+            `;
+            })
+            .join("");
+          return `
+          <article class="translation-block">
+            <h3>${block.title}</h3>
+            <ul class="translation-list">
+              ${items}
+            </ul>
+          </article>
+        `;
+        })
+        .join("");
+
+      translationContent.querySelectorAll("[data-toggle]").forEach((button) => {
+        button.addEventListener("click", () => {
+          const answer = button.nextElementSibling;
+          if (!answer) return;
+          answer.classList.toggle("hidden");
+          button.textContent = answer.classList.contains("hidden")
+            ? "Voir la traduction"
+            : "Masquer la traduction";
+        });
+      });
+    }
   }
 })();

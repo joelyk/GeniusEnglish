@@ -2,6 +2,7 @@ window.GENIUS_MODULES = [
   {
     id: 1,
     title: "The Five Senses",
+    type: "quiz",
     duration: "00:00:12",
     level: "Intermédiaire",
     summary:
@@ -78,6 +79,7 @@ window.GENIUS_MODULES = [
   {
     id: 2,
     title: "The Scientific Method",
+    type: "quiz",
     duration: "00:03:06",
     level: "Intermédiaire",
     summary:
@@ -156,6 +158,230 @@ window.GENIUS_MODULES = [
         answer: 0,
         explanation:
           "La méthode scientifique s'applique aux expériences simples ou complexes. Rappel : elle est utilisée par des élèves comme par des chercheurs."
+      }
+    ]
+  },
+  {
+    id: 3,
+    title: "DNA",
+    type: "quiz",
+    duration: "00:03:30",
+    level: "Intermédiaire",
+    summary:
+      "Comprendre l'ADN, sa structure, et son r&ocirc;le dans le vivant.",
+    text: [
+      "We all know that humans only give birth to humans; elephants only give birth to little elephants, giraffes to giraffes, dogs to dogs and so on for every type of living creature. But why is this so? The answer lies in a molecule called deoxyribonucleic acid (DNA), which contains the biological instructions that make each species unique. DNA, along with the instructions it contains, is passed from adult organisms to their offspring during reproduction.",
+      "DNA, or deoxyribonucleic acid, is the hereditary material in humans and almost all other organisms. Nearly every cell in a person's body has the same DNA. Most DNA is located in the cell nucleus (where it is called nuclear DNA), but a small amount of DNA can also be found in the mitochondria (where it is called mitochondrial DNA).",
+      "The information in DNA is stored as a code made up of four chemical bases: adenine (A), guanine (G), cytosine (C), and thymine (T). Human DNA consists of about 3 billion bases, and more than 99 percent of those bases are the same in all people.",
+      "The order, or sequence, of these bases determines the information available for building and maintaining an organism, similar to the way in which letters of the alphabet appear in a certain order to form words and sentences.",
+      "DNA bases pair up with each other, A with T and C with G, to form units called base pairs. Each base is also attached to a sugar molecule and a phosphate molecule. Together, a base, sugar, and phosphate are called a nucleotide.",
+      "Nucleotides are arranged in two long strands that form a spiral called a double helix. The structure of the double helix is somewhat like a ladder, with the base pairs forming the ladder's rungs and the sugar and phosphate molecules forming the vertical sidepieces of the ladder.",
+      "An important property of DNA is that it can replicate, or make copies of itself. Each strand of DNA in the double helix can serve as a pattern for duplicating the sequence of bases. This is critical when cells divide because each new cell needs to have an exact copy of the DNA present in the old cell.",
+      "DNA contains the instructions needed for an organism to develop, survive and reproduce. To carry out these functions, DNA sequences must be converted into messages that can be used to produce proteins, which are the complex molecules that do most of the work in our bodies. Each DNA sequence that contains instructions to make a protein is known as a gene.",
+      "The size of a gene may vary greatly, ranging from about 1,000 bases to 1 million bases in humans. Genes only make up about 1 percent of the DNA sequence. DNA sequences outside this 1 percent are involved in regulating when, how and how much of a protein is made.",
+      "Forensic scientists can use DNA in blood, semen, skin, saliva or hair to identify a matching DNA of an individual. This process is formally termed DNA profiling, but may also be called genetic fingerprinting. In DNA profiling, the lengths of variable sections of repetitive DNA, such as short tandem repeats and minisatellites, are compared between people. This method is usually an extremely reliable technique for identifying a matching DNA."
+    ],
+    questions: [
+      {
+        prompt:
+          "Which of the following is the hereditary material found in humans and almost all other organisms?",
+        choices: [
+          "Deoxyribonucleic acid",
+          "Muriatic acid",
+          "Nuclear acid",
+          "Bicarbonate acid"
+        ],
+        answer: 0,
+        explanation:
+          "La mati&egrave;re h&eacute;r&eacute;ditaire est l'ADN (deoxyribonucleic acid)."
+      },
+      {
+        prompt:
+          "Which of the following is NOT one of the information chemicals stored in DNA?",
+        choices: ["adenine", "guanine", "cytosine", "sulfide"],
+        answer: 3,
+        explanation:
+          "Les bases de l'ADN sont A, T, C, G. Le sulfide n'en fait pas partie."
+      },
+      {
+        prompt:
+          "In DNA, the two long strands that form a spiral are called which of the following?",
+        choices: ["Double strand", "Ladder", "Double helix", "Spiral helix"],
+        answer: 2,
+        explanation:
+          "Deux brins en spirale = double h&eacute;lice (double helix)."
+      },
+      {
+        prompt:
+          "DNA contains the instructions needed for an organism to do all but which of the following?",
+        choices: ["Survive", "Develop", "Reproduce", "Breath"],
+        answer: 3,
+        explanation:
+          "ADN = d&eacute;velopper, survivre, se reproduire. &ldquo;Breath&rdquo; n'est pas une fonction cit&eacute;e."
+      },
+      {
+        prompt:
+          "Each DNA sequence that contains instructions to make a protein is known as which of the following?",
+        choices: ["A gene", "A hormone", "A nucleus", "A sequence"],
+        answer: 0,
+        explanation:
+          "Un segment d'ADN qui code une prot&eacute;ine = un g&egrave;ne."
+      },
+      {
+        prompt:
+          "Forensic scientists can use DNA in blood, semen, skin, saliva or hair to identify a matching DNA of an individual. This process is formally called which of the following?",
+        choices: ["DNA pictures", "DNA profiling", "DNA publication", "DNA projection"],
+        answer: 1,
+        explanation:
+          "Le terme correct est DNA profiling (empreinte g&eacute;n&eacute;tique)."
+      }
+    ]
+  },
+  {
+    id: 4,
+    title: "Basic Translation Notions",
+    type: "translation",
+    duration: "00:08:00",
+    level: "Basique",
+    summary:
+      "Exercices de traduction (FR → EN / EN → FR) avec correction affichable.",
+    text: [
+      "This is not a full translation lesson per se. Indeed, it aims at giving students just the prolegomena (basics) students need to adapt in the university milieu, namely the campus and academic lives."
+    ],
+    translations: [
+      {
+        title: "IV-1: Translation into English",
+        items: [
+          {
+            prompt: "Le doyen de la Facult&eacute; des Sciences.",
+            answer: "The Dean of the Faculty of Science."
+          },
+          {
+            prompt: "Le Groupe Genius est vraiment bien.",
+            answer: "The Genius Group is really good."
+          },
+          {
+            prompt: "Il faut mobiliser les amis pour valider.",
+            answer: "We must mobilize our friends to pass."
+          },
+          {
+            prompt:
+              "Il y a beaucoup d'exercices sur le site pandacodeur.com.",
+            answer: "There are many exercises on the website pandacodeur.com."
+          },
+          {
+            prompt:
+              "Le cours d'algorithmique a lieu &agrave; l'amphi 600 &agrave; 8h45 et l'apr&egrave;s-midi &agrave; 15h.",
+            answer:
+              "The algorithms course takes place in Amphitheatre 600 at 8:45 a.m. and in the afternoon at 3:00 p.m."
+          },
+          {
+            prompt:
+              "Il a coup&eacute; le g&acirc;teau aux trois quarts et l'a donn&eacute; &agrave; Jo&euml;l.",
+            answer: "He cut the cake into three quarters and gave it to Joel."
+          },
+          {
+            prompt: "Je suis &eacute;tudiant &agrave; l'universit&eacute; de Dschang.",
+            answer: "I am a student at the University of Dschang."
+          },
+          {
+            prompt: "Le cours est programm&eacute; &agrave; 13 h.",
+            answer: "The class is scheduled at 1:00 p.m."
+          },
+          {
+            prompt:
+              "Les travaux pratiques se tiendront dans le laboratoire du Professeur Nguelefack.",
+            answer:
+              "The practical sessions will take place in Professor Nguelefack's laboratory."
+          },
+          {
+            prompt:
+              "Je vais retirer mon relev&eacute; de notes au service de la scolarit&eacute;.",
+            answer: "I will pick up my transcript at the registrar's office."
+          },
+          {
+            prompt:
+              "Le restaurant universitaire se trouve au campus A de l'Universit&eacute; de Dschang.",
+            answer:
+              "The university restaurant is located on Campus A of the University of Dschang."
+          },
+          {
+            prompt:
+              "Si je travaille d'arrache-pied, je vais valider toutes mes mati&egrave;res &agrave; la session normale.",
+            answer:
+              "If I work hard, I will pass all my courses in the regular session."
+          },
+          {
+            prompt: "As-tu d&eacute;j&agrave; pay&eacute; tes droits universitaires?",
+            answer: "Have you already paid your tuition fees?"
+          },
+          {
+            prompt:
+              "Les enseignants d'universit&eacute; re&ccedil;oivent les &eacute;tudiants dans leurs bureaux.",
+            answer:
+              "University teachers receive students in their offices."
+          },
+          {
+            prompt:
+              "La session de rattrapage a g&eacute;n&eacute;ralement lieu &agrave; la fin de la session normale.",
+            answer:
+              "The make-up session usually takes place at the end of the regular session."
+          }
+        ]
+      },
+      {
+        title: "IV-2: Translation into French",
+        items: [
+          {
+            prompt: "Hardworking students always succeed.",
+            answer: "Les &eacute;tudiants travailleurs r&eacute;ussissent toujours."
+          },
+          {
+            prompt:
+              "I am still waiting for my parents to send me my pocket allowance.",
+            answer:
+              "J'attends encore que mes parents m'envoient mon argent de poche."
+          },
+          {
+            prompt:
+              "University students do not wear uniforms, yet they should dress decently.",
+            answer:
+              "Les &eacute;tudiants de l'universit&eacute; ne portent pas d'uniformes, mais ils devraient s'habiller d&eacute;cemment."
+          },
+          {
+            prompt: "My landlady is a very kind woman.",
+            answer: "Ma logeuse est une femme tr&egrave;s gentille."
+          },
+          {
+            prompt:
+              "My friend lives in the students' hall of residence, so he hasn't got to settle any bill.",
+            answer:
+              "Mon ami vit en cit&eacute; universitaire, donc il n'a pas &agrave; payer de factures."
+          },
+          {
+            prompt:
+              "The Vice-Chancellor of the University of Dschang is very dynamic.",
+            answer:
+              "Le Vice-Chancelier de l'Universit&eacute; de Dschang est tr&egrave;s dynamique."
+          },
+          {
+            prompt: "Course handout",
+            answer: "Support de cours"
+          },
+          {
+            prompt: "The campus life is not an easy one.",
+            answer: "La vie sur le campus n'est pas facile."
+          },
+          {
+            prompt: "My dream is to graduate as an engineer.",
+            answer: "Mon r&ecirc;ve est d'obtenir mon dipl&ocirc;me d'ing&eacute;nieur."
+          },
+          {
+            prompt: "ASTI is one of the greatest training schools in Cameroon.",
+            answer:
+              "L'ASTI est l'une des meilleures &eacute;coles de formation au Cameroun."
+          }
+        ]
       }
     ]
   }
