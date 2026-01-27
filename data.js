@@ -1,12 +1,12 @@
-window.GENIUS_MODULES = [
+﻿window.GENIUS_MODULES = [
   {
     id: 1,
     title: "The Five Senses",
     type: "quiz",
     duration: "00:00:12",
-    level: "Intermédiaire",
+    level: "Interm&eacute;diaire",
     summary:
-      "Comprendre les cinq sens, leurs fonctions et le vocabulaire clé.",
+      "Comprendre les cinq sens, leurs fonctions et le vocabulaire cl&eacute;.",
     text: [
       "The five senses of the body include sight, hearing, taste, smell, and touch. Human beings and most other animals use the five senses to help them live and experience the world around them. The senses also help people to learn, protect themselves, and to enjoy the differences between foods, sounds, and other experiences a person has in life. The senses also work together to give you a clear picture of the activities around you.",
       "The first sense is sight, which depends on the eyes. People use their eyes to see the people, objects, and other items around them. Of course, the sense of sight is also helpful for reading, traveling, driving, and moving from place to place each day. Inside the eye there are special lenses that take in light to help people see things. If it is too dark, a person will have trouble seeing. The eyes can also adjust to the amount of light available. Many people, though, young and old, may also need glasses to help them see clearly. Some people may be able to see things up close, but not far away, which means they are nearsighted. If a person can see far away but not up close, they are farsighted. If a person is blind, there are special books written in braille which helps them feel the raised letters. Some blind people also have special dogs to help guide them from place to place in their home and when they go places.",
@@ -23,7 +23,7 @@ window.GENIUS_MODULES = [
         choices: ["Hearing", "Smell", "Sight", "Taste"],
         answer: 2,
         explanation:
-          "La lecture et les déplacements dépendent surtout de la vue. Rappel : sight = la vue (eyes), hearing = l'ouïe (ears), smell = l'odorat (nose), taste = le goût (tongue)."
+          "La lecture et les d&eacute;placements d&eacute;pendent surtout de la vue. Rappel : sight = la vue (eyes), hearing = l'ou&iuml;e (ears), smell = l'odorat (nose), taste = le go&ucirc;t (tongue)."
       },
       {
         prompt:
@@ -36,7 +36,7 @@ window.GENIUS_MODULES = [
         ],
         answer: 1,
         explanation:
-          "Farsighted = voit de loin mais pas de près. Rappel : near = près, far = loin. Nearsighted = voit de près mais pas de loin."
+          "Farsighted = voit de loin mais pas de pr&egrave;s. Rappel : near = pr&egrave;s, far = loin. Nearsighted = voit de pr&egrave;s mais pas de loin."
       },
       {
         prompt:
@@ -44,7 +44,7 @@ window.GENIUS_MODULES = [
         choices: ["Close-sightedness", "Nearsightedness", "Farsightedness", "Braille"],
         answer: 1,
         explanation:
-          "Voir de près mais pas de loin = nearsighted. Rappel : braille est un système d'écriture tactile, pas une condition visuelle."
+          "Voir de pr&egrave;s mais pas de loin = nearsighted. Rappel : braille est un syst&egrave;me d'&eacute;criture tactile, pas une condition visuelle."
       },
       {
         prompt: "Which part of a person's ear contains the eardrum?",
@@ -64,7 +64,7 @@ window.GENIUS_MODULES = [
         ],
         answer: 3,
         explanation:
-          "Les cils (cilia) filtrent l'air inspiré. Rappel : inhale = breathe in, exhale = breathe out."
+          "Les cils (cilia) filtrent l'air inspir&eacute;. Rappel : inhale = breathe in, exhale = breathe out."
       },
       {
         prompt:
@@ -72,7 +72,7 @@ window.GENIUS_MODULES = [
         choices: ["Taste", "Smell", "Hearing", "Feeling"],
         answer: 0,
         explanation:
-          "Toutes ces sensations sont liées au goût et à la bouche. Rappel : taste buds = papilles gustatives sur la langue."
+          "Toutes ces sensations sont li&eacute;es au go&ucirc;t et &agrave; la bouche. Rappel : taste buds = papilles gustatives sur la langue."
       }
     ]
   },
@@ -81,15 +81,17 @@ window.GENIUS_MODULES = [
     title: "The Scientific Method",
     type: "quiz",
     duration: "00:03:06",
-    level: "Intermédiaire",
+    level: "Interm&eacute;diaire",
     summary:
-      "Découvrir les étapes de la méthode scientifique et le vocabulaire clé.",
+      "D&eacute;couvrir les &eacute;tapes de la m&eacute;thode scientifique et le vocabulaire cl&eacute;.",
     text: [
       "The basic scientific method includes the steps scientists use and follow when trying to solve a problem or prove or disprove a theory. The methods are used by scientists all over the world. This is done so scientists can work together to solve some of the same problems.",
       "There are usually five steps which are a part of the scientific method. The steps can occur in any order, but the first step is usually observation. An observation is the use of one or more of the five senses, which include seeing, hearing, feeling, smelling, and tasting. The five senses are used to learn about or identify an event or object the scientist wants to study. For example, while observing a spider a scientist may observe the pattern or size of the spider's web.",
       "The second step of the scientific method is the question being researched, the hypothesis. It is the question that is turned into a statement about an event or object the scientist would like to research. A good hypothesis includes three things: The explanation for the observations, it is able to be tested by other scientists, and it will usually predict new outcomes or conclusions. The scientist observing the spider building the web may have a question about the strength of the web. An example of the hypothesis might be: The larger the spider, the stronger the web. This hypothesis includes the explanation for the observation, it can be tested, and new conclusions may be reached.",
       "The third step of the scientific method is the experiment. An experiment is a test which will either challenge or support the hypothesis. The hypothesis will then be true or false. Using the spider hypothesis, a scientist may experiment by measuring spider webs in relation to a spider's size. Often, even when a hypothesis is disproved much can still be learned during the experiment. For example, while measuring the strength of spider webs the scientist may discover something new about them.",
       "The final step in the scientific method is the conclusion. The conclusion will either clearly support the hypothesis or it will not. If the results support the hypothesis a conclusion can be written. If it does not support the hypothesis, the scientist may choose to change the hypothesis or write a new one based on what was learned during the experiment. In the example, if the scientist proves that larger spiders build stronger webs, then that is the conclusion. If it was not proven, the scientist may change the hypothesis to: The size of a spider does has no bearing on the strength of its web.",
+      "Rappel vocabulaire : observation (observer), hypothesis (hypoth&egrave;se), experiment (exp&eacute;rience), conclusion (conclusion).",
+      "Astuce : pense &agrave; identifier un marqueur de temps (first, next, finally) pour suivre l'ordre logique.",
       "The scientific method is used for simple experiments students may do in the classroom or very complex or difficult experiments being done all over the world. The spider experiment may be done by any scientist in the world.",
       "In summary, the scientific method includes the steps scientists use to solve a problem or to prove or disprove a theory. There are four basic steps involved with the scientific method. The usual steps include observation, hypothesis, experiment, and conclusion. The steps may not always be completed in the same order. Following the four steps, the results of the experiment will either support the hypothesis or will not support the hypothesis. Scientists are always free to change or write a new hypothesis and start the four steps all over again. The scientific method is used for simple experiments or for more difficult experiments."
     ],
@@ -105,7 +107,7 @@ window.GENIUS_MODULES = [
         ],
         answer: 3,
         explanation:
-          "La méthode scientifique est une série d'étapes pour résoudre un problème ou vérifier une théorie. Rappel : elle peut aussi servir à infirmer une hypothèse."
+          "La m&eacute;thode scientifique est une s&eacute;rie d'&eacute;tapes pour r&eacute;soudre un probl&egrave;me ou v&eacute;rifier une th&eacute;orie. Rappel : elle peut aussi servir &agrave; infirmer une hypoth&egrave;se."
       },
       {
         prompt:
@@ -113,7 +115,7 @@ window.GENIUS_MODULES = [
         choices: ["Conclusion", "Observation", "Experiment", "Hypothesis"],
         answer: 1,
         explanation:
-          "Voir, entendre, sentir, goûter, toucher = observation. Rappel : observation = usage des sens."
+          "Voir, entendre, sentir, go&ucirc;ter, toucher = observation. Rappel : observation = usage des sens."
       },
       {
         prompt: "Which of the following is the best example of a hypothesis?",
@@ -125,7 +127,7 @@ window.GENIUS_MODULES = [
         ],
         answer: 3,
         explanation:
-          "Une hypothèse est une phrase testable qui prédit un résultat. Ici, on peut comparer la durée de deux ampoules."
+          "Une hypoth&egrave;se est une phrase testable qui pr&eacute;dit un r&eacute;sultat. Ici, on peut comparer la dur&eacute;e de deux ampoules."
       },
       {
         prompt: "Which statement is true?",
@@ -137,7 +139,7 @@ window.GENIUS_MODULES = [
         ],
         answer: 0,
         explanation:
-          "Un experiment peut soutenir OU contredire l'hypothèse. Rappel : il ne prouve pas forcément."
+          "Un experiment peut soutenir OU contredire l'hypoth&egrave;se. Rappel : il ne prouve pas forc&eacute;ment."
       },
       {
         prompt:
@@ -145,7 +147,7 @@ window.GENIUS_MODULES = [
         choices: ["Observation", "New hypothesis", "Conclusion", "Experiment"],
         answer: 2,
         explanation:
-          "Si les résultats soutiennent l'hypothèse, on écrit une conclusion. Rappel : conclusion = résultat final."
+          "Si les r&eacute;sultats soutiennent l'hypoth&egrave;se, on &eacute;crit une conclusion. Rappel : conclusion = r&eacute;sultat final."
       },
       {
         prompt: "The scientific method",
@@ -157,7 +159,40 @@ window.GENIUS_MODULES = [
         ],
         answer: 0,
         explanation:
-          "La méthode scientifique s'applique aux expériences simples ou complexes. Rappel : elle est utilisée par des élèves comme par des chercheurs."
+          "La m&eacute;thode scientifique s'applique aux exp&eacute;riences simples ou complexes. Rappel : elle est utilis&eacute;e par des &eacute;l&egrave;ves comme par des chercheurs."
+      },
+      {
+        prompt: "Which step usually comes first in the scientific method?",
+        choices: ["Conclusion", "Experiment", "Observation", "Hypothesis"],
+        answer: 2,
+        explanation:
+          "On commence g&eacute;n&eacute;ralement par l'observation (usage des sens) avant de formuler l'hypoth&egrave;se."
+      },
+      {
+        prompt:
+          "A good hypothesis should be tested by other scientists and should __________.",
+        choices: [
+          "be a simple question",
+          "predict new outcomes",
+          "avoid observations",
+          "always be true"
+        ],
+        answer: 1,
+        explanation:
+          "Une bonne hypoth&egrave;se pr&eacute;dit des r&eacute;sultats et doit &ecirc;tre testable."
+      },
+      {
+        prompt:
+          "If results do not support the hypothesis, what can a scientist do?",
+        choices: [
+          "Stop working",
+          "Change or write a new hypothesis",
+          "Ignore the experiment",
+          "Skip the conclusion"
+        ],
+        answer: 1,
+        explanation:
+          "Le scientifique peut modifier l'hypoth&egrave;se ou en formuler une nouvelle."
       }
     ]
   },
@@ -166,7 +201,7 @@ window.GENIUS_MODULES = [
     title: "DNA",
     type: "quiz",
     duration: "00:03:30",
-    level: "Intermédiaire",
+    level: "Interm&eacute;diaire",
     summary:
       "Comprendre l'ADN, sa structure, et son r&ocirc;le dans le vivant.",
     text: [
@@ -177,6 +212,8 @@ window.GENIUS_MODULES = [
       "DNA bases pair up with each other, A with T and C with G, to form units called base pairs. Each base is also attached to a sugar molecule and a phosphate molecule. Together, a base, sugar, and phosphate are called a nucleotide.",
       "Nucleotides are arranged in two long strands that form a spiral called a double helix. The structure of the double helix is somewhat like a ladder, with the base pairs forming the ladder's rungs and the sugar and phosphate molecules forming the vertical sidepieces of the ladder.",
       "An important property of DNA is that it can replicate, or make copies of itself. Each strand of DNA in the double helix can serve as a pattern for duplicating the sequence of bases. This is critical when cells divide because each new cell needs to have an exact copy of the DNA present in the old cell.",
+      "Rappel vocabulaire : base pairs = paires de bases, nucleotide = nucl&eacute;otide, double helix = double h&eacute;lice.",
+      "Astuce : pense &agrave; la comparaison avec une &eacute;chelle (ladder) pour m&eacute;moriser la structure.",
       "DNA contains the instructions needed for an organism to develop, survive and reproduce. To carry out these functions, DNA sequences must be converted into messages that can be used to produce proteins, which are the complex molecules that do most of the work in our bodies. Each DNA sequence that contains instructions to make a protein is known as a gene.",
       "The size of a gene may vary greatly, ranging from about 1,000 bases to 1 million bases in humans. Genes only make up about 1 percent of the DNA sequence. DNA sequences outside this 1 percent are involved in regulating when, how and how much of a protein is made.",
       "Forensic scientists can use DNA in blood, semen, skin, saliva or hair to identify a matching DNA of an individual. This process is formally termed DNA profiling, but may also be called genetic fingerprinting. In DNA profiling, the lengths of variable sections of repetitive DNA, such as short tandem repeats and minisatellites, are compared between people. This method is usually an extremely reliable technique for identifying a matching DNA."
@@ -234,6 +271,32 @@ window.GENIUS_MODULES = [
         answer: 1,
         explanation:
           "Le terme correct est DNA profiling (empreinte g&eacute;n&eacute;tique)."
+      },
+      {
+        prompt: "Where is most DNA found in a cell?",
+        choices: ["Cytoplasm", "Nucleus", "Cell membrane", "Ribosome"],
+        answer: 1,
+        explanation:
+          "La plupart de l'ADN se trouve dans le noyau (nucleus)."
+      },
+      {
+        prompt: "Which base pairs with adenine (A) in DNA?",
+        choices: ["Cytosine", "Guanine", "Thymine", "Uracil"],
+        answer: 2,
+        explanation:
+          "A s'apparie avec T (adenine-thymine)."
+      },
+      {
+        prompt: "What is a gene?",
+        choices: [
+          "A type of base pair",
+          "A DNA sequence that codes a protein",
+          "A part of the cell membrane",
+          "A sugar molecule"
+        ],
+        answer: 1,
+        explanation:
+          "Un g&egrave;ne est une s&eacute;quence d'ADN qui contient l'information pour fabriquer une prot&eacute;ine."
       }
     ]
   },
@@ -244,9 +307,10 @@ window.GENIUS_MODULES = [
     duration: "00:08:00",
     level: "Basique",
     summary:
-      "Exercices de traduction (FR → EN / EN → FR) avec correction affichable.",
+      "Exercices de traduction (FR †’ EN / EN †’ FR) avec correction affichable.",
     text: [
-      "This is not a full translation lesson per se. Indeed, it aims at giving students just the prolegomena (basics) students need to adapt in the university milieu, namely the campus and academic lives."
+      "This is not a full translation lesson per se. Indeed, it aims at giving students just the prolegomena (basics) students need to adapt in the university milieu, namely the campus and academic lives.",
+      "Rappel : traduire le sens, pas mot &agrave; mot. Respecte la grammaire et le contexte."
     ],
     translations: [
       {
@@ -326,6 +390,18 @@ window.GENIUS_MODULES = [
               "La session de rattrapage a g&eacute;n&eacute;ralement lieu &agrave; la fin de la session normale.",
             answer:
               "The make-up session usually takes place at the end of the regular session."
+          },
+          {
+            prompt: "La biblioth&egrave;que est ferm&eacute;e le dimanche.",
+            answer: "The library is closed on Sundays."
+          },
+          {
+            prompt: "Les cours en ligne commencent &agrave; 9h.",
+            answer: "Online classes start at 9 a.m."
+          },
+          {
+            prompt: "Je dois imprimer mon devoir.",
+            answer: "I have to print my assignment."
           }
         ]
       },
@@ -380,6 +456,18 @@ window.GENIUS_MODULES = [
             prompt: "ASTI is one of the greatest training schools in Cameroon.",
             answer:
               "L'ASTI est l'une des meilleures &eacute;coles de formation au Cameroun."
+          },
+          {
+            prompt: "The lecture was postponed to next week.",
+            answer: "Le cours a &eacute;t&eacute; report&eacute; &agrave; la semaine prochaine."
+          },
+          {
+            prompt: "Please submit your work before noon.",
+            answer: "Veuillez rendre votre travail avant midi."
+          },
+          {
+            prompt: "My roommate is preparing for exams.",
+            answer: "Mon colocataire se pr&eacute;pare aux examens."
           }
         ]
       }
@@ -396,6 +484,8 @@ window.GENIUS_MODULES = [
     text: [
       "This module reviews key English tenses with short tasks: conjugate, complete the sentence, or arrange words into the correct order. Focus on time markers and auxiliary verbs (do/does, did, have/has, will).",
       "R&egrave;gles cl&eacute;s (mini fiche) : Present simple = habitudes + he/she/it + s. Present continuous = be + V-ing. Past simple = action finie + V2. Past continuous = was/were + V-ing (action en cours). Present perfect = have/has + V3 (lien avec le pr&eacute;sent). Past perfect = had + V3 (avant un autre pass&eacute;). Future simple = will + base verb. Future perfect = will have + V3. If type 2 = if + past simple, would + base verb."
+      ,
+      "Rappel vocabulaire : time markers = rep&egrave;res temporels (yesterday, now, already, since)."
     ],
     questions: [
       {
@@ -537,6 +627,27 @@ window.GENIUS_MODULES = [
         answer: 0,
         explanation:
           "Present perfect : have + V3. ever se place apr&egrave;s have. Review: ever = d&eacute;j&agrave; (exp&eacute;rience)."
+      },
+      {
+        prompt: "Complete: He ______ (not / finish) yet.",
+        choices: ["didn't finish", "hasn't finished", "doesn't finish", "isn't finishing"],
+        answer: 1,
+        explanation:
+          "Present perfect + yet : has/have not + V3."
+      },
+      {
+        prompt: "Conjugate: If it ______ (rain), we will stay home.",
+        choices: ["rains", "rained", "will rain", "is raining"],
+        answer: 0,
+        explanation:
+          "Conditionnel type 1 : If + present simple, will + base verb."
+      },
+      {
+        prompt: "Complete: By 5 p.m., they ______ (finish) the project.",
+        choices: ["will finish", "will have finished", "finished", "have finished"],
+        answer: 1,
+        explanation:
+          "Future perfect : will have + V3 (action termin&eacute;e avant un moment futur)."
       }
     ]
   },
@@ -549,7 +660,8 @@ window.GENIUS_MODULES = [
     summary: "Compr&eacute;hension d'un texte sur la routine quotidienne.",
     text: [
       "Tom wakes up at 6:30 every morning. He gets dressed, has breakfast, and walks to the bus stop. He arrives at work at 8:00. In the evening, he cooks dinner, watches TV, and goes to bed at 10:30.",
-      "On weekends, Tom usually sleeps later and visits his friends. He sometimes plays football on Saturday afternoons."
+      "On weekends, Tom usually sleeps later and visits his friends. He sometimes plays football on Saturday afternoons.",
+      "Rappel : present simple pour les habitudes, often/usually/sometimes pour la fr&eacute;quence."
     ],
     questions: [
       {
@@ -596,6 +708,20 @@ window.GENIUS_MODULES = [
         answer: 0,
         explanation:
           "Weekends : &ldquo;Tom usually sleeps later and visits his friends.&rdquo;"
+      },
+      {
+        prompt: "What does Tom do after dinner?",
+        choices: ["He studies", "He watches TV", "He goes jogging", "He meets friends"],
+        answer: 1,
+        explanation:
+          "Le texte dit : &ldquo;he cooks dinner, watches TV.&rdquo;"
+      },
+      {
+        prompt: "When does Tom go to bed?",
+        choices: ["9:30", "10:00", "10:30", "11:00"],
+        answer: 2,
+        explanation:
+          "&ldquo;He goes to bed at 10:30.&rdquo;"
       }
     ]
   },
@@ -607,7 +733,8 @@ window.GENIUS_MODULES = [
     level: "Interm&eacute;diaire",
     summary: "Choisir les bons connecteurs logiques.",
     text: [
-      "Linking words help connect ideas. Examples include: because, however, therefore, although, and in addition."
+      "Linking words help connect ideas. Examples include: because, however, therefore, although, and in addition.",
+      "Rappel : because = cause, so/therefore = cons&eacute;quence, although/however = contraste."
     ],
     questions: [
       {
@@ -644,6 +771,27 @@ window.GENIUS_MODULES = [
         answer: 1,
         explanation:
           "Cons&eacute;quence logique : therefore."
+      },
+      {
+        prompt: "He is rich; ______, he is not happy.",
+        choices: ["because", "however", "so", "therefore"],
+        answer: 1,
+        explanation:
+          "Contraste : however."
+      },
+      {
+        prompt: "She missed the bus ______ she left late.",
+        choices: ["because", "although", "therefore", "however"],
+        answer: 0,
+        explanation:
+          "Cause : because."
+      },
+      {
+        prompt: "I like coffee. ______, I drink tea at night.",
+        choices: ["In addition", "Therefore", "Because", "So"],
+        answer: 0,
+        explanation:
+          "Ajout : in addition."
       }
     ]
   },
@@ -657,7 +805,8 @@ window.GENIUS_MODULES = [
       "30 mots indispensables : informatique, science, culture g&eacute;n&eacute;rale.",
     text: [
       "Objectif : m&eacute;moriser 30 mots-cl&eacute;s utiles en anglais.",
-      "Astuce : lis le mot, devine le sens, puis clique pour voir la d&eacute;finition + un mini-exemple."
+      "Astuce : lis le mot, devine le sens, puis clique pour voir la d&eacute;finition + un mini-exemple.",
+      "Rappel : r&eacute;p&egrave;te &agrave; voix haute pour mieux m&eacute;moriser."
     ],
     translationTitle: "Vocabulary Essentials",
     translationSubtitle:
@@ -705,6 +854,14 @@ window.GENIUS_MODULES = [
           {
             prompt: "interface",
             answer: "Interface. Example: The interface is user-friendly."
+          },
+          {
+            prompt: "password",
+            answer: "Mot de passe. Example: Change your password."
+          },
+          {
+            prompt: "backup",
+            answer: "Sauvegarde. Example: Make a backup every week."
           }
         ]
       },
@@ -750,6 +907,14 @@ window.GENIUS_MODULES = [
           {
             prompt: "conclusion",
             answer: "Conclusion. Example: The conclusion supports the idea."
+          },
+          {
+            prompt: "measurement",
+            answer: "Mesure. Example: The measurement was accurate."
+          },
+          {
+            prompt: "observation",
+            answer: "Observation. Example: Careful observation is key."
           }
         ]
       },
@@ -795,6 +960,14 @@ window.GENIUS_MODULES = [
           {
             prompt: "globalization",
             answer: "Mondialisation. Example: Globalization connects markets."
+          },
+          {
+            prompt: "rights",
+            answer: "Droits. Example: Human rights matter."
+          },
+          {
+            prompt: "literature",
+            answer: "Litt&eacute;rature. Example: I study literature."
           }
         ]
       }
@@ -809,7 +982,8 @@ window.GENIUS_MODULES = [
     summary: "Situation + lettres formelle et informelle.",
     text: [
       "Rappel : une lettre formelle utilise un ton poli, des phrases compl&egrave;tes et une structure claire (objet, formule d'appel, corps, conclusion).",
-      "Une lettre informelle est plus simple, plus directe, et utilise un ton amical."
+      "Une lettre informelle est plus simple, plus directe, et utilise un ton amical.",
+      "Astuce : formel = Dear Sir/Madam + Yours faithfully. Informel = Hi/Hello + Best/See you."
     ],
     translationTitle: "Formal & Informal Letter",
     translationSubtitle:
@@ -824,6 +998,13 @@ window.GENIUS_MODULES = [
             buttonLabel: "Voir la lettre formelle",
             answer:
               "<p>Dear Sir or Madam,</p><p>I am writing to apply for an internship in your marketing department. I am a third-year student in Business Administration and I am highly motivated to gain practical experience.</p><p>During my studies, I have developed skills in communication, teamwork, and market research. I would be grateful for the opportunity to contribute to your team and learn from your professionals.</p><p>Thank you for considering my application. I am available for an interview at your convenience.</p><p>Yours faithfully,<br>Joelyk Yankam</p>"
+          },
+          {
+            prompt:
+              "Situation : Tu demandes un renseignement &agrave; une &eacute;cole.",
+            buttonLabel: "Voir la lettre formelle",
+            answer:
+              "<p>Dear Admissions Office,</p><p>I am writing to request information about your Master's program in Computer Science, including application deadlines and fees.</p><p>I would appreciate any brochure or guidance you can provide. Thank you in advance for your assistance.</p><p>Yours faithfully,<br>Joelyk Yankam</p>"
           }
         ]
       },
@@ -836,6 +1017,13 @@ window.GENIUS_MODULES = [
             buttonLabel: "Voir la lettre informelle",
             answer:
               "<p>Hi Alex,</p><p>How are you? I'm inviting you to my birthday party this Saturday at 6 p.m. at my place. There will be music and good food!</p><p>I really hope you can come. Let me know soon.</p><p>See you,<br>Joel</p>"
+          },
+          {
+            prompt:
+              "Situation : Tu &eacute;cris &agrave; ta s&oelig;ur pour donner des nouvelles.",
+            buttonLabel: "Voir la lettre informelle",
+            answer:
+              "<p>Hi Sis,</p><p>Just a quick message to say I'm doing well at university. Classes are busy, but I'm learning a lot. I miss you!</p><p>Talk soon,<br>Joel</p>"
           }
         ]
       }
@@ -850,7 +1038,8 @@ window.GENIUS_MODULES = [
     summary: "Structure d'une cover letter + mod&egrave;le.",
     text: [
       "Rappel : une cover letter doit pr&eacute;senter le poste vis&eacute;, les comp&eacute;tences cl&eacute;s, et la motivation.",
-      "Structure : Greeting &rarr; Position &rarr; Skills &rarr; Motivation &rarr; Closing."
+      "Structure : Greeting &rarr; Position &rarr; Skills &rarr; Motivation &rarr; Closing.",
+      "Astuce : adapte la lettre &agrave; chaque offre, et cite 1 ou 2 comp&eacute;tences cl&eacute;s."
     ],
     translationTitle: "Cover Letter",
     translationSubtitle:
@@ -865,6 +1054,13 @@ window.GENIUS_MODULES = [
             buttonLabel: "Voir la cover letter",
             answer:
               "<p>Dear Hiring Manager,</p><p>I am writing to apply for the Junior Data Analyst position at your company. I recently completed my degree in Computer Science and I am eager to apply my analytical skills in a professional environment.</p><p>Through my coursework and projects, I have gained experience in data cleaning, visualization, and SQL. I am confident I can contribute to your team by delivering clear and actionable insights.</p><p>I would welcome the opportunity to discuss my application in more detail. Thank you for your time and consideration.</p><p>Sincerely,<br>Joelyk Yankam</p>"
+          },
+          {
+            prompt:
+              "Situation : Tu postules pour un stage en d&eacute;veloppement web.",
+            buttonLabel: "Voir la cover letter",
+            answer:
+              "<p>Dear Hiring Manager,</p><p>I am applying for the Web Development Internship at your company. I have built several front-end projects using HTML, CSS, and JavaScript, and I am eager to learn from professionals.</p><p>I enjoy creating clean, user-friendly interfaces and I am comfortable working in teams. I would be grateful for the opportunity to contribute and grow.</p><p>Thank you for your consideration.</p><p>Sincerely,<br>Joelyk Yankam</p>"
           }
         ]
       }
@@ -879,7 +1075,8 @@ window.GENIUS_MODULES = [
     summary: "Questions d'entretien + r&eacute;ponses mod&egrave;les.",
     text: [
       "Rappel : r&eacute;ponds clairement, donne un exemple concret, et reste positif.",
-      "Utilise la structure STAR (Situation, Task, Action, Result) pour les exp&eacute;riences."
+      "Utilise la structure STAR (Situation, Task, Action, Result) pour les exp&eacute;riences.",
+      "Astuce : pr&eacute;pare 2-3 exemples de projets ou d'exp&eacute;riences r&eacute;ussies."
     ],
     translationTitle: "Interview Practice",
     translationSubtitle:
@@ -923,6 +1120,24 @@ window.GENIUS_MODULES = [
             buttonLabel: "Voir la r&eacute;ponse",
             answer:
               "I see myself as a skilled professional leading projects and mentoring others."
+          },
+          {
+            prompt: "Why should we hire you?",
+            buttonLabel: "Voir la r&eacute;ponse",
+            answer:
+              "Because I am reliable, quick to learn, and I can contribute from day one."
+          },
+          {
+            prompt: "How do you handle stress?",
+            buttonLabel: "Voir la r&eacute;ponse",
+            answer:
+              "I stay organized, prioritize tasks, and communicate early if I need support."
+          },
+          {
+            prompt: "Tell me about a team project.",
+            buttonLabel: "Voir la r&eacute;ponse",
+            answer:
+              "In a team project, I coordinated tasks, tracked progress, and we delivered the project on time."
           }
         ]
       }
@@ -937,13 +1152,18 @@ window.GENIUS_COURSES = [
     levelLabel: "Basique",
     subtitle: "Se pr&eacute;senter et saluer correctement.",
     goal: "Savoir dire bonjour, se pr&eacute;senter et engager un mini dialogue.",
+    content: [
+      "Formules de base pour commencer une conversation polie.",
+      "Diff&eacute;rence entre salutations formelles (Good morning) et informelles (Hi)."
+    ],
     keywords: ["hello", "hi", "good morning", "I am...", "My name is..."],
     examples: [
       "Hello! I am Paul.",
       "Hi, my name is Clara.",
       "Nice to meet you."
     ],
-    tip: "Attention &agrave; la politesse : &ldquo;Nice to meet you&rdquo; reste la formule la plus simple."
+    tip: "Attention &agrave; la politesse : &ldquo;Nice to meet you&rdquo; reste la formule la plus simple.",
+    extraPoints: ["Good afternoon / Good evening", "How are you? / I'm fine."]
   },
   {
     id: "basique-vocab-2",
@@ -951,13 +1171,18 @@ window.GENIUS_COURSES = [
     levelLabel: "Basique",
     subtitle: "Dire les nombres, l'heure et les dates.",
     goal: "Savoir annoncer une heure ou une date sans h&eacute;siter.",
+    content: [
+      "Apprendre &agrave; lire l'heure (8:30 = eight thirty).",
+      "Utiliser les dates : January 12th, 2026."
+    ],
     keywords: ["one to one hundred", "a.m.", "p.m.", "Monday", "January"],
     examples: [
       "It is 8:30 a.m.",
       "My birthday is on January 12th.",
       "Today is Monday."
     ],
-    tip: "Rappel : 1st = first, 2nd = second, 3rd = third."
+    tip: "Rappel : 1st = first, 2nd = second, 3rd = third.",
+    extraPoints: ["a.m. = matin, p.m. = apr&egrave;s-midi", "Dates: on Monday, on January 12th"]
   },
   {
     id: "basique-gram-1",
@@ -965,13 +1190,18 @@ window.GENIUS_COURSES = [
     levelLabel: "Basique",
     subtitle: "Utiliser to be / to have.",
     goal: "Conjuguer les verbes les plus fr&eacute;quents.",
+    content: [
+      "To be sert &agrave; d&eacute;crire un &eacute;tat : I am happy.",
+      "To have sert &agrave; indiquer la possession : She has a book."
+    ],
     keywords: ["I am", "you are", "he is", "I have", "she has"],
     examples: [
       "I am a student.",
       "He is happy.",
       "She has a new book."
     ],
-    tip: "Contractions : I'm, you're, he's, she's."
+    tip: "Contractions : I'm, you're, he's, she's.",
+    extraPoints: ["I have / I've", "He has / He's got"]
   },
   {
     id: "basique-gram-2",
@@ -979,13 +1209,18 @@ window.GENIUS_COURSES = [
     levelLabel: "Basique",
     subtitle: "Parler des habitudes et routines.",
     goal: "Former des phrases simples au pr&eacute;sent.",
+    content: [
+      "Utiliser le pr&eacute;sent simple pour les habitudes.",
+      "Marqueurs : every day, always, usually."
+    ],
     keywords: ["I work", "he works", "she plays", "every day", "always"],
     examples: [
       "I work every day.",
       "She plays tennis on Sundays.",
       "He studies at night."
     ],
-    tip: "3e personne : he/she/it + s (work &rarr; works)."
+    tip: "3e personne : he/she/it + s (work &rarr; works).",
+    extraPoints: ["Do/does pour les questions", "Don't/doesn't pour la n&eacute;gation"]
   },
   {
     id: "basique-adj-1",
@@ -993,13 +1228,18 @@ window.GENIUS_COURSES = [
     levelLabel: "Basique",
     subtitle: "D&eacute;crire simplement un objet.",
     goal: "Utiliser des adjectifs de base.",
+    content: [
+      "Ordre adjectif + nom : a red car.",
+      "Former des descriptions courtes et claires."
+    ],
     keywords: ["red", "blue", "big", "small", "round", "square"],
     examples: [
       "A big red car.",
       "A small blue bag.",
       "A round table."
     ],
-    tip: "En anglais, l'adjectif se place avant le nom."
+    tip: "En anglais, l'adjectif se place avant le nom.",
+    extraPoints: ["Adjectifs multiples : size + color + noun", "big red car"]
   },
   {
     id: "basique-adj-2",
@@ -1007,13 +1247,18 @@ window.GENIUS_COURSES = [
     levelLabel: "Basique",
     subtitle: "Exprimer une qualit&eacute; ou un &eacute;tat.",
     goal: "Utiliser des adjectifs courants.",
+    content: [
+      "Adjectifs pour d&eacute;crire l'humeur et la qualit&eacute;.",
+      "Associer avec to be : She is happy."
+    ],
     keywords: ["good", "bad", "nice", "happy", "fast", "slow"],
     examples: [
       "She is happy.",
       "This is a good idea.",
       "A slow bus."
     ],
-    tip: "good/bad ne prennent pas de -ly (ce sont des adjectifs)."
+    tip: "good/bad ne prennent pas de -ly (ce sont des adjectifs).",
+    extraPoints: ["fast = rapide", "slow = lent"]
   },
   {
     id: "inter-vocab-3",
@@ -1021,13 +1266,18 @@ window.GENIUS_COURSES = [
     levelLabel: "Interm&eacute;diaire",
     subtitle: "Se d&eacute;placer et demander son chemin.",
     goal: "Utiliser le vocabulaire des transports.",
+    content: [
+      "Expressions utiles pour voyager : Where is the station?",
+      "Comprendre les indications (turn left/right)."
+    ],
     keywords: ["ticket", "airport", "station", "direction", "itinerary"],
     examples: [
       "Where is the ticket office?",
       "The train station is near the airport.",
       "Can you give me directions?"
     ],
-    tip: "Direction = direction/chemin, itinerary = itin&eacute;raire."
+    tip: "Direction = direction/chemin, itinerary = itin&eacute;raire.",
+    extraPoints: ["boarding pass = carte d'embarquement", "platform = quai"]
   },
   {
     id: "inter-vocab-4",
@@ -1035,13 +1285,18 @@ window.GENIUS_COURSES = [
     levelLabel: "Interm&eacute;diaire",
     subtitle: "Parler du travail et de l'universit&eacute;.",
     goal: "D&eacute;crire un contexte professionnel ou scolaire.",
+    content: [
+      "Vocabulaire pour r&eacute;unions, rapports et &eacute;tudes.",
+      "Savoir parler d'un emploi du temps et d'objectifs."
+    ],
     keywords: ["job title", "meeting", "report", "campus life", "deadline"],
     examples: [
       "We have a meeting at 10.",
       "Campus life is busy.",
       "The report is due tomorrow."
     ],
-    tip: "Job title = poste, deadline = date limite."
+    tip: "Job title = poste, deadline = date limite.",
+    extraPoints: ["assignment = devoir", "schedule = emploi du temps"]
   },
   {
     id: "inter-gram-3",
@@ -1049,13 +1304,18 @@ window.GENIUS_COURSES = [
     levelLabel: "Interm&eacute;diaire",
     subtitle: "Exprimer une action en cours.",
     goal: "Former le present continuous correctement.",
+    content: [
+      "Utilise be + V-ing pour une action maintenant.",
+      "Time markers : now, currently, at the moment."
+    ],
     keywords: ["am/is/are", "V-ing", "now", "currently"],
     examples: [
       "I am studying now.",
       "She is working currently.",
       "They are waiting."
     ],
-    tip: "be + V-ing, et non pas le pr&eacute;sent simple."
+    tip: "be + V-ing, et non pas le pr&eacute;sent simple.",
+    extraPoints: ["He is running", "They are studying"]
   },
   {
     id: "inter-gram-4",
@@ -1063,13 +1323,18 @@ window.GENIUS_COURSES = [
     levelLabel: "Interm&eacute;diaire",
     subtitle: "Parler d'un fait termin&eacute;.",
     goal: "Utiliser le past simple avec marqueurs de temps.",
+    content: [
+      "Utilise V2 ou -ed pour une action finie.",
+      "Marqueurs : yesterday, last week, in 2022."
+    ],
     keywords: ["yesterday", "last week", "V2", "regular/irregular"],
     examples: [
       "I visited Paris last year.",
       "She went home yesterday.",
       "They played football."
     ],
-    tip: "Past simple = action termin&eacute;e dans le pass&eacute;."
+    tip: "Past simple = action termin&eacute;e dans le pass&eacute;.",
+    extraPoints: ["go &rarr; went", "see &rarr; saw"]
   },
   {
     id: "inter-adj-3",
@@ -1077,13 +1342,18 @@ window.GENIUS_COURSES = [
     levelLabel: "Interm&eacute;diaire",
     subtitle: "Comparer des objets ou personnes.",
     goal: "Utiliser -er / more et the -est / the most.",
+    content: [
+      "Adjectifs courts : -er / -est.",
+      "Adjectifs longs : more / most."
+    ],
     keywords: ["older", "faster", "more interesting", "the best"],
     examples: [
       "She is older than me.",
       "This book is more interesting.",
       "He is the best player."
     ],
-    tip: "Short adj = -er / -est ; long adj = more / most."
+    tip: "Short adj = -er / -est ; long adj = more / most.",
+    extraPoints: ["good &rarr; better &rarr; best", "bad &rarr; worse &rarr; worst"]
   },
   {
     id: "inter-adj-4",
@@ -1091,13 +1361,18 @@ window.GENIUS_COURSES = [
     levelLabel: "Interm&eacute;diaire",
     subtitle: "Exprimer un sentiment.",
     goal: "D&eacute;crire ce qu'on ressent.",
+    content: [
+      "Utiliser to be + adjective pour les &eacute;motions.",
+      "Nuancer le ressenti : excited, relieved, disappointed."
+    ],
     keywords: ["excited", "nervous", "proud", "disappointed", "relieved"],
     examples: [
       "I am excited about the trip.",
       "He feels nervous.",
       "She is proud of her results."
     ],
-    tip: "Confused = confus, embarrassed = g&ecirc;n&eacute;."
+    tip: "Confused = confus, embarrassed = g&ecirc;n&eacute;.",
+    extraPoints: ["proud of + noun", "excited about + noun"]
   },
   {
     id: "adv-vocab-5",
@@ -1105,13 +1380,18 @@ window.GENIUS_COURSES = [
     levelLabel: "Avanc&eacute;",
     subtitle: "Lexique des affaires.",
     goal: "N&eacute;gocier, proposer et conclure.",
+    content: [
+      "Vocabulaire pour offres, contrats et accords.",
+      "Utile pour e-mails professionnels."
+    ],
     keywords: ["deal", "contract", "proposal", "deadline", "target"],
     examples: [
       "We signed the contract.",
       "The proposal was accepted.",
       "The deadline is Friday."
     ],
-    tip: "Deal = accord, proposal = proposition, target = objectif."
+    tip: "Deal = accord, proposal = proposition, target = objectif.",
+    extraPoints: ["meeting minutes = compte rendu", "follow-up = relance"]
   },
   {
     id: "adv-vocab-6",
@@ -1119,13 +1399,18 @@ window.GENIUS_COURSES = [
     levelLabel: "Avanc&eacute;",
     subtitle: "Parler tech avec aisance.",
     goal: "Comprendre le vocabulaire moderne.",
+    content: [
+      "Termes fr&eacute;quents dans la tech et l'innovation.",
+      "Savoir utiliser ces mots en contexte."
+    ],
     keywords: ["AI", "data", "systems", "research", "prototype"],
     examples: [
       "AI systems use data.",
       "The prototype is ready.",
       "Research drives innovation."
     ],
-    tip: "Data est souvent pluriel en anglais formel."
+    tip: "Data est souvent pluriel en anglais formel.",
+    extraPoints: ["device = appareil", "software update = mise &agrave; jour"]
   },
   {
     id: "adv-gram-5",
@@ -1133,13 +1418,18 @@ window.GENIUS_COURSES = [
     levelLabel: "Avanc&eacute;",
     subtitle: "Exprimer des hypoth&egrave;ses.",
     goal: "Ma&icirc;triser les sch&eacute;mas if + tense.",
+    content: [
+      "Type 0 : v&eacute;rit&eacute; g&eacute;n&eacute;rale.",
+      "Type 1/2/3 : r&eacute;el, irr&eacute;el, pass&eacute;."
+    ],
     keywords: ["if", "would", "could", "mixed", "type 0-3"],
     examples: [
       "If it rains, we stay home.",
       "If I studied more, I would pass.",
       "If she had known, she would have come."
     ],
-    tip: "Type 2 = situation irr&eacute;elle, Type 3 = pass&eacute; irr&eacute;el."
+    tip: "Type 2 = situation irr&eacute;elle, Type 3 = pass&eacute; irr&eacute;el.",
+    extraPoints: ["If + past, would + base", "If + had V3, would have V3"]
   },
   {
     id: "adv-gram-6",
@@ -1147,13 +1437,18 @@ window.GENIUS_COURSES = [
     levelLabel: "Avanc&eacute;",
     subtitle: "Rapporter des paroles.",
     goal: "Transformer une phrase directe en indirecte.",
+    content: [
+      "Le temps recule : present &rarr; past.",
+      "Changer les pronoms et les rep&egrave;res de temps."
+    ],
     keywords: ["reported speech", "backshift", "said", "told"],
     examples: [
       "He said he was tired.",
       "She told me she would come.",
       "They said they had left."
     ],
-    tip: "Backshift : present &rarr; past, will &rarr; would."
+    tip: "Backshift : present &rarr; past, will &rarr; would.",
+    extraPoints: ["say + that", "tell + object + that"]
   },
   {
     id: "adv-adj-5",
@@ -1161,13 +1456,18 @@ window.GENIUS_COURSES = [
     levelLabel: "Avanc&eacute;",
     subtitle: "Pr&eacute;ciser le sens.",
     goal: "Exprimer des nuances fines.",
+    content: [
+      "Choisir un adjectif plus pr&eacute;cis qu'un mot g&eacute;n&eacute;rique.",
+      "Diff&eacute;rencier vague / precise / concise."
+    ],
     keywords: ["subtle", "blunt", "vague", "precise", "concise"],
     examples: [
       "Her answer was vague.",
       "He gave a concise summary.",
       "The difference is subtle."
     ],
-    tip: "Subtle = subtil, blunt = direct/franc."
+    tip: "Subtle = subtil, blunt = direct/franc.",
+    extraPoints: ["concise = court et clair", "precise = pr&eacute;cis"]
   },
   {
     id: "adv-adj-6",
@@ -1175,12 +1475,20 @@ window.GENIUS_COURSES = [
     levelLabel: "Avanc&eacute;",
     subtitle: "Am&eacute;liorer le style &eacute;crit.",
     goal: "Adopter un ton formel et clair.",
+    content: [
+      "Utiliser des connecteurs pour structurer un texte.",
+      "Rester neutre et poli dans un contexte acad&eacute;mique."
+    ],
     keywords: ["formal tone", "academic", "therefore", "however", "moreover"],
     examples: [
       "However, the results were mixed.",
       "Moreover, the method is reliable.",
       "The report uses a formal tone."
     ],
-    tip: "Connecteurs formels = therefore, however, moreover."
+    tip: "Connecteurs formels = therefore, however, moreover.",
+    extraPoints: ["avoid contractions", "use complete sentences"]
   }
 ];
+
+
+

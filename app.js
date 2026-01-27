@@ -284,16 +284,31 @@
     const tag = document.getElementById("course-tag");
     const content = document.getElementById("course-content");
 
-    title.textContent = course.title;
-    level.textContent = course.levelLabel;
-    subtitle.textContent = course.subtitle;
-    tag.textContent = course.levelLabel;
+    title.innerHTML = course.title;
+    level.innerHTML = course.levelLabel;
+    subtitle.innerHTML = course.subtitle;
+    tag.innerHTML = course.levelLabel;
+
+    const contentBlocks = (course.content || [])
+      .map((paragraph) => `<p>${paragraph}</p>`)
+      .join("");
+    const extraPoints = (course.extraPoints || [])
+      .map((point) => `<li>${point}</li>`)
+      .join("");
 
     content.innerHTML = `
       <div class="course-block">
         <h3>Objectif</h3>
         <p>${course.goal}</p>
       </div>
+      ${
+        contentBlocks
+          ? `<div class="course-block">
+              <h3>Contenu</h3>
+              ${contentBlocks}
+            </div>`
+          : ""
+      }
       <div class="course-block">
         <h3>Mots cl&eacute;s</h3>
         <ul class="course-tags">
@@ -310,6 +325,14 @@
         <h3>Rappel rapide</h3>
         <p>${course.tip}</p>
       </div>
+      ${
+        extraPoints
+          ? `<div class="course-block">
+              <h3>&Agrave; retenir</h3>
+              <ul class="course-tags">${extraPoints}</ul>
+            </div>`
+          : ""
+      }
     `;
   }
 })();
