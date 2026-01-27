@@ -1390,6 +1390,233 @@
           "Hired = recrut&eacute;. Dismissed/fired = licenci&eacute;."
       }
     ]
+  },
+  {
+    id: 13,
+    title: "Computers & Mathematics",
+    type: "quiz",
+    duration: "00:18:00",
+    level: "Interm&eacute;diaire",
+    summary: "Lecture + 20 questions progressives sur l'informatique et les maths.",
+    text: [
+      "Computers and mathematics are closely connected. Computers use mathematical rules to process information quickly and accurately. At the heart of every computer are algorithms, which are step-by-step instructions used to solve problems.",
+      "Mathematics helps us describe patterns, measure quantities, and make predictions. In computer science, math is used to design algorithms, analyze data, and ensure that systems are secure and reliable.",
+      "Basic arithmetic is used in everyday computing, from calculating storage sizes to measuring processing speed. More advanced areas like algebra, calculus, and statistics are used in fields such as artificial intelligence, graphics, and cryptography.",
+      "A computer’s processor performs billions of operations per second. These operations follow logical rules, often expressed with boolean algebra. At the same time, data structures organize information so that computers can access it efficiently.",
+      "In summary, computers depend on mathematics to work effectively. Mathematics provides the language and tools that allow computers to solve real-world problems, from simple calculations to complex scientific research."
+    ],
+    questions: [
+      {
+        prompt: "What connects computers and mathematics in the text?",
+        choices: ["Music", "Mathematical rules", "Painting", "History"],
+        answer: 1,
+        explanation:
+          "Le texte dit que les ordinateurs utilisent des r&egrave;gles math&eacute;matiques pour traiter l'information."
+      },
+      {
+        prompt: "Algorithms are described as:",
+        choices: [
+          "Random guesses",
+          "Step-by-step instructions",
+          "Hardware parts",
+          "Internet connections"
+        ],
+        answer: 1,
+        explanation:
+          "Un algorithme = suite d'instructions pour r&eacute;soudre un probl&egrave;me."
+      },
+      {
+        prompt: "Mathematics helps us mainly to:",
+        choices: [
+          "Describe patterns and measure quantities",
+          "Cook faster",
+          "Write poems",
+          "Design clothes"
+        ],
+        answer: 0,
+        explanation:
+          "Le texte souligne patterns, quantities, predictions."
+      },
+      {
+        prompt: "In computer science, math is used to:",
+        choices: [
+          "Design algorithms and analyze data",
+          "Paint graphics by hand",
+          "Travel faster",
+          "Build houses"
+        ],
+        answer: 0,
+        explanation:
+          "Math aide &agrave; concevoir des algorithmes et analyser les donn&eacute;es."
+      },
+      {
+        prompt: "Basic arithmetic in computing is used for:",
+        choices: [
+          "Calculating storage sizes",
+          "Writing novels",
+          "Playing music",
+          "Running fast"
+        ],
+        answer: 0,
+        explanation:
+          "Le texte cite le stockage et la vitesse."
+      },
+      {
+        prompt: "Advanced math areas mentioned include:",
+        choices: [
+          "Algebra, calculus, statistics",
+          "Geography, music, art",
+          "Cooking, sports, dance",
+          "History, literature, poetry"
+        ],
+        answer: 0,
+        explanation:
+          "Algebra, calculus, statistics sont explicitement cit&eacute;s."
+      },
+      {
+        prompt: "Artificial intelligence uses math such as:",
+        choices: ["Statistics and algebra", "Grammar", "Cooking", "Sports"],
+        answer: 0,
+        explanation:
+          "IA = math avanc&eacute;e (statistiques, alg&egrave;bre, etc.)."
+      },
+      {
+        prompt: "A processor performs:",
+        choices: [
+          "Billions of operations per second",
+          "One operation per day",
+          "No operations",
+          "Only graphics"
+        ],
+        answer: 0,
+        explanation:
+          "Le texte dit billions of operations per second."
+      },
+      {
+        prompt: "Logical rules in computers are often expressed with:",
+        choices: ["Boolean algebra", "Chemistry", "Biology", "Geography"],
+        answer: 0,
+        explanation:
+          "Boolean algebra est mentionn&eacute; dans le texte."
+      },
+      {
+        prompt: "Data structures are used to:",
+        choices: [
+          "Organize information efficiently",
+          "Destroy data",
+          "Slow down computers",
+          "Paint pictures"
+        ],
+        answer: 0,
+        explanation:
+          "Elles organisent les donn&eacute;es pour un acc&egrave;s efficace."
+      },
+      {
+        prompt: "Which is a true statement?",
+        choices: [
+          "Computers do not need mathematics",
+          "Mathematics provides tools for computers",
+          "Math is only for artists",
+          "Algorithms are physical devices"
+        ],
+        answer: 1,
+        explanation:
+          "Le texte conclut que les maths donnent le langage et les outils."
+      },
+      {
+        prompt: "The text suggests math is used for security because:",
+        choices: [
+          "It ensures systems are secure",
+          "It decorates the computer",
+          "It makes screens brighter",
+          "It replaces hardware"
+        ],
+        answer: 0,
+        explanation:
+          "La s&eacute;curit&eacute; est cit&eacute;e comme application des maths."
+      },
+      {
+        prompt: "Which field is mentioned with advanced math?",
+        choices: ["Cryptography", "Poetry", "Cooking", "Sports"],
+        answer: 0,
+        explanation:
+          "Cryptography est un exemple donn&eacute;."
+      },
+      {
+        prompt: "The text compares algorithms to:",
+        choices: ["Step-by-step instructions", "Clouds", "Songs", "Trees"],
+        answer: 0,
+        explanation:
+          "D&eacute;finition directe des algorithmes."
+      },
+      {
+        prompt: "Which term relates to logic in computing?",
+        choices: ["Boolean", "Romantic", "Poetic", "Musical"],
+        answer: 0,
+        explanation:
+          "Boolean = logique binaire."
+      },
+      {
+        prompt: "A key idea in the conclusion is that:",
+        choices: [
+          "Math is optional for computers",
+          "Computers depend on mathematics",
+          "Math is only for students",
+          "Computers replace mathematics"
+        ],
+        answer: 1,
+        explanation:
+          "Conclusion : les ordinateurs d&eacute;pendent des maths."
+      },
+      {
+        prompt: "What does mathematics allow computers to do?",
+        choices: [
+          "Solve real-world problems",
+          "Cook food",
+          "Drive cars only",
+          "Sing songs"
+        ],
+        answer: 0,
+        explanation:
+          "Le texte parle de r&eacute;soudre des probl&egrave;mes r&eacute;els."
+      },
+      {
+        prompt: "Which is an example of basic math in computing?",
+        choices: [
+          "Calculating storage sizes",
+          "Writing poetry",
+          "Drawing by hand",
+          "Swimming"
+        ],
+        answer: 0,
+        explanation:
+          "Exemple donn&eacute; : storage sizes."
+      },
+      {
+        prompt: "Which statement best matches the text?",
+        choices: [
+          "Math and computers are unrelated",
+          "Math helps design algorithms",
+          "Computers only use art",
+          "Math is never used in technology"
+        ],
+        answer: 1,
+        explanation:
+          "Math aide &agrave; concevoir les algorithmes."
+      },
+      {
+        prompt: "Why are data structures important?",
+        choices: [
+          "They help access data efficiently",
+          "They slow down computers",
+          "They delete files",
+          "They block networks"
+        ],
+        answer: 0,
+        explanation:
+          "Le texte dit : access it efficiently."
+      }
+    ]
   }
 ];
 
