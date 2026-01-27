@@ -208,6 +208,13 @@ h4 {
   background: linear-gradient(130deg, rgba(255, 122, 89, 0.12), transparent);
   opacity: 0;
   transition: opacity 0.2s ease;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.module-card > * {
+  position: relative;
+  z-index: 1;
 }
 
 .module-card:hover::after {
