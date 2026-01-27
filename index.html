@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GeniusEnglish — Modules</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700&family=Literata:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body data-page="home">
+    <div class="bg-orb orb-a"></div>
+    <div class="bg-orb orb-b"></div>
+    <div class="bg-grid"></div>
+
+    <header class="site-header">
+      <div class="logo-badge">GE</div>
+      <div class="header-text">
+        <p class="eyebrow">Mini site d'entraînement</p>
+        <h1>GeniusEnglish</h1>
+        <p class="subtitle">
+          Des modules courts, clairs et efficaces pour progresser en anglais.
+        </p>
+      </div>
+      <a class="primary-btn" href="module.html?module=1">Commencer</a>
+    </header>
+
+    <main class="page">
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <h2>Modules disponibles</h2>
+            <p class="muted">
+              Chaque module propose une lecture et un QCM interactif.
+            </p>
+          </div>
+          <span class="chip">Niveau intermédiaire</span>
+        </div>
+        <div id="modules-grid" class="modules-grid"></div>
+      </section>
+
+      <section class="panel info-panel">
+        <h3>Comment ça marche ?</h3>
+        <ul class="steps">
+          <li>Lis le texte en anglais.</li>
+          <li>Réponds aux questions.</li>
+          <li>Valide pour voir la correction + rappel de notions.</li>
+          <li>Passe à la question suivante ou au module suivant.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 GeniusEnglish — Learn smart, learn fast.</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
