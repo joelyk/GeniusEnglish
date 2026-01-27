@@ -2367,6 +2367,367 @@ window.GENIUS_FRENCH_MODULES = [
         explanation: "10 - 5 = 5."
       }
     ]
+  },
+  {
+    id: 4,
+    title: "Reading A1 — La CAN",
+    type: "quiz",
+    duration: "00:14:00",
+    level: "A1",
+    summary: "Compr&eacute;hension d'un texte simple sur la CAN.",
+    text: [
+      "La CAN est la Coupe d'Afrique des Nations. C'est un grand tournoi de football en Afrique. Les &eacute;quipes nationales jouent des matchs pour gagner le troph&eacute;e.",
+      "Les supporters aiment regarder les matchs &agrave; la t&eacute;l&eacute;vision ou au stade. Les joueurs c&eacute;l&egrave;brent quand ils marquent un but. La CAN rassemble beaucoup de pays africains."
+    ],
+    questions: [
+      {
+        prompt: "La CAN signifie :",
+        choices: [
+          "Coupe d'Afrique des Nations",
+          "Coupe Am&eacute;ricaine du Nord",
+          "Comp&eacute;tition Asiatique",
+          "Coupe des Amis"
+        ],
+        answer: 0,
+        explanation: "CAN = Coupe d'Afrique des Nations."
+      },
+      {
+        prompt: "La CAN est un tournoi de :",
+        choices: ["Basketball", "Football", "Tennis", "Course"],
+        answer: 1,
+        explanation: "La CAN est un tournoi de football."
+      },
+      {
+        prompt: "Les &eacute;quipes qui jouent sont :",
+        choices: ["Des &eacute;coles", "Des villes", "Des nations", "Des clubs priv&eacute;s"],
+        answer: 2,
+        explanation: "Ce sont des &eacute;quipes nationales."
+      },
+      {
+        prompt: "Les supporters regardent les matchs :",
+        choices: ["Seulement &agrave; la radio", "Au stade ou &agrave; la TV", "Dans la for&ecirc;t", "Dans le feu"],
+        answer: 1,
+        explanation: "Ils regardent au stade ou &agrave; la t&eacute;l&eacute;vision."
+      },
+      {
+        prompt: "Quand un joueur marque, il :",
+        choices: ["Dort", "C&eacute;l&egrave;bre", "Pleure", "Part"],
+        answer: 1,
+        explanation: "Il c&eacute;l&egrave;bre son but."
+      },
+      {
+        prompt: "La CAN rassemble :",
+        choices: ["Des pays africains", "Des pays europ&eacute;ens", "Des pays asiatiques", "Des villes"],
+        answer: 0,
+        explanation: "Elle rassemble des pays africains."
+      },
+      {
+        prompt: "Un match se joue entre :",
+        choices: ["Deux &eacute;quipes", "Trois &eacute;quipes", "Quatre &eacute;quipes", "Cinq &eacute;quipes"],
+        answer: 0,
+        explanation: "Un match oppose deux &eacute;quipes."
+      },
+      {
+        prompt: "Le troph&eacute;e est :",
+        choices: ["Un prix", "Un livre", "Une carte", "Une chaise"],
+        answer: 0,
+        explanation: "Le troph&eacute;e est le prix du tournoi."
+      },
+      {
+        prompt: "Le texte parle de :",
+        choices: ["La musique", "La CAN", "La cuisine", "La m&eacute;t&eacute;o"],
+        answer: 1,
+        explanation: "Le texte parle de la CAN."
+      },
+      {
+        prompt: "Les joueurs repr&eacute;sentent :",
+        choices: ["Leur pays", "Leur &eacute;cole", "Leur maison", "Leur quartier"],
+        answer: 0,
+        explanation: "Ils repr&eacute;sentent leur pays."
+      },
+      {
+        prompt: "La CAN est en :",
+        choices: ["Afrique", "Europe", "Am&eacute;rique", "Asie"],
+        answer: 0,
+        explanation: "La CAN est en Afrique."
+      },
+      {
+        prompt: "Les supporters aiment :",
+        choices: ["Regarder les matchs", "Cuisiner", "Dormir", "Lire"],
+        answer: 0,
+        explanation: "Ils aiment regarder les matchs."
+      },
+      {
+        prompt: "Le tournoi est :",
+        choices: ["Petit", "Grand", "Inutile", "Invisible"],
+        answer: 1,
+        explanation: "C'est un grand tournoi."
+      },
+      {
+        prompt: "Les matchs sont :",
+        choices: ["Des jeux", "Des repas", "Des films", "Des cours"],
+        answer: 0,
+        explanation: "Les matchs sont des jeux sportifs."
+      },
+      {
+        prompt: "On peut regarder la CAN :",
+        choices: ["Au stade", "&Agrave; la mer", "Dans la rue seulement", "Dans l'avion"],
+        answer: 0,
+        explanation: "On peut regarder au stade."
+      },
+      {
+        prompt: "Quand on gagne, on re&ccedil;oit :",
+        choices: ["Un troph&eacute;e", "Un crayon", "Un cahier", "Un bus"],
+        answer: 0,
+        explanation: "On re&ccedil;oit un troph&eacute;e."
+      },
+      {
+        prompt: "La CAN est une comp&eacute;tition :",
+        choices: ["Sportive", "Scolaire", "Religieuse", "Musicale"],
+        answer: 0,
+        explanation: "C'est une comp&eacute;tition sportive."
+      },
+      {
+        prompt: "Les joueurs marquent des :",
+        choices: ["Buts", "Lettres", "Notes", "Heures"],
+        answer: 0,
+        explanation: "Ils marquent des buts."
+      },
+      {
+        prompt: "Les supporters sont :",
+        choices: ["Des personnes qui soutiennent", "Des m&eacute;decins", "Des professeurs", "Des enfants seulement"],
+        answer: 0,
+        explanation: "Ils soutiennent leur &eacute;quipe."
+      },
+      {
+        prompt: "La CAN est aussi appel&eacute;e :",
+        choices: ["Coupe d'Afrique", "Coupe d'Europe", "Coupe d'Asie", "Coupe du Monde"],
+        answer: 0,
+        explanation: "On dit aussi Coupe d'Afrique."
+      }
+    ]
+  },
+  {
+    id: 5,
+    title: "Reading A2 — La traite n&eacute;gri&egrave;re",
+    type: "quiz",
+    duration: "00:18:00",
+    level: "A2",
+    summary: "Compr&eacute;hension d'un texte A2 sur la traite n&eacute;gri&egrave;re.",
+    text: [
+      "La traite n&eacute;gri&egrave;re est un moment difficile de l'histoire. Des hommes, des femmes et des enfants africains ont &eacute;t&eacute; captur&eacute;s et envoy&eacute;s de force vers d'autres continents, notamment l'Am&eacute;rique.",
+      "Ils voyageaient dans des conditions tr&egrave;s dures sur des bateaux. Beaucoup ont souffert. Aujourd'hui, on se souvient de cette p&eacute;riode pour comprendre l'histoire et lutter contre le racisme."
+    ],
+    questions: [
+      {
+        prompt: "La traite n&eacute;gri&egrave;re est :",
+        choices: ["Un sport", "Un moment difficile de l'histoire", "Une f&ecirc;te", "Un livre"],
+        answer: 1,
+        explanation: "C'est une p&eacute;riode difficile de l'histoire."
+      },
+      {
+        prompt: "Les personnes captur&eacute;es venaient de :",
+        choices: ["L'Europe", "L'Afrique", "L'Asie", "L'Oc&eacute;anie"],
+        answer: 1,
+        explanation: "Elles venaient d'Afrique."
+      },
+      {
+        prompt: "Elles ont &eacute;t&eacute; envoy&eacute;es de force vers :",
+        choices: ["Leur village", "D'autres continents", "La mer", "Les montagnes"],
+        answer: 1,
+        explanation: "Elles ont &eacute;t&eacute; envoy&eacute;es vers d'autres continents."
+      },
+      {
+        prompt: "Un continent mentionn&eacute; est :",
+        choices: ["L'Am&eacute;rique", "L'Antarctique", "L'Europe du Nord", "L'Australie"],
+        answer: 0,
+        explanation: "Le texte cite l'Am&eacute;rique."
+      },
+      {
+        prompt: "Les voyages se faisaient :",
+        choices: ["En avion", "En bateau", "En train", "&Agrave; pied"],
+        answer: 1,
+        explanation: "Les personnes voyageaient en bateau."
+      },
+      {
+        prompt: "Les conditions &eacute;taient :",
+        choices: ["Faciles", "Tr&egrave;s dures", "Confortables", "Dr&ocirc;les"],
+        answer: 1,
+        explanation: "Le texte dit : conditions tr&egrave;s dures."
+      },
+      {
+        prompt: "Beaucoup de personnes ont :",
+        choices: ["Fait la f&ecirc;te", "Souffert", "Gagn&eacute;", "Voyag&eacute; pour le plaisir"],
+        answer: 1,
+        explanation: "Le texte dit que beaucoup ont souffert."
+      },
+      {
+        prompt: "Aujourd'hui, on se souvient pour :",
+        choices: ["Oublier l'histoire", "Comprendre l'histoire", "Vendre des billets", "Regarder la TV"],
+        answer: 1,
+        explanation: "On se souvient pour comprendre l'histoire."
+      },
+      {
+        prompt: "Le texte parle aussi de :",
+        choices: ["La cuisine", "Le racisme", "Le sport", "La m&eacute;t&eacute;o"],
+        answer: 1,
+        explanation: "Il parle de lutter contre le racisme."
+      },
+      {
+        prompt: "La traite n&eacute;gri&egrave;re concerne :",
+        choices: ["Des animaux", "Des humains", "Des machines", "Des livres"],
+        answer: 1,
+        explanation: "Ce sont des hommes, femmes et enfants."
+      },
+      {
+        prompt: "Le texte dit que les enfants ont &eacute;t&eacute; :",
+        choices: ["Invit&eacute;s", "Captur&eacute;s", "Ignor&eacute;s", "Soign&eacute;s"],
+        answer: 1,
+        explanation: "Les enfants ont &eacute;t&eacute; captur&eacute;s."
+      },
+      {
+        prompt: "Les personnes &eacute;taient envoy&eacute;es :",
+        choices: ["Volontairement", "De force", "Par plaisir", "Par jeu"],
+        answer: 1,
+        explanation: "Elles ont &eacute;t&eacute; envoy&eacute;es de force."
+      },
+      {
+        prompt: "Le but du souvenir est aussi de :",
+        choices: ["Lutter contre le racisme", "Cr&eacute;er des films", "Organiser des matchs", "Acheter des choses"],
+        answer: 0,
+        explanation: "Le texte dit : lutter contre le racisme."
+      },
+      {
+        prompt: "Le texte est :",
+        choices: ["Un r&eacute;cit historique", "Un conte magique", "Un roman d'amour", "Une publicit&eacute;"],
+        answer: 0,
+        explanation: "C'est un r&eacute;cit historique."
+      },
+      {
+        prompt: "Les bateaux &eacute;taient :",
+        choices: ["Des bateaux de luxe", "Des bateaux avec des conditions dures", "Des bateaux pour touristes", "Des bateaux de p&ecirc;che"],
+        answer: 1,
+        explanation: "Les conditions &eacute;taient dures."
+      },
+      {
+        prompt: "Le texte nous invite &agrave; :",
+        choices: ["Oublier", "Se souvenir", "Rigoler", "Dormir"],
+        answer: 1,
+        explanation: "Il invite &agrave; se souvenir."
+      },
+      {
+        prompt: "La traite n&eacute;gri&egrave;re est li&eacute;e &agrave; :",
+        choices: ["L'histoire", "La science", "La cuisine", "La mode"],
+        answer: 0,
+        explanation: "C'est un &eacute;v&eacute;nement historique."
+      },
+      {
+        prompt: "Le texte parle d'un pass&eacute; :",
+        choices: ["Heureux", "Difficile", "Dr&ocirc;le", "Sans importance"],
+        answer: 1,
+        explanation: "Il s'agit d'un pass&eacute; difficile."
+      },
+      {
+        prompt: "Les personnes ont &eacute;t&eacute; envoy&eacute;es :",
+        choices: ["Vers d'autres continents", "Chez leurs amis", "Dans leurs maisons", "Dans la jungle"],
+        answer: 0,
+        explanation: "Vers d'autres continents."
+      },
+      {
+        prompt: "Le dernier message du texte est :",
+        choices: ["Apprendre l'histoire et lutter contre le racisme", "Jouer au football", "Boire du th&eacute;", "Regarder un film"],
+        answer: 0,
+        explanation: "Comprendre l'histoire et lutter contre le racisme."
+      }
+    ]
+  },
+  {
+    id: 6,
+    title: "Adjectif ou Verbe ?",
+    type: "quiz",
+    duration: "00:16:00",
+    level: "A1",
+    summary: "Choisir si un mot est un adjectif ou un verbe (30).",
+    text: [
+      "Lis le mot et choisis s'il est un adjectif ou un verbe.",
+      "Un adjectif d&eacute;crit, un verbe exprime une action."
+    ],
+    questions: [
+      { prompt: "grand", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 0, explanation: "Grand est un adjectif." },
+      { prompt: "manger", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 1, explanation: "Manger est un verbe." },
+      { prompt: "rapide", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 0, explanation: "Rapide d&eacute;crit." },
+      { prompt: "&eacute;crire", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 1, explanation: "&Eacute;crire est une action." },
+      { prompt: "gentil", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 0, explanation: "Gentil d&eacute;crit une personne." },
+      { prompt: "jouer", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 1, explanation: "Jouer est un verbe." },
+      { prompt: "triste", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 0, explanation: "Triste est un adjectif." },
+      { prompt: "parler", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 1, explanation: "Parler est un verbe." },
+      { prompt: "fort", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 0, explanation: "Fort d&eacute;crit." },
+      { prompt: "finir", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 1, explanation: "Finir est un verbe." },
+      { prompt: "beau", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 0, explanation: "Beau est adjectif." },
+      { prompt: "lire", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 1, explanation: "Lire est un verbe." },
+      { prompt: "propre", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 0, explanation: "Propre d&eacute;crit." },
+      { prompt: "courir", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 1, explanation: "Courir est un verbe." },
+      { prompt: "chaud", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 0, explanation: "Chaud est adjectif." },
+      { prompt: "chanter", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 1, explanation: "Chanter est un verbe." },
+      { prompt: "petit", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 0, explanation: "Petit d&eacute;crit." },
+      { prompt: "rire", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 1, explanation: "Rire est un verbe." },
+      { prompt: "nouveau", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 0, explanation: "Nouveau est adjectif." },
+      { prompt: "venir", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 1, explanation: "Venir est un verbe." },
+      { prompt: "dr&ocirc;le", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 0, explanation: "Dr&ocirc;le d&eacute;crit." },
+      { prompt: "boire", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 1, explanation: "Boire est un verbe." },
+      { prompt: "clair", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 0, explanation: "Clair est adjectif." },
+      { prompt: "prendre", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 1, explanation: "Prendre est un verbe." },
+      { prompt: "froid", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 0, explanation: "Froid est adjectif." },
+      { prompt: "regarder", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 1, explanation: "Regarder est un verbe." },
+      { prompt: "lent", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 0, explanation: "Lent est adjectif." },
+      { prompt: "&eacute;crire", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 1, explanation: "&Eacute;crire est un verbe." },
+      { prompt: "joli", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 0, explanation: "Joli est adjectif." },
+      { prompt: "faire", choices: ["Adjectif", "Verbe", "Nom", "Adverbe"], answer: 1, explanation: "Faire est un verbe." }
+    ]
+  },
+  {
+    id: 7,
+    title: "Conjugaison — Plusieurs temps",
+    type: "quiz",
+    duration: "00:18:00",
+    level: "A2",
+    summary: "Conjuguer des verbes dans plusieurs temps (30).",
+    text: [
+      "Choisis la bonne conjugaison selon le temps indiqu&eacute;.",
+      "Rappel : pr&eacute;sent, pass&eacute; compos&eacute;, futur simple, imparfait."
+    ],
+    questions: [
+      { prompt: "Pr&eacute;sent : Je (parler)", choices: ["parle", "parlais", "parlerai", "ai parl&eacute;"], answer: 0, explanation: "Pr&eacute;sent : je parle." },
+      { prompt: "Pass&eacute; compos&eacute; : Il (manger)", choices: ["mange", "a mang&eacute;", "mangeait", "mangera"], answer: 1, explanation: "Pass&eacute; compos&eacute; : il a mang&eacute;." },
+      { prompt: "Futur : Nous (finir)", choices: ["finissons", "avons fini", "finirons", "finissions"], answer: 2, explanation: "Futur : nous finirons." },
+      { prompt: "Imparfait : Tu (être)", choices: ["es", "&eacute;tais", "seras", "as &eacute;t&eacute;"], answer: 1, explanation: "Imparfait : tu &eacute;tais." },
+      { prompt: "Pr&eacute;sent : Elle (aller)", choices: ["va", "allait", "ira", "est all&eacute;e"], answer: 0, explanation: "Pr&eacute;sent : elle va." },
+      { prompt: "Pass&eacute; compos&eacute; : Nous (venir)", choices: ["venons", "sommes venus", "venions", "viendrons"], answer: 1, explanation: "Pass&eacute; compos&eacute; : nous sommes venus." },
+      { prompt: "Futur : Vous (prendre)", choices: ["prenez", "prendrez", "preniez", "avez pris"], answer: 1, explanation: "Futur : vous prendrez." },
+      { prompt: "Imparfait : Ils (jouer)", choices: ["jouent", "jouaient", "joueront", "ont jou&eacute;"], answer: 1, explanation: "Imparfait : ils jouaient." },
+      { prompt: "Pr&eacute;sent : Nous (faire)", choices: ["faisons", "faisions", "ferons", "avons fait"], answer: 0, explanation: "Pr&eacute;sent : nous faisons." },
+      { prompt: "Pass&eacute; compos&eacute; : Elle (finir)", choices: ["finit", "a fini", "finissait", "finira"], answer: 1, explanation: "Pass&eacute; compos&eacute; : elle a fini." },
+      { prompt: "Futur : Je (venir)", choices: ["viens", "viendrai", "venais", "suis venu"], answer: 1, explanation: "Futur : je viendrai." },
+      { prompt: "Imparfait : Nous (avoir)", choices: ["avons", "avions", "aurons", "avons eu"], answer: 1, explanation: "Imparfait : nous avions." },
+      { prompt: "Pr&eacute;sent : Tu (lire)", choices: ["lis", "lisais", "liras", "as lu"], answer: 0, explanation: "Pr&eacute;sent : tu lis." },
+      { prompt: "Pass&eacute; compos&eacute; : Ils (partir)", choices: ["partent", "sont partis", "partaient", "partiront"], answer: 1, explanation: "Pass&eacute; compos&eacute; : ils sont partis." },
+      { prompt: "Futur : Elle (voir)", choices: ["voit", "verra", "voyait", "a vu"], answer: 1, explanation: "Futur : elle verra." },
+      { prompt: "Imparfait : Je (finir)", choices: ["finis", "finissais", "finirai", "ai fini"], answer: 1, explanation: "Imparfait : je finissais." },
+      { prompt: "Pr&eacute;sent : Vous (être)", choices: ["&ecirc;tes", "&eacute;tiez", "serez", "avez &eacute;t&eacute;"], answer: 0, explanation: "Pr&eacute;sent : vous &ecirc;tes." },
+      { prompt: "Pass&eacute; compos&eacute; : Tu (prendre)", choices: ["prends", "as pris", "prenais", "prendras"], answer: 1, explanation: "Pass&eacute; compos&eacute; : tu as pris." },
+      { prompt: "Futur : Ils (avoir)", choices: ["ont", "auront", "avaient", "ont eu"], answer: 1, explanation: "Futur : ils auront." },
+      { prompt: "Imparfait : Elle (aller)", choices: ["va", "allait", "ira", "est all&eacute;e"], answer: 1, explanation: "Imparfait : elle allait." },
+      { prompt: "Pr&eacute;sent : On (parler)", choices: ["parle", "parlait", "parlera", "a parl&eacute;"], answer: 0, explanation: "Pr&eacute;sent : on parle." },
+      { prompt: "Pass&eacute; compos&eacute; : Nous (voir)", choices: ["voyons", "avons vu", "voyions", "verrons"], answer: 1, explanation: "Pass&eacute; compos&eacute; : nous avons vu." },
+      { prompt: "Futur : Tu (faire)", choices: ["fais", "feras", "faisais", "as fait"], answer: 1, explanation: "Futur : tu feras." },
+      { prompt: "Imparfait : Vous (prendre)", choices: ["prenez", "preniez", "prendrez", "avez pris"], answer: 1, explanation: "Imparfait : vous preniez." },
+      { prompt: "Pr&eacute;sent : Ils (finir)", choices: ["finissent", "finissaient", "finiront", "ont fini"], answer: 0, explanation: "Pr&eacute;sent : ils finissent." },
+      { prompt: "Pass&eacute; compos&eacute; : Je (aller)", choices: ["vais", "suis all&eacute;", "allais", "irai"], answer: 1, explanation: "Pass&eacute; compos&eacute; : je suis all&eacute;." },
+      { prompt: "Futur : Nous (être)", choices: ["sommes", "serons", "&eacute;tions", "avons &eacute;t&eacute;"], answer: 1, explanation: "Futur : nous serons." },
+      { prompt: "Imparfait : Tu (faire)", choices: ["fais", "faisais", "feras", "as fait"], answer: 1, explanation: "Imparfait : tu faisais." },
+      { prompt: "Pr&eacute;sent : Elle (venir)", choices: ["vient", "venait", "viendra", "est venue"], answer: 0, explanation: "Pr&eacute;sent : elle vient." },
+      { prompt: "Pass&eacute; compos&eacute; : Vous (être)", choices: ["&ecirc;tes", "avez &eacute;t&eacute;", "&eacute;tiez", "serez"], answer: 1, explanation: "Pass&eacute; compos&eacute; : vous avez &eacute;t&eacute;." }
+    ]
   }
 ];
 
