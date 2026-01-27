@@ -734,7 +734,8 @@
     summary: "Choisir les bons connecteurs logiques.",
     text: [
       "Linking words help connect ideas. Examples include: because, however, therefore, although, and in addition.",
-      "Rappel : because = cause, so/therefore = cons&eacute;quence, although/however = contraste."
+      "Rappel : because = cause, so/therefore = cons&eacute;quence, although/however = contraste.",
+      "Astuce : identifie d'abord la relation logique (cause, contraste, cons&eacute;quence, ajout)."
     ],
     questions: [
       {
@@ -792,6 +793,20 @@
         answer: 0,
         explanation:
           "Ajout : in addition."
+      },
+      {
+        prompt: "He was late, ______ he missed the meeting.",
+        choices: ["so", "although", "because", "however"],
+        answer: 0,
+        explanation:
+          "Cons&eacute;quence : so."
+      },
+      {
+        prompt: "______ it was expensive, she bought it.",
+        choices: ["Although", "Because", "So", "Therefore"],
+        answer: 0,
+        explanation:
+          "Concession : although."
       }
     ]
   },
@@ -802,7 +817,7 @@
     duration: "00:10:00",
     level: "Interm&eacute;diaire",
     summary:
-      "30 mots indispensables : informatique, science, culture g&eacute;n&eacute;rale.",
+      "50 mots indispensables : informatique, science, culture g&eacute;n&eacute;rale, action, Afrique.",
     text: [
       "Objectif : m&eacute;moriser 30 mots-cl&eacute;s utiles en anglais.",
       "Astuce : lis le mot, devine le sens, puis clique pour voir la d&eacute;finition + un mini-exemple.",
@@ -970,6 +985,96 @@
             answer: "Litt&eacute;rature. Example: I study literature."
           }
         ]
+      },
+      {
+        title: "Verbes d'action (10 mots)",
+        items: [
+          {
+            prompt: "create",
+            answer: "Cr&eacute;er. Example: We create a new project."
+          },
+          {
+            prompt: "improve",
+            answer: "Am&eacute;liorer. Example: Improve your skills."
+          },
+          {
+            prompt: "analyze",
+            answer: "Analyser. Example: Analyze the data."
+          },
+          {
+            prompt: "design",
+            answer: "Concevoir. Example: Design a clean interface."
+          },
+          {
+            prompt: "build",
+            answer: "Construire. Example: Build a simple app."
+          },
+          {
+            prompt: "solve",
+            answer: "R&eacute;soudre. Example: Solve a problem."
+          },
+          {
+            prompt: "imagine",
+            answer: "Imaginer. Example: Imagine a better future."
+          },
+          {
+            prompt: "develop",
+            answer: "D&eacute;velopper. Example: Develop a new feature."
+          },
+          {
+            prompt: "discover",
+            answer: "D&eacute;couvrir. Example: Discover new ideas."
+          },
+          {
+            prompt: "support",
+            answer: "Soutenir/Aider. Example: Support your team."
+          }
+        ]
+      },
+      {
+        title: "Afrique (10 mots)",
+        items: [
+          {
+            prompt: "continent",
+            answer: "Continent. Example: Africa is a continent."
+          },
+          {
+            prompt: "heritage",
+            answer: "H&eacute;ritage. Example: African heritage is rich."
+          },
+          {
+            prompt: "tribe",
+            answer: "Tribu. Example: The tribe has traditions."
+          },
+          {
+            prompt: "savannah",
+            answer: "Savane. Example: The savannah is vast."
+          },
+          {
+            prompt: "rainforest",
+            answer: "For&ecirc;t tropicale. Example: The rainforest is dense."
+          },
+          {
+            prompt: "wildlife",
+            answer: "Faune sauvage. Example: The wildlife is diverse."
+          },
+          {
+            prompt: "resources",
+            answer: "Ressources. Example: Natural resources matter."
+          },
+          {
+            prompt: "development",
+            answer: "D&eacute;veloppement. Example: Development creates jobs."
+          },
+          {
+            prompt: "unity",
+            answer: "Unit&eacute;. Example: Unity strengthens communities."
+          },
+          {
+            prompt: "innovation",
+            answer: "Innovation. Example: Innovation drives progress."
+          }
+        ]
       }
     ]
   },
@@ -994,17 +1099,17 @@
         items: [
           {
             prompt:
-              "Situation : Tu &eacute;cris &agrave; une entreprise pour demander un stage en marketing.",
+              "FR : Tu &eacute;cris &agrave; une entreprise pour demander un stage en marketing.<br>EN: You write to a company to request a marketing internship.",
             buttonLabel: "Voir la lettre formelle",
             answer:
-              "<p>Dear Sir or Madam,</p><p>I am writing to apply for an internship in your marketing department. I am a third-year student in Business Administration and I am highly motivated to gain practical experience.</p><p>During my studies, I have developed skills in communication, teamwork, and market research. I would be grateful for the opportunity to contribute to your team and learn from your professionals.</p><p>Thank you for considering my application. I am available for an interview at your convenience.</p><p>Yours faithfully,<br>Joelyk Yankam</p>"
+              "<p><strong>EN</strong></p><p>Dear Sir or Madam,</p><p>I am writing to apply for an internship in your marketing department. I am a third-year student in Business Administration and I am highly motivated to gain practical experience.</p><p>During my studies, I have developed skills in communication, teamwork, and market research. I would be grateful for the opportunity to contribute to your team and learn from your professionals.</p><p>Thank you for considering my application. I am available for an interview at your convenience.</p><p>Yours faithfully,<br>Joelyk Yankam</p><p><strong>FR</strong></p><p>Madame, Monsieur,</p><p>Je vous &eacute;cris pour postuler &agrave; un stage au sein de votre d&eacute;partement marketing. Je suis en troisi&egrave;me ann&eacute;e de gestion et je suis motiv&eacute; pour acqu&eacute;rir une exp&eacute;rience pratique.</p><p>Au cours de mes &eacute;tudes, j'ai d&eacute;velopp&eacute; des comp&eacute;tences en communication, travail d'&eacute;quipe et &eacute;tudes de march&eacute;. Je serais reconnaissant de pouvoir contribuer &agrave; votre &eacute;quipe.</p><p>Je vous remercie pour votre attention et reste disponible pour un entretien.</p><p>Veuillez recevoir, Madame, Monsieur, mes salutations distingu&eacute;es.<br>Joelyk Yankam</p>"
           },
           {
             prompt:
-              "Situation : Tu demandes un renseignement &agrave; une &eacute;cole.",
+              "FR : Tu demandes un renseignement &agrave; une &eacute;cole.<br>EN: You request information from a school.",
             buttonLabel: "Voir la lettre formelle",
             answer:
-              "<p>Dear Admissions Office,</p><p>I am writing to request information about your Master's program in Computer Science, including application deadlines and fees.</p><p>I would appreciate any brochure or guidance you can provide. Thank you in advance for your assistance.</p><p>Yours faithfully,<br>Joelyk Yankam</p>"
+              "<p><strong>EN</strong></p><p>Dear Admissions Office,</p><p>I am writing to request information about your Master's program in Computer Science, including application deadlines and fees.</p><p>I would appreciate any brochure or guidance you can provide. Thank you in advance for your assistance.</p><p>Yours faithfully,<br>Joelyk Yankam</p><p><strong>FR</strong></p><p>Madame, Monsieur,</p><p>Je vous &eacute;cris pour demander des informations sur votre Master en informatique, notamment les dates limites et les frais.</p><p>Je vous serais reconnaissant de m'envoyer une brochure ou des indications utiles. Merci d'avance.</p><p>Veuillez recevoir, Madame, Monsieur, mes salutations distingu&eacute;es.<br>Joelyk Yankam</p>"
           }
         ]
       },
@@ -1013,17 +1118,17 @@
         items: [
           {
             prompt:
-              "Situation : Tu &eacute;cris &agrave; un ami pour l'inviter &agrave; un &eacute;v&eacute;nement.",
+              "FR : Tu &eacute;cris &agrave; un ami pour l'inviter &agrave; un &eacute;v&eacute;nement.<br>EN: You write to a friend to invite him to an event.",
             buttonLabel: "Voir la lettre informelle",
             answer:
-              "<p>Hi Alex,</p><p>How are you? I'm inviting you to my birthday party this Saturday at 6 p.m. at my place. There will be music and good food!</p><p>I really hope you can come. Let me know soon.</p><p>See you,<br>Joel</p>"
+              "<p><strong>EN</strong></p><p>Hi Alex,</p><p>How are you? I'm inviting you to my birthday party this Saturday at 6 p.m. at my place. There will be music and good food!</p><p>I really hope you can come. Let me know soon.</p><p>See you,<br>Joel</p><p><strong>FR</strong></p><p>Salut Alex,</p><p>Comment &ccedil;a va ? Je t'invite &agrave; ma f&ecirc;te d'anniversaire ce samedi &agrave; 18h chez moi. Il y aura de la musique et &agrave; manger !</p><p>J'esp&egrave;re que tu pourras venir. Dis-moi vite.</p><p>&Agrave; bient&ocirc;t,<br>Joel</p>"
           },
           {
             prompt:
-              "Situation : Tu &eacute;cris &agrave; ta s&oelig;ur pour donner des nouvelles.",
+              "FR : Tu &eacute;cris &agrave; ta s&oelig;ur pour donner des nouvelles.<br>EN: You write to your sister to give news.",
             buttonLabel: "Voir la lettre informelle",
             answer:
-              "<p>Hi Sis,</p><p>Just a quick message to say I'm doing well at university. Classes are busy, but I'm learning a lot. I miss you!</p><p>Talk soon,<br>Joel</p>"
+              "<p><strong>EN</strong></p><p>Hi Sis,</p><p>Just a quick message to say I'm doing well at university. Classes are busy, but I'm learning a lot. I miss you!</p><p>Talk soon,<br>Joel</p><p><strong>FR</strong></p><p>Salut ma s&oelig;ur,</p><p>Petit message pour te dire que je vais bien &agrave; l'universit&eacute;. Les cours sont charg&eacute;s, mais j'apprends beaucoup. Tu me manques !</p><p>&Agrave; bient&ocirc;t,<br>Joel</p>"
           }
         ]
       }
@@ -1057,10 +1162,17 @@
           },
           {
             prompt:
-              "Situation : Tu postules pour un stage en d&eacute;veloppement web.",
+              "FR : Tu postules pour un stage en d&eacute;veloppement web.<br>EN: You apply for a web development internship.",
             buttonLabel: "Voir la cover letter",
             answer:
               "<p>Dear Hiring Manager,</p><p>I am applying for the Web Development Internship at your company. I have built several front-end projects using HTML, CSS, and JavaScript, and I am eager to learn from professionals.</p><p>I enjoy creating clean, user-friendly interfaces and I am comfortable working in teams. I would be grateful for the opportunity to contribute and grow.</p><p>Thank you for your consideration.</p><p>Sincerely,<br>Joelyk Yankam</p>"
+          },
+          {
+            prompt:
+              "FR : Tu postules pour un poste &agrave; la cantine de l'Universit&eacute; de Dschang.<br>EN: You apply for a job at the University of Dschang cafeteria.",
+            buttonLabel: "Voir la cover letter",
+            answer:
+              "<p><strong>EN</strong></p><p>Dear Hiring Manager,</p><p>I am writing to apply for a position at the University of Dschang cafeteria. I am reliable, punctual, and able to work under pressure during busy service hours.</p><p>I have experience in customer service and I enjoy working in a team. I am ready to contribute to a clean and welcoming environment for students.</p><p>Thank you for considering my application.</p><p>Sincerely,<br>Joelyk Yankam</p><p><strong>FR</strong></p><p>Madame, Monsieur,</p><p>Je vous adresse ma candidature pour un poste &agrave; la cantine de l'Universit&eacute; de Dschang. Je suis s&eacute;rieux, ponctuel et capable de travailler sous pression pendant les heures de service.</p><p>J'ai une exp&eacute;rience en service et j'appr&eacute;cie le travail d'&eacute;quipe. Je suis pr&ecirc;t &agrave; contribuer &agrave; un environnement propre et accueillant pour les &eacute;tudiants.</p><p>Je vous remercie pour votre attention.</p><p>Veuillez recevoir, Madame, Monsieur, mes salutations distingu&eacute;es.<br>Joelyk Yankam</p>"
           }
         ]
       }
