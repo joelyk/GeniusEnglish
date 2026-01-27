@@ -402,6 +402,51 @@ h4 {
   margin-top: 12px;
 }
 
+.reading-wrap {
+  position: relative;
+}
+
+.reading-divider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.reading-divider::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  width: 2px;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(31, 59, 92, 0.35),
+    rgba(31, 59, 92, 0.35) 6px,
+    transparent 6px,
+    transparent 12px
+  );
+}
+
+.reading-arrow {
+  display: inline-flex;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(31, 59, 92, 0.12);
+  border: 1px solid rgba(31, 59, 92, 0.35);
+  align-items: center;
+  justify-content: center;
+  color: var(--sea);
+  font-size: 18px;
+  animation: spinArrow 3.5s linear infinite;
+}
+
 .cheat-sheet {
   margin-top: 14px;
   padding: 16px;
@@ -536,9 +581,22 @@ h4 {
     column-count: 1;
   }
 
+  .reading-divider {
+    display: none;
+  }
+
   .quiz-panel .pagination {
     width: 100%;
     justify-content: space-between;
+  }
+}
+
+@keyframes spinArrow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 
