@@ -1254,6 +1254,142 @@
         ]
       }
     ]
+  },
+  {
+    id: 12,
+    title: "Grammar & Vocabulary Practice",
+    type: "quiz",
+    duration: "00:12:00",
+    level: "Interm&eacute;diaire",
+    summary: "Exercices de grammaire, vocabulaire et usage.",
+    text: [
+      "Objectif : compl&eacute;ter des phrases avec la bonne forme grammaticale ou le bon mot.",
+      "Astuce : rep&egrave;re d'abord le temps, puis la fonction du mot (nom, verbe, adverbe, adjectif)."
+    ],
+    questions: [
+      {
+        prompt:
+          "My cousin finds it difficult to live in France because she __________ French. (not to speak)",
+        choices: ["doesn't speak", "didn't speak", "not speaks", "hasn't spoke"],
+        answer: 0,
+        explanation:
+          "Pr&eacute;sent simple n&eacute;gatif : does not + base verb. Rappel : she + doesn't + speak."
+      },
+      {
+        prompt:
+          "We searched the bag thoroughly but saw __________. (anything, nothing, something)",
+        choices: ["anything", "nothing", "something", "everything"],
+        answer: 1,
+        explanation:
+          "N&eacute;gatif logique apr&egrave;s &ldquo;but&rdquo; : rien = nothing."
+      },
+      {
+        prompt:
+          "Although Joan is good at Mathematics, she did not perform as __________ as a soldier. (good, well, better)",
+        choices: ["good", "well", "better", "best"],
+        answer: 1,
+        explanation:
+          "Apr&egrave;s un verbe (perform), on utilise l'adverbe : well."
+      },
+      {
+        prompt: "Have you __________ to your new friend? (speak, spoke, spoken)",
+        choices: ["speak", "spoke", "spoken", "speaks"],
+        answer: 2,
+        explanation:
+          "Present perfect : have + V3. speak &rarr; spoke &rarr; spoken."
+      },
+      {
+        prompt:
+          "The boy is tired. He has been running __________ hours. (during, for, since)",
+        choices: ["during", "for", "since", "by"],
+        answer: 1,
+        explanation:
+          "For + dur&eacute;e. Since + point de d&eacute;part."
+      },
+      {
+        prompt:
+          "He spends money carelessly __________ the prevailing poverty. (although, so, despite)",
+        choices: ["although", "so", "despite", "because"],
+        answer: 2,
+        explanation:
+          "Despite + nom / groupe nominal. Ici : despite the poverty."
+      },
+      {
+        prompt: "__________ is a form of segregation. (discriminate)",
+        choices: ["Discrimination", "Discriminate", "Discriminating", "Discriminated"],
+        answer: 0,
+        explanation:
+          "On attend un nom : discrimination."
+      },
+      {
+        prompt: "Onana is wearing a __________ shirt. (colour)",
+        choices: ["color", "colored", "colorful", "colourful"],
+        answer: 3,
+        explanation:
+          "Forme adjectivale en anglais britannique : colourful. (US: colorful)"
+      },
+      {
+        prompt: "It is __________ to play with snakes. (disaster)",
+        choices: ["disaster", "disastrous", "disastrously", "disastering"],
+        answer: 1,
+        explanation:
+          "Adjectif : disastrous = dangereux/tragique."
+      },
+      {
+        prompt: "The (vote) __________ cards all got missing in my bag.",
+        choices: ["vote", "voting", "voted", "voter"],
+        answer: 1,
+        explanation:
+          "On parle des cartes li&eacute;es au vote : voting cards."
+      },
+      {
+        prompt: "Malaria is a __________ (tropic) disease.",
+        choices: ["tropical", "tropically", "tropic", "tropics"],
+        answer: 0,
+        explanation:
+          "Adjectif : tropical."
+      },
+      {
+        prompt:
+          "The personnel manager is threatening to resign if the boss does not __________ his salary. (increase, drop, cash)",
+        choices: ["increase", "drop", "cash", "close"],
+        answer: 0,
+        explanation:
+          "Increase = augmenter. Drop = diminuer. Cash = encaisser."
+      },
+      {
+        prompt:
+          "He was hard up, so he went to the bank to __________ a cheque. (pay, cash, sign)",
+        choices: ["pay", "cash", "sign", "buy"],
+        answer: 1,
+        explanation:
+          "To cash a cheque = encaisser un ch&egrave;que."
+      },
+      {
+        prompt:
+          "We should __________ this cheque so that it would only be paid in our customer’s account. (issue, endorse, cross)",
+        choices: ["issue", "endorse", "cross", "approve"],
+        answer: 2,
+        explanation:
+          "To cross a cheque = barrer un ch&egrave;que pour d&eacute;p&ocirc;t en compte."
+      },
+      {
+        prompt:
+          "The business went __________ due to its poor management policy. (poor, bankrupt, unsuccessful)",
+        choices: ["poor", "bankrupt", "unsuccessful", "busy"],
+        answer: 1,
+        explanation:
+          "Went bankrupt = fait faillite."
+      },
+      {
+        prompt:
+          "A new accountant has been __________ to reinforce the team. (hired, dismissed, affected)",
+        choices: ["hired", "dismissed", "affected", "fired"],
+        answer: 0,
+        explanation:
+          "Hired = recrut&eacute;. Dismissed/fired = licenci&eacute;."
+      }
+    ]
   }
 ];
 
