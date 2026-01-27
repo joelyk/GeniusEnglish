@@ -190,6 +190,39 @@ h4 {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
+.courses-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.course-card {
+  background: #fff;
+  border-radius: var(--radius-md);
+  padding: 18px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  display: grid;
+  gap: 12px;
+}
+
+.course-card h3 {
+  font-size: 20px;
+}
+
+.course-card ul {
+  list-style: none;
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.course-card li::before {
+  content: "•";
+  color: var(--accent);
+  margin-right: 8px;
+}
+
 .module-card {
   padding: 18px;
   border-radius: var(--radius-md);
