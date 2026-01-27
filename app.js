@@ -66,7 +66,14 @@
     moduleTag.textContent = `Module ${module.id}`;
     moduleDuration.textContent = module.duration;
     if (module.text && module.text.length > 0) {
-      moduleText.innerHTML = module.text.map((p) => `<p>${p}</p>`).join("");
+      moduleText.innerHTML = module.text
+        .map((p) => {
+          if (p.includes("R&egrave;gles cl&eacute;s")) {
+            return `<div class="cheat-sheet">${p}</div>`;
+          }
+          return `<p>${p}</p>`;
+        })
+        .join("");
       moduleText.parentElement.classList.remove("hidden");
     } else {
       moduleText.parentElement.classList.add("hidden");

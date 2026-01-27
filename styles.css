@@ -209,15 +209,29 @@ h4 {
   font-size: 20px;
 }
 
-.course-card ul {
+.course-list {
   list-style: none;
   display: grid;
-  gap: 8px;
+  gap: 12px;
   color: var(--muted);
   font-size: 14px;
 }
 
-.course-card li::before {
+.course-item {
+  display: grid;
+  gap: 6px;
+}
+
+.subcourse-list {
+  list-style: none;
+  display: grid;
+  gap: 6px;
+  padding-left: 16px;
+  color: rgba(82, 96, 122, 0.9);
+  font-size: 13px;
+}
+
+.subcourse-list li::before {
   content: "•";
   color: var(--accent);
   margin-right: 8px;
@@ -346,6 +360,17 @@ h4 {
 
 .reading-text p + p {
   margin-top: 12px;
+}
+
+.cheat-sheet {
+  margin-top: 14px;
+  padding: 16px;
+  border-radius: var(--radius-md);
+  background: rgba(31, 59, 92, 0.08);
+  border: 1px dashed rgba(31, 59, 92, 0.35);
+  color: #1f2937;
+  font-size: 14px;
+  line-height: 1.6;
 }
 
 .quiz-panel .pagination {
