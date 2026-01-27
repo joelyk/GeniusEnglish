@@ -646,6 +646,287 @@ window.GENIUS_MODULES = [
           "Cons&eacute;quence logique : therefore."
       }
     ]
+  },
+  {
+    id: 8,
+    title: "Vocabulary Essentials (Tech, Science, Culture)",
+    type: "translation",
+    duration: "00:10:00",
+    level: "Interm&eacute;diaire",
+    summary:
+      "30 mots indispensables : informatique, science, culture g&eacute;n&eacute;rale.",
+    text: [
+      "Objectif : m&eacute;moriser 30 mots-cl&eacute;s utiles en anglais.",
+      "Astuce : lis le mot, devine le sens, puis clique pour voir la d&eacute;finition + un mini-exemple."
+    ],
+    translationTitle: "Vocabulary Essentials",
+    translationSubtitle:
+      "Clique sur le bouton pour voir la d&eacute;finition et un mini-exemple.",
+    translations: [
+      {
+        title: "Informatique (10 mots)",
+        items: [
+          {
+            prompt: "algorithm",
+            answer: "Algorithme. Example: The algorithm sorts the data."
+          },
+          {
+            prompt: "database",
+            answer: "Base de donn&eacute;es. Example: The database stores users."
+          },
+          {
+            prompt: "software",
+            answer: "Logiciel. Example: This software is free."
+          },
+          {
+            prompt: "hardware",
+            answer: "Mat&eacute;riel. Example: The hardware is outdated."
+          },
+          {
+            prompt: "network",
+            answer: "R&eacute;seau. Example: The network is down."
+          },
+          {
+            prompt: "cybersecurity",
+            answer: "Cybers&eacute;curit&eacute;. Example: Cybersecurity is essential."
+          },
+          {
+            prompt: "bug",
+            answer: "Bogue. Example: We fixed a bug in the app."
+          },
+          {
+            prompt: "update",
+            answer: "Mise &agrave; jour. Example: Install the latest update."
+          },
+          {
+            prompt: "cloud",
+            answer: "Cloud / nuage. Example: Files are saved in the cloud."
+          },
+          {
+            prompt: "interface",
+            answer: "Interface. Example: The interface is user-friendly."
+          }
+        ]
+      },
+      {
+        title: "Science (10 mots)",
+        items: [
+          {
+            prompt: "hypothesis",
+            answer: "Hypoth&egrave;se. Example: The hypothesis was tested."
+          },
+          {
+            prompt: "experiment",
+            answer: "Exp&eacute;rience. Example: The experiment failed."
+          },
+          {
+            prompt: "evidence",
+            answer: "Preuve. Example: We need more evidence."
+          },
+          {
+            prompt: "data",
+            answer: "Donn&eacute;es. Example: The data are reliable."
+          },
+          {
+            prompt: "theory",
+            answer: "Th&eacute;orie. Example: This theory explains it."
+          },
+          {
+            prompt: "sample",
+            answer: "&Eacute;chantillon. Example: The sample was small."
+          },
+          {
+            prompt: "result",
+            answer: "R&eacute;sultat. Example: The results are clear."
+          },
+          {
+            prompt: "analysis",
+            answer: "Analyse. Example: The analysis took hours."
+          },
+          {
+            prompt: "variable",
+            answer: "Variable. Example: The variable changed."
+          },
+          {
+            prompt: "conclusion",
+            answer: "Conclusion. Example: The conclusion supports the idea."
+          }
+        ]
+      },
+      {
+        title: "Culture g&eacute;n&eacute;rale (10 mots)",
+        items: [
+          {
+            prompt: "heritage",
+            answer: "H&eacute;ritage. Example: Cultural heritage matters."
+          },
+          {
+            prompt: "tradition",
+            answer: "Tradition. Example: It's a local tradition."
+          },
+          {
+            prompt: "identity",
+            answer: "Identit&eacute;. Example: Language shapes identity."
+          },
+          {
+            prompt: "citizen",
+            answer: "Citoyen. Example: Every citizen can vote."
+          },
+          {
+            prompt: "economy",
+            answer: "&Eacute;conomie. Example: The economy is growing."
+          },
+          {
+            prompt: "government",
+            answer: "Gouvernement. Example: The government announced changes."
+          },
+          {
+            prompt: "education",
+            answer: "&Eacute;ducation. Example: Education is a priority."
+          },
+          {
+            prompt: "freedom",
+            answer: "Libert&eacute;. Example: Freedom of speech is important."
+          },
+          {
+            prompt: "festival",
+            answer: "Festival. Example: The festival attracts tourists."
+          },
+          {
+            prompt: "globalization",
+            answer: "Mondialisation. Example: Globalization connects markets."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 9,
+    title: "Formal vs Informal Letter",
+    type: "translation",
+    duration: "00:08:00",
+    level: "Interm&eacute;diaire",
+    summary: "Situation + lettres formelle et informelle.",
+    text: [
+      "Rappel : une lettre formelle utilise un ton poli, des phrases compl&egrave;tes et une structure claire (objet, formule d'appel, corps, conclusion).",
+      "Une lettre informelle est plus simple, plus directe, et utilise un ton amical."
+    ],
+    translationTitle: "Formal & Informal Letter",
+    translationSubtitle:
+      "Lis la situation, puis clique pour voir la lettre.",
+    translations: [
+      {
+        title: "Lettre formelle",
+        items: [
+          {
+            prompt:
+              "Situation : Tu &eacute;cris &agrave; une entreprise pour demander un stage en marketing.",
+            buttonLabel: "Voir la lettre formelle",
+            answer:
+              "<p>Dear Sir or Madam,</p><p>I am writing to apply for an internship in your marketing department. I am a third-year student in Business Administration and I am highly motivated to gain practical experience.</p><p>During my studies, I have developed skills in communication, teamwork, and market research. I would be grateful for the opportunity to contribute to your team and learn from your professionals.</p><p>Thank you for considering my application. I am available for an interview at your convenience.</p><p>Yours faithfully,<br>Joelyk Yankam</p>"
+          }
+        ]
+      },
+      {
+        title: "Lettre informelle",
+        items: [
+          {
+            prompt:
+              "Situation : Tu &eacute;cris &agrave; un ami pour l'inviter &agrave; un &eacute;v&eacute;nement.",
+            buttonLabel: "Voir la lettre informelle",
+            answer:
+              "<p>Hi Alex,</p><p>How are you? I'm inviting you to my birthday party this Saturday at 6 p.m. at my place. There will be music and good food!</p><p>I really hope you can come. Let me know soon.</p><p>See you,<br>Joel</p>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 10,
+    title: "Cover Letter (Lettre de motivation)",
+    type: "translation",
+    duration: "00:07:30",
+    level: "Avanc&eacute;",
+    summary: "Structure d'une cover letter + mod&egrave;le.",
+    text: [
+      "Rappel : une cover letter doit pr&eacute;senter le poste vis&eacute;, les comp&eacute;tences cl&eacute;s, et la motivation.",
+      "Structure : Greeting &rarr; Position &rarr; Skills &rarr; Motivation &rarr; Closing."
+    ],
+    translationTitle: "Cover Letter",
+    translationSubtitle:
+      "Clique pour afficher un mod&egrave;le de cover letter.",
+    translations: [
+      {
+        title: "Cover letter (mod&egrave;le)",
+        items: [
+          {
+            prompt:
+              "Situation : Tu postules pour un poste de Junior Data Analyst.",
+            buttonLabel: "Voir la cover letter",
+            answer:
+              "<p>Dear Hiring Manager,</p><p>I am writing to apply for the Junior Data Analyst position at your company. I recently completed my degree in Computer Science and I am eager to apply my analytical skills in a professional environment.</p><p>Through my coursework and projects, I have gained experience in data cleaning, visualization, and SQL. I am confident I can contribute to your team by delivering clear and actionable insights.</p><p>I would welcome the opportunity to discuss my application in more detail. Thank you for your time and consideration.</p><p>Sincerely,<br>Joelyk Yankam</p>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 11,
+    title: "Interview Practice",
+    type: "translation",
+    duration: "00:09:00",
+    level: "Interm&eacute;diaire",
+    summary: "Questions d'entretien + r&eacute;ponses mod&egrave;les.",
+    text: [
+      "Rappel : r&eacute;ponds clairement, donne un exemple concret, et reste positif.",
+      "Utilise la structure STAR (Situation, Task, Action, Result) pour les exp&eacute;riences."
+    ],
+    translationTitle: "Interview Practice",
+    translationSubtitle:
+      "Clique pour voir une r&eacute;ponse mod&egrave;le.",
+    translations: [
+      {
+        title: "Questions courantes",
+        items: [
+          {
+            prompt: "Tell me about yourself.",
+            buttonLabel: "Voir la r&eacute;ponse",
+            answer:
+              "I am a motivated student with a strong interest in data and technology. I enjoy solving problems and learning new tools."
+          },
+          {
+            prompt: "Why do you want this job?",
+            buttonLabel: "Voir la r&eacute;ponse",
+            answer:
+              "This role matches my skills in analysis and communication, and it will allow me to grow professionally."
+          },
+          {
+            prompt: "What are your strengths?",
+            buttonLabel: "Voir la r&eacute;ponse",
+            answer:
+              "My strengths are problem-solving, teamwork, and attention to detail."
+          },
+          {
+            prompt: "What is your weakness?",
+            buttonLabel: "Voir la r&eacute;ponse",
+            answer:
+              "I can be too focused on details, but I am learning to manage my time better."
+          },
+          {
+            prompt: "Describe a challenge you faced.",
+            buttonLabel: "Voir la r&eacute;ponse",
+            answer:
+              "During a group project, we had a deadline issue. I organized tasks and we delivered on time."
+          },
+          {
+            prompt: "Where do you see yourself in 5 years?",
+            buttonLabel: "Voir la r&eacute;ponse",
+            answer:
+              "I see myself as a skilled professional leading projects and mentoring others."
+          }
+        ]
+      }
+    ]
   }
 ];
 

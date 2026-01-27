@@ -48,6 +48,8 @@
     const quizPanel = document.querySelector(".quiz-panel");
     const translationPanel = document.getElementById("translation-panel");
     const translationContent = document.getElementById("translation-content");
+    const translationTitle = document.getElementById("translation-title");
+    const translationSubtitle = document.getElementById("translation-subtitle");
     const questionNumber = document.getElementById("question-number");
     const questionTitle = document.getElementById("question-title");
     const optionsForm = document.getElementById("options-form");
@@ -86,6 +88,15 @@
     if (module.type === "translation") {
       if (quizPanel) quizPanel.classList.add("hidden");
       if (translationPanel) translationPanel.classList.remove("hidden");
+      if (translationTitle) {
+        translationTitle.innerHTML =
+          module.translationTitle || "Exercices de traduction";
+      }
+      if (translationSubtitle) {
+        translationSubtitle.innerHTML =
+          module.translationSubtitle ||
+          "Lis la phrase, r&eacute;fl&eacute;chis, puis clique pour voir la traduction propos&eacute;e.";
+      }
       if (progressLabel) progressLabel.textContent = "exercices";
       const totalItems = module.translations
         ? module.translations.reduce((sum, block) => sum + block.items.length, 0)
@@ -229,7 +240,7 @@
               <li class="translation-item">
                 <p><strong>${index + 1}.</strong> ${item.prompt}</p>
                 <button class="ghost-btn" type="button" data-toggle>
-                  Voir la traduction
+                  ${item.buttonLabel || "Voir la traduction"}
                 </button>
                 <div class="translation-answer hidden">${item.answer}</div>
               </li>
