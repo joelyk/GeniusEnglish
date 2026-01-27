@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body data-page="french">
     <div class="bg-orb orb-a"></div>
     <div class="bg-orb orb-b"></div>
     <div class="bg-grid"></div>
@@ -23,7 +23,7 @@
         <p class="eyebrow">Modules en fran&ccedil;ais</p>
         <h1>GeniusFrench</h1>
         <p class="subtitle">
-          Espace d'apprentissage en fran&ccedil;ais (bient&ocirc;t disponible).
+          Espace d'apprentissage en fran&ccedil;ais avec quiz niveau A1.
         </p>
       </div>
       <a class="primary-btn" href="index.html">Voir GeniusEnglish</a>
@@ -33,16 +33,14 @@
       <section class="panel">
         <div class="panel-head">
           <div>
-            <h2>Modules &agrave; venir</h2>
+            <h2>Modules disponibles</h2>
             <p class="muted">
-              Les modules en fran&ccedil;ais arrivent tr&egrave;s bient&ocirc;t.
+              Quiz A1 pour progresser pas &agrave; pas.
             </p>
           </div>
           <span class="chip">GeniusFrench</span>
         </div>
-        <p class="muted">
-          Tu pourras retrouver des lectures, des QCM et des exercices guid&eacute;s.
-        </p>
+        <div id="french-modules-grid" class="modules-grid"></div>
       </section>
     </main>
 
@@ -53,5 +51,8 @@
       </p>
       <p class="footer-contact">Contact WhatsApp : +237 652027193</p>
     </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>

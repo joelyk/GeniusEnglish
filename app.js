@@ -8,6 +8,9 @@
   if (page === "module") {
     renderModule();
   }
+  if (page === "french") {
+    renderFrenchHome();
+  }
   if (page === "course") {
     renderCourse();
   }
@@ -33,10 +36,36 @@
       .join("");
   }
 
+  function renderFrenchHome() {
+    const grid = document.getElementById("french-modules-grid");
+    if (!grid) return;
+    const frenchModules = window.GENIUS_FRENCH_MODULES || [];
+    grid.innerHTML = frenchModules
+      .map((module) => {
+        return `
+        <article class="module-card">
+          <p class="eyebrow">Module ${module.id}</p>
+          <h3>${module.title}</h3>
+          <p>${module.summary}</p>
+          <span class="chip">${module.level}</span>
+          <a class="primary-btn" href="module.html?lang=fr&module=${module.id}">
+            Ouvrir le module
+          </a>
+        </article>
+      `;
+      })
+      .join("");
+  }
+
   function renderModule() {
     const params = new URLSearchParams(window.location.search);
     const moduleId = Number(params.get("module")) || 1;
-    const module = modules.find((item) => item.id === moduleId) || modules[0];
+    const lang = params.get("lang") || "en";
+    const moduleSet =
+      lang === "fr"
+        ? window.GENIUS_FRENCH_MODULES || []
+        : modules;
+    const module = moduleSet.find((item) => item.id === moduleId) || moduleSet[0];
     if (!module) return;
 
     const moduleTitle = document.getElementById("module-title");

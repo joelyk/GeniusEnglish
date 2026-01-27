@@ -1965,6 +1965,411 @@ window.GENIUS_COURSES = [
   }
 ];
 
+window.GENIUS_FRENCH_MODULES = [
+  {
+    id: 1,
+    title: "Culture g&eacute;n&eacute;rale A1",
+    type: "quiz",
+    duration: "00:10:00",
+    level: "A1",
+    summary: "Questions simples sur le monde et la vie quotidienne.",
+    text: [
+      "Ce module A1 propose des questions faciles de culture g&eacute;n&eacute;rale.",
+      "Lis bien la question et choisis la r&eacute;ponse la plus simple."
+    ],
+    questions: [
+      {
+        prompt: "Quelle est la couleur du ciel par beau temps ?",
+        choices: ["Rouge", "Bleu", "Vert", "Noir"],
+        answer: 1,
+        explanation: "Le ciel est bleu quand il fait beau."
+      },
+      {
+        prompt: "Quel est l'astre qui donne la lumi&egrave;re le jour ?",
+        choices: ["La lune", "Le soleil", "Une &eacute;toile", "La Terre"],
+        answer: 1,
+        explanation: "Le soleil &eacute;claire la journ&eacute;e."
+      },
+      {
+        prompt: "Combien y a-t-il de jours dans une semaine ?",
+        choices: ["5", "6", "7", "8"],
+        answer: 2,
+        explanation: "Une semaine a 7 jours."
+      },
+      {
+        prompt: "O&ugrave; habite le poisson ?",
+        choices: ["Dans l'air", "Dans l'eau", "Sur la route", "Dans le feu"],
+        answer: 1,
+        explanation: "Le poisson vit dans l'eau."
+      },
+      {
+        prompt: "Quel est le contraire de petit ?",
+        choices: ["Grand", "Froid", "Vite", "Rond"],
+        answer: 0,
+        explanation: "Le contraire de petit est grand."
+      },
+      {
+        prompt: "Quelle saison vient apr&egrave;s l'hiver ?",
+        choices: ["Le printemps", "L'&eacute;t&eacute;", "L'automne", "La nuit"],
+        answer: 0,
+        explanation: "Apr&egrave;s l'hiver vient le printemps."
+      },
+      {
+        prompt: "Quel fruit est jaune ?",
+        choices: ["La banane", "La fraise", "La pomme verte", "Le raisin noir"],
+        answer: 0,
+        explanation: "La banane est jaune."
+      },
+      {
+        prompt: "O&ugrave; se trouve la bouche ?",
+        choices: ["Sur la main", "Sur le pied", "Sur le visage", "Sur le dos"],
+        answer: 2,
+        explanation: "La bouche est sur le visage."
+      },
+      {
+        prompt: "Quel animal dit 'miaou' ?",
+        choices: ["Le chien", "Le chat", "Le cheval", "Le mouton"],
+        answer: 1,
+        explanation: "Le chat dit miaou."
+      },
+      {
+        prompt: "Quel est le premier jour de la semaine ?",
+        choices: ["Lundi", "Vendredi", "Dimanche", "Samedi"],
+        answer: 0,
+        explanation: "En fran&ccedil;ais, la semaine commence lundi."
+      },
+      {
+        prompt: "Quel objet sert &agrave; &eacute;crire ?",
+        choices: ["Une assiette", "Un stylo", "Un chapeau", "Un ballon"],
+        answer: 1,
+        explanation: "On &eacute;crit avec un stylo."
+      },
+      {
+        prompt: "Quel est le contraire de chaud ?",
+        choices: ["Froid", "Vieux", "Lent", "Joli"],
+        answer: 0,
+        explanation: "Le contraire de chaud est froid."
+      },
+      {
+        prompt: "Quelle boisson est faite avec des feuilles ?",
+        choices: ["L'eau", "Le th&eacute;", "Le lait", "Le jus"],
+        answer: 1,
+        explanation: "Le th&eacute; vient des feuilles."
+      },
+      {
+        prompt: "Quel est un moyen de transport ?",
+        choices: ["Un livre", "Un bus", "Une fourchette", "Un lit"],
+        answer: 1,
+        explanation: "Le bus est un moyen de transport."
+      },
+      {
+        prompt: "O&ugrave; se trouve la mer ?",
+        choices: ["Sur la montagne", "Au bord des continents", "Dans le d&eacute;sert", "Dans la for&ecirc;t"],
+        answer: 1,
+        explanation: "La mer est au bord des continents."
+      },
+      {
+        prompt: "Quel est un l&eacute;gume ?",
+        choices: ["La carotte", "La banane", "Le chocolat", "Le sucre"],
+        answer: 0,
+        explanation: "La carotte est un l&eacute;gume."
+      },
+      {
+        prompt: "Quel animal vit dans la savane ?",
+        choices: ["Le pingouin", "Le lion", "Le dauphin", "La grenouille"],
+        answer: 1,
+        explanation: "Le lion vit dans la savane."
+      },
+      {
+        prompt: "Quel est le contraire de vite ?",
+        choices: ["Lent", "Grand", "Fort", "Lourd"],
+        answer: 0,
+        explanation: "Le contraire de vite est lent."
+      },
+      {
+        prompt: "Quel objet sert &agrave; couper ?",
+        choices: ["Un couteau", "Un cahier", "Une chaise", "Une lampe"],
+        answer: 0,
+        explanation: "On coupe avec un couteau."
+      },
+      {
+        prompt: "Quelle plan&egrave;te est la Terre ?",
+        choices: ["Une &eacute;toile", "Une plan&egrave;te", "Un satellite", "Un nuage"],
+        answer: 1,
+        explanation: "La Terre est une plan&egrave;te."
+      }
+    ]
+  },
+  {
+    id: 2,
+    title: "Texte simple A1",
+    type: "quiz",
+    duration: "00:12:00",
+    level: "A1",
+    summary: "Compr&eacute;hension d'un petit texte.",
+    text: [
+      "Paul est &eacute;tudiant. Il habite &agrave; Dschang avec sa famille. Chaque matin, il prend le petit d&eacute;jeuner et va &agrave; l'universit&eacute; &agrave; 8h. Apr&egrave;s les cours, il aime lire et jouer au football.",
+      "Le week-end, Paul rend visite &agrave; ses amis. Il aide aussi sa m&egrave;re &agrave; la maison."
+    ],
+    questions: [
+      {
+        prompt: "Paul est :",
+        choices: ["Un professeur", "Un &eacute;tudiant", "Un docteur", "Un chauffeur"],
+        answer: 1,
+        explanation: "Le texte dit : Paul est &eacute;tudiant."
+      },
+      {
+        prompt: "O&ugrave; habite Paul ?",
+        choices: ["Douala", "Yaound&eacute;", "Dschang", "Paris"],
+        answer: 2,
+        explanation: "Il habite &agrave; Dschang."
+      },
+      {
+        prompt: "Que fait Paul chaque matin ?",
+        choices: ["Il voyage", "Il prend le petit d&eacute;jeuner", "Il dort", "Il lit"],
+        answer: 1,
+        explanation: "Il prend le petit d&eacute;jeuner."
+      },
+      {
+        prompt: "&Agrave; quelle heure va-t-il &agrave; l'universit&eacute; ?",
+        choices: ["7h", "8h", "9h", "10h"],
+        answer: 1,
+        explanation: "Il va &agrave; l'universit&eacute; &agrave; 8h."
+      },
+      {
+        prompt: "Que fait-il apr&egrave;s les cours ?",
+        choices: ["Il joue au football", "Il dort", "Il cuisine", "Il travaille"],
+        answer: 0,
+        explanation: "Apr&egrave;s les cours, il aime lire et jouer au football."
+      },
+      {
+        prompt: "Que fait-il le week-end ?",
+        choices: ["Il va &agrave; la plage", "Il rend visite &agrave; ses amis", "Il dort toute la journ&eacute;e", "Il voyage"],
+        answer: 1,
+        explanation: "Il rend visite &agrave; ses amis."
+      },
+      {
+        prompt: "Paul aide qui &agrave; la maison ?",
+        choices: ["Son p&egrave;re", "Sa m&egrave;re", "Son fr&egrave;re", "Sa s&oelig;ur"],
+        answer: 1,
+        explanation: "Il aide sa m&egrave;re."
+      },
+      {
+        prompt: "Quel est l'activit&eacute; cit&eacute;e apr&egrave;s les cours ?",
+        choices: ["Le piano", "Le football", "La danse", "Le jardinage"],
+        answer: 1,
+        explanation: "Il aime jouer au football."
+      },
+      {
+        prompt: "Paul vit avec :",
+        choices: ["Ses amis", "Sa famille", "Ses coll&egrave;gues", "Personne"],
+        answer: 1,
+        explanation: "Il habite avec sa famille."
+      },
+      {
+        prompt: "Quel est le sujet principal du texte ?",
+        choices: ["La m&eacute;t&eacute;o", "La routine de Paul", "Les vacances", "Le travail"],
+        answer: 1,
+        explanation: "Le texte d&eacute;crit la routine de Paul."
+      },
+      {
+        prompt: "Paul est :",
+        choices: ["Enfant", "Adulte &eacute;tudiant", "B&eacute;b&eacute;", "Retrait&eacute;"],
+        answer: 1,
+        explanation: "Il est &eacute;tudiant, donc adulte."
+      },
+      {
+        prompt: "Apr&egrave;s les cours, Paul aime aussi :",
+        choices: ["Lire", "Cuisiner", "Nager", "Dormir"],
+        answer: 0,
+        explanation: "Le texte dit qu'il aime lire."
+      },
+      {
+        prompt: "Le week-end, Paul :",
+        choices: ["Travaille &agrave; l'usine", "Visite ses amis", "Voyage loin", "Ne fait rien"],
+        answer: 1,
+        explanation: "Il rend visite &agrave; ses amis."
+      },
+      {
+        prompt: "Paul va &agrave; l'universit&eacute; :",
+        choices: ["Le matin", "Le soir", "La nuit", "Jamais"],
+        answer: 0,
+        explanation: "Il y va le matin."
+      },
+      {
+        prompt: "Il aide sa m&egrave;re :",
+        choices: ["Au march&eacute;", "&Agrave; la maison", "Au travail", "A l'&eacute;cole"],
+        answer: 1,
+        explanation: "Il aide sa m&egrave;re &agrave; la maison."
+      },
+      {
+        prompt: "Paul aime jouer :",
+        choices: ["Au tennis", "Au football", "Au basketball", "Au handball"],
+        answer: 1,
+        explanation: "Le texte parle du football."
+      },
+      {
+        prompt: "Dschang est :",
+        choices: ["Une ville", "Un animal", "Un livre", "Une voiture"],
+        answer: 0,
+        explanation: "Dschang est une ville."
+      },
+      {
+        prompt: "Paul est &eacute;tudiant &agrave; :",
+        choices: ["La maison", "L'universit&eacute;", "La banque", "L'h&ocirc;pital"],
+        answer: 1,
+        explanation: "Il va &agrave; l'universit&eacute;."
+      },
+      {
+        prompt: "Paul prend le petit d&eacute;jeuner :",
+        choices: ["Le matin", "Le soir", "La nuit", "Jamais"],
+        answer: 0,
+        explanation: "Chaque matin il prend le petit d&eacute;jeuner."
+      },
+      {
+        prompt: "Le texte est :",
+        choices: ["Un dialogue", "Un r&eacute;cit simple", "Une po&eacute;sie", "Une lettre"],
+        answer: 1,
+        explanation: "C'est un r&eacute;cit simple."
+      }
+    ]
+  },
+  {
+    id: 3,
+    title: "Nombres et calculs A1",
+    type: "quiz",
+    duration: "00:12:00",
+    level: "A1",
+    summary: "Comprendre les nombres et les calculs simples.",
+    text: [
+      "Ce module travaille les nombres, les heures et les petits calculs.",
+      "Lis bien et choisis la r&eacute;ponse correcte."
+    ],
+    questions: [
+      {
+        prompt: "Combien font 2 + 2 ?",
+        choices: ["3", "4", "5", "6"],
+        answer: 1,
+        explanation: "2 + 2 = 4."
+      },
+      {
+        prompt: "Le nombre qui vient apr&egrave;s 9 est :",
+        choices: ["8", "9", "10", "11"],
+        answer: 2,
+        explanation: "Apr&egrave;s 9 vient 10."
+      },
+      {
+        prompt: "Combien font 5 - 3 ?",
+        choices: ["1", "2", "3", "4"],
+        answer: 1,
+        explanation: "5 - 3 = 2."
+      },
+      {
+        prompt: "Combien font 3 + 7 ?",
+        choices: ["9", "10", "11", "12"],
+        answer: 1,
+        explanation: "3 + 7 = 10."
+      },
+      {
+        prompt: "Quel nombre est pair ?",
+        choices: ["3", "5", "6", "9"],
+        answer: 2,
+        explanation: "6 est un nombre pair."
+      },
+      {
+        prompt: "Combien font 10 - 1 ?",
+        choices: ["8", "9", "10", "11"],
+        answer: 1,
+        explanation: "10 - 1 = 9."
+      },
+      {
+        prompt: "Quel nombre est plus grand ?",
+        choices: ["12", "8", "6", "3"],
+        answer: 0,
+        explanation: "12 est le plus grand."
+      },
+      {
+        prompt: "Combien font 4 + 4 ?",
+        choices: ["6", "7", "8", "9"],
+        answer: 2,
+        explanation: "4 + 4 = 8."
+      },
+      {
+        prompt: "Combien font 9 - 4 ?",
+        choices: ["4", "5", "6", "7"],
+        answer: 1,
+        explanation: "9 - 4 = 5."
+      },
+      {
+        prompt: "Quel est le double de 5 ?",
+        choices: ["8", "9", "10", "11"],
+        answer: 2,
+        explanation: "Le double de 5 est 10."
+      },
+      {
+        prompt: "Quel est la moiti&eacute; de 8 ?",
+        choices: ["2", "3", "4", "5"],
+        answer: 2,
+        explanation: "La moiti&eacute; de 8 est 4."
+      },
+      {
+        prompt: "Combien font 6 + 1 ?",
+        choices: ["6", "7", "8", "9"],
+        answer: 1,
+        explanation: "6 + 1 = 7."
+      },
+      {
+        prompt: "Le nombre avant 20 est :",
+        choices: ["18", "19", "21", "22"],
+        answer: 1,
+        explanation: "Avant 20, il y a 19."
+      },
+      {
+        prompt: "Combien font 7 - 2 ?",
+        choices: ["4", "5", "6", "7"],
+        answer: 1,
+        explanation: "7 - 2 = 5."
+      },
+      {
+        prompt: "Combien font 1 + 1 ?",
+        choices: ["1", "2", "3", "4"],
+        answer: 1,
+        explanation: "1 + 1 = 2."
+      },
+      {
+        prompt: "Quel nombre est impair ?",
+        choices: ["2", "4", "7", "8"],
+        answer: 2,
+        explanation: "7 est impair."
+      },
+      {
+        prompt: "Combien font 8 - 3 ?",
+        choices: ["4", "5", "6", "7"],
+        answer: 1,
+        explanation: "8 - 3 = 5."
+      },
+      {
+        prompt: "Combien font 2 + 5 ?",
+        choices: ["6", "7", "8", "9"],
+        answer: 1,
+        explanation: "2 + 5 = 7."
+      },
+      {
+        prompt: "Combien font 9 + 0 ?",
+        choices: ["0", "9", "10", "11"],
+        answer: 1,
+        explanation: "9 + 0 = 9."
+      },
+      {
+        prompt: "Combien font 10 - 5 ?",
+        choices: ["3", "4", "5", "6"],
+        answer: 2,
+        explanation: "10 - 5 = 5."
+      }
+    ]
+  }
+];
+
 
 
 
