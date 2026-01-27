@@ -384,5 +384,159 @@ window.GENIUS_MODULES = [
         ]
       }
     ]
+  },
+  {
+    id: 5,
+    title: "English Tenses Review",
+    type: "quiz",
+    duration: "00:12:00",
+    level: "Interm&eacute;diaire",
+    summary:
+      "15 questions sur les temps : conjugaison, compl&eacute;tion, arrangement.",
+    text: [
+      "This module reviews key English tenses with short tasks: conjugate, complete the sentence, or arrange words into the correct order. Focus on time markers and auxiliary verbs (do/does, did, have/has, will)."
+    ],
+    questions: [
+      {
+        prompt:
+          "Conjugate: She (to go) to school every day.",
+        choices: ["go", "goes", "going", "went"],
+        answer: 1,
+        explanation:
+          "Pr&eacute;sent simple, 3e personne du singulier : he/she/it + s. Rappel : go &rarr; goes."
+      },
+      {
+        prompt:
+          "Complete: They ______ (watch) TV right now.",
+        choices: ["watch", "are watching", "watched", "have watched"],
+        answer: 1,
+        explanation:
+          "Pr&eacute;sent continu = be + V-ing. Indice : right now."
+      },
+      {
+        prompt:
+          "Arrange the words: (yesterday / I / a new phone / buy)",
+        choices: [
+          "I buy a new phone yesterday.",
+          "Yesterday I bought a new phone.",
+          "I have bought a new phone yesterday.",
+          "Yesterday I buyed a new phone."
+        ],
+        answer: 1,
+        explanation:
+          "Pass&eacute; simple + marqueur de temps (yesterday). buy &rarr; bought. Review: irregular verb."
+      },
+      {
+        prompt:
+          "Complete: We ______ (finish) our homework before dinner.",
+        choices: ["finish", "finished", "had finished", "have finish"],
+        answer: 2,
+        explanation:
+          "Plus-que-parfait (past perfect) : had + V3. L'action est termin&eacute;e avant un autre moment pass&eacute;. Review: V3 = past participle."
+      },
+      {
+        prompt:
+          "Conjugate: He (to not like) coffee.",
+        choices: ["doesn't like", "don't like", "didn't like", "isn't like"],
+        answer: 0,
+        explanation:
+          "Pr&eacute;sent simple n&eacute;gatif : does not + base verb. He doesn't like."
+      },
+      {
+        prompt:
+          "Complete: She ______ (live) here since 2020.",
+        choices: ["lives", "has lived", "lived", "is living"],
+        answer: 1,
+        explanation:
+          "Present perfect + since. has + V3 pour une action commenc&eacute;e dans le pass&eacute; et toujours vraie. Review: since = point de d&eacute;part."
+      },
+      {
+        prompt:
+          "Arrange the words: (tomorrow / will / we / meet / at 8)",
+        choices: [
+          "We will meet at 8 tomorrow.",
+          "We meet will at 8 tomorrow.",
+          "Tomorrow will we meet at 8.",
+          "We will met at 8 tomorrow."
+        ],
+        answer: 0,
+        explanation:
+          "Futur simple : will + base verb. Ordre naturel : sujet + will + verbe."
+      },
+      {
+        prompt:
+          "Complete: I ______ (already / see) that movie.",
+        choices: ["already saw", "have already seen", "am already seeing", "already see"],
+        answer: 1,
+        explanation:
+          "Present perfect : have + V3. already se place entre have et V3. Review: already = d&eacute;j&agrave;."
+      },
+      {
+        prompt:
+          "Conjugate: By next year, she ______ (graduate).",
+        choices: ["graduates", "will graduate", "will have graduated", "graduated"],
+        answer: 2,
+        explanation:
+          "Futur ant&eacute;rieur : will have + V3. Action termin&eacute;e avant un moment futur."
+      },
+      {
+        prompt:
+          "Complete: When I arrived, they ______ (eat).",
+        choices: ["eat", "were eating", "had ate", "are eating"],
+        answer: 1,
+        explanation:
+          "Past continuous : was/were + V-ing. Action en cours interrompue par une autre action pass&eacute;e. Review: when = interruption."
+      },
+      {
+        prompt:
+          "Arrange the words: (not / she / did / understand / the lesson)",
+        choices: [
+          "She did not understand the lesson.",
+          "She not did understand the lesson.",
+          "She did not understood the lesson.",
+          "She did understand not the lesson."
+        ],
+        answer: 0,
+        explanation:
+          "Pass&eacute; simple n&eacute;gatif : did not + base verb. Pas de V2 apr&egrave;s did."
+      },
+      {
+        prompt:
+          "Complete: If he ______ (study) more, he would pass.",
+        choices: ["studies", "studied", "had studied", "study"],
+        answer: 1,
+        explanation:
+          "Conditionnel type 2 : If + past simple, would + base verb. Review: hypothetical/irreal."
+      },
+      {
+        prompt:
+          "Conjugate: We ______ (not / see) him since Monday.",
+        choices: ["didn't see", "haven't seen", "don't see", "aren't seeing"],
+        answer: 1,
+        explanation:
+          "Present perfect + since : have/has + V3. since Monday. Review: since = depuis."
+      },
+      {
+        prompt:
+          "Complete: She ______ (cook) when the phone rang.",
+        choices: ["cooked", "was cooking", "is cooking", "has cooked"],
+        answer: 1,
+        explanation:
+          "Past continuous pour une action longue interrompue par une action courte. Review: rang = V2 of ring."
+      },
+      {
+        prompt:
+          "Arrange the words: (I / ever / have / been / to London)",
+        choices: [
+          "I have ever been to London.",
+          "I ever have been to London.",
+          "Have I ever been to London.",
+          "I have been to London ever."
+        ],
+        answer: 0,
+        explanation:
+          "Present perfect : have + V3. ever se place apr&egrave;s have. Review: ever = d&eacute;j&agrave; (exp&eacute;rience)."
+      }
+    ]
   }
 ];
