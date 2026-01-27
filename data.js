@@ -394,7 +394,8 @@ window.GENIUS_MODULES = [
     summary:
       "15 questions sur les temps : conjugaison, compl&eacute;tion, arrangement.",
     text: [
-      "This module reviews key English tenses with short tasks: conjugate, complete the sentence, or arrange words into the correct order. Focus on time markers and auxiliary verbs (do/does, did, have/has, will)."
+      "This module reviews key English tenses with short tasks: conjugate, complete the sentence, or arrange words into the correct order. Focus on time markers and auxiliary verbs (do/does, did, have/has, will).",
+      "R&egrave;gles cl&eacute;s (mini fiche) : Present simple = habitudes + he/she/it + s. Present continuous = be + V-ing. Past simple = action finie + V2. Past continuous = was/were + V-ing (action en cours). Present perfect = have/has + V3 (lien avec le pr&eacute;sent). Past perfect = had + V3 (avant un autre pass&eacute;). Future simple = will + base verb. Future perfect = will have + V3. If type 2 = if + past simple, would + base verb."
     ],
     questions: [
       {
