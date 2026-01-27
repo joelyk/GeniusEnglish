@@ -1,13 +1,15 @@
 # GeniusEnglish
 
 Mini site d'entraînement en anglais avec modules de lecture + QCM interactifs.
-Tout est en HTML/CSS/JS (sans backend), idéal pour GitHub Pages.
+Tout est en HTML/CSS/JS.
 
 ## Auteur
-Mr Yankam Joel
+Mr Yankam Ngueguim Joel Stéphane
 
 ## Organisation
 GroupeGeniusRepetitions
+GeniusClassroooms
+PandaCodeur.com
 
 ## Contenu
 - Page d'accueil avec la liste des modules
