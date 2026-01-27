@@ -539,5 +539,367 @@ window.GENIUS_MODULES = [
           "Present perfect : have + V3. ever se place apr&egrave;s have. Review: ever = d&eacute;j&agrave; (exp&eacute;rience)."
       }
     ]
+  },
+  {
+    id: 6,
+    title: "Daily Routines",
+    type: "quiz",
+    duration: "00:05:30",
+    level: "Basique",
+    summary: "Compr&eacute;hension d'un texte sur la routine quotidienne.",
+    text: [
+      "Tom wakes up at 6:30 every morning. He gets dressed, has breakfast, and walks to the bus stop. He arrives at work at 8:00. In the evening, he cooks dinner, watches TV, and goes to bed at 10:30.",
+      "On weekends, Tom usually sleeps later and visits his friends. He sometimes plays football on Saturday afternoons."
+    ],
+    questions: [
+      {
+        prompt: "What time does Tom wake up?",
+        choices: ["6:00", "6:30", "7:00", "7:30"],
+        answer: 1,
+        explanation:
+          "Le texte dit : &ldquo;Tom wakes up at 6:30 every morning.&rdquo;"
+      },
+      {
+        prompt: "How does Tom go to the bus stop?",
+        choices: ["He drives", "He walks", "He rides a bike", "He takes a taxi"],
+        answer: 1,
+        explanation:
+          "&ldquo;He walks to the bus stop.&rdquo;"
+      },
+      {
+        prompt: "What time does he arrive at work?",
+        choices: ["7:30", "8:00", "8:30", "9:00"],
+        answer: 1,
+        explanation:
+          "Le texte pr&eacute;cise : &ldquo;He arrives at work at 8:00.&rdquo;"
+      },
+      {
+        prompt: "What does Tom do in the evening?",
+        choices: [
+          "He studies",
+          "He cooks dinner and watches TV",
+          "He goes to the gym",
+          "He plays football"
+        ],
+        answer: 1,
+        explanation:
+          "Le soir : &ldquo;He cooks dinner, watches TV, and goes to bed.&rdquo;"
+      },
+      {
+        prompt: "What does Tom usually do on weekends?",
+        choices: [
+          "He sleeps later and visits friends",
+          "He works",
+          "He travels abroad",
+          "He does nothing"
+        ],
+        answer: 0,
+        explanation:
+          "Weekends : &ldquo;Tom usually sleeps later and visits his friends.&rdquo;"
+      }
+    ]
+  },
+  {
+    id: 7,
+    title: "Linking Words",
+    type: "quiz",
+    duration: "00:06:00",
+    level: "Interm&eacute;diaire",
+    summary: "Choisir les bons connecteurs logiques.",
+    text: [
+      "Linking words help connect ideas. Examples include: because, however, therefore, although, and in addition."
+    ],
+    questions: [
+      {
+        prompt: "I was tired, ______ I went to bed early.",
+        choices: ["because", "so", "although", "however"],
+        answer: 1,
+        explanation:
+          "Cons&eacute;quence : so / therefore. Here: so."
+      },
+      {
+        prompt: "She studied hard, ______ she failed the test.",
+        choices: ["because", "but", "so", "therefore"],
+        answer: 1,
+        explanation:
+          "Contraste : but / however."
+      },
+      {
+        prompt: "I didn't go out ______ it was raining.",
+        choices: ["so", "because", "although", "therefore"],
+        answer: 1,
+        explanation:
+          "Cause : because."
+      },
+      {
+        prompt: "______ he is young, he is very responsible.",
+        choices: ["Although", "So", "Because", "Therefore"],
+        answer: 0,
+        explanation:
+          "Concession : although."
+      },
+      {
+        prompt: "We finished the work; ______, we can rest.",
+        choices: ["however", "therefore", "because", "although"],
+        answer: 1,
+        explanation:
+          "Cons&eacute;quence logique : therefore."
+      }
+    ]
+  }
+];
+
+window.GENIUS_COURSES = [
+  {
+    id: "basique-vocab-1",
+    title: "Vocabulaire 1 : salutations et pr&eacute;sentations",
+    levelLabel: "Basique",
+    subtitle: "Se pr&eacute;senter et saluer correctement.",
+    goal: "Savoir dire bonjour, se pr&eacute;senter et engager un mini dialogue.",
+    keywords: ["hello", "hi", "good morning", "I am...", "My name is..."],
+    examples: [
+      "Hello! I am Paul.",
+      "Hi, my name is Clara.",
+      "Nice to meet you."
+    ],
+    tip: "Attention &agrave; la politesse : &ldquo;Nice to meet you&rdquo; reste la formule la plus simple."
+  },
+  {
+    id: "basique-vocab-2",
+    title: "Vocabulaire 2 : chiffres, heures, dates",
+    levelLabel: "Basique",
+    subtitle: "Dire les nombres, l'heure et les dates.",
+    goal: "Savoir annoncer une heure ou une date sans h&eacute;siter.",
+    keywords: ["one to one hundred", "a.m.", "p.m.", "Monday", "January"],
+    examples: [
+      "It is 8:30 a.m.",
+      "My birthday is on January 12th.",
+      "Today is Monday."
+    ],
+    tip: "Rappel : 1st = first, 2nd = second, 3rd = third."
+  },
+  {
+    id: "basique-gram-1",
+    title: "Grammaire 1 : verbe &ecirc;tre / avoir",
+    levelLabel: "Basique",
+    subtitle: "Utiliser to be / to have.",
+    goal: "Conjuguer les verbes les plus fr&eacute;quents.",
+    keywords: ["I am", "you are", "he is", "I have", "she has"],
+    examples: [
+      "I am a student.",
+      "He is happy.",
+      "She has a new book."
+    ],
+    tip: "Contractions : I'm, you're, he's, she's."
+  },
+  {
+    id: "basique-gram-2",
+    title: "Grammaire 2 : pr&eacute;sent simple",
+    levelLabel: "Basique",
+    subtitle: "Parler des habitudes et routines.",
+    goal: "Former des phrases simples au pr&eacute;sent.",
+    keywords: ["I work", "he works", "she plays", "every day", "always"],
+    examples: [
+      "I work every day.",
+      "She plays tennis on Sundays.",
+      "He studies at night."
+    ],
+    tip: "3e personne : he/she/it + s (work &rarr; works)."
+  },
+  {
+    id: "basique-adj-1",
+    title: "Adjectifs 1 : couleurs, tailles, formes",
+    levelLabel: "Basique",
+    subtitle: "D&eacute;crire simplement un objet.",
+    goal: "Utiliser des adjectifs de base.",
+    keywords: ["red", "blue", "big", "small", "round", "square"],
+    examples: [
+      "A big red car.",
+      "A small blue bag.",
+      "A round table."
+    ],
+    tip: "En anglais, l'adjectif se place avant le nom."
+  },
+  {
+    id: "basique-adj-2",
+    title: "Adjectifs 2 : qualit&eacute;s simples",
+    levelLabel: "Basique",
+    subtitle: "Exprimer une qualit&eacute; ou un &eacute;tat.",
+    goal: "Utiliser des adjectifs courants.",
+    keywords: ["good", "bad", "nice", "happy", "fast", "slow"],
+    examples: [
+      "She is happy.",
+      "This is a good idea.",
+      "A slow bus."
+    ],
+    tip: "good/bad ne prennent pas de -ly (ce sont des adjectifs)."
+  },
+  {
+    id: "inter-vocab-3",
+    title: "Vocabulaire 3 : voyages et transports",
+    levelLabel: "Interm&eacute;diaire",
+    subtitle: "Se d&eacute;placer et demander son chemin.",
+    goal: "Utiliser le vocabulaire des transports.",
+    keywords: ["ticket", "airport", "station", "direction", "itinerary"],
+    examples: [
+      "Where is the ticket office?",
+      "The train station is near the airport.",
+      "Can you give me directions?"
+    ],
+    tip: "Direction = direction/chemin, itinerary = itin&eacute;raire."
+  },
+  {
+    id: "inter-vocab-4",
+    title: "Vocabulaire 4 : travail et &eacute;tudes",
+    levelLabel: "Interm&eacute;diaire",
+    subtitle: "Parler du travail et de l'universit&eacute;.",
+    goal: "D&eacute;crire un contexte professionnel ou scolaire.",
+    keywords: ["job title", "meeting", "report", "campus life", "deadline"],
+    examples: [
+      "We have a meeting at 10.",
+      "Campus life is busy.",
+      "The report is due tomorrow."
+    ],
+    tip: "Job title = poste, deadline = date limite."
+  },
+  {
+    id: "inter-gram-3",
+    title: "Grammaire 3 : pr&eacute;sent continu",
+    levelLabel: "Interm&eacute;diaire",
+    subtitle: "Exprimer une action en cours.",
+    goal: "Former le present continuous correctement.",
+    keywords: ["am/is/are", "V-ing", "now", "currently"],
+    examples: [
+      "I am studying now.",
+      "She is working currently.",
+      "They are waiting."
+    ],
+    tip: "be + V-ing, et non pas le pr&eacute;sent simple."
+  },
+  {
+    id: "inter-gram-4",
+    title: "Grammaire 4 : pass&eacute; simple",
+    levelLabel: "Interm&eacute;diaire",
+    subtitle: "Parler d'un fait termin&eacute;.",
+    goal: "Utiliser le past simple avec marqueurs de temps.",
+    keywords: ["yesterday", "last week", "V2", "regular/irregular"],
+    examples: [
+      "I visited Paris last year.",
+      "She went home yesterday.",
+      "They played football."
+    ],
+    tip: "Past simple = action termin&eacute;e dans le pass&eacute;."
+  },
+  {
+    id: "inter-adj-3",
+    title: "Adjectifs 3 : comparatifs et superlatifs",
+    levelLabel: "Interm&eacute;diaire",
+    subtitle: "Comparer des objets ou personnes.",
+    goal: "Utiliser -er / more et the -est / the most.",
+    keywords: ["older", "faster", "more interesting", "the best"],
+    examples: [
+      "She is older than me.",
+      "This book is more interesting.",
+      "He is the best player."
+    ],
+    tip: "Short adj = -er / -est ; long adj = more / most."
+  },
+  {
+    id: "inter-adj-4",
+    title: "Adjectifs 4 : sentiments et &eacute;motions",
+    levelLabel: "Interm&eacute;diaire",
+    subtitle: "Exprimer un sentiment.",
+    goal: "D&eacute;crire ce qu'on ressent.",
+    keywords: ["excited", "nervous", "proud", "disappointed", "relieved"],
+    examples: [
+      "I am excited about the trip.",
+      "He feels nervous.",
+      "She is proud of her results."
+    ],
+    tip: "Confused = confus, embarrassed = g&ecirc;n&eacute;."
+  },
+  {
+    id: "adv-vocab-5",
+    title: "Vocabulaire 5 : business et n&eacute;gociation",
+    levelLabel: "Avanc&eacute;",
+    subtitle: "Lexique des affaires.",
+    goal: "N&eacute;gocier, proposer et conclure.",
+    keywords: ["deal", "contract", "proposal", "deadline", "target"],
+    examples: [
+      "We signed the contract.",
+      "The proposal was accepted.",
+      "The deadline is Friday."
+    ],
+    tip: "Deal = accord, proposal = proposition, target = objectif."
+  },
+  {
+    id: "adv-vocab-6",
+    title: "Vocabulaire 6 : technologie et innovation",
+    levelLabel: "Avanc&eacute;",
+    subtitle: "Parler tech avec aisance.",
+    goal: "Comprendre le vocabulaire moderne.",
+    keywords: ["AI", "data", "systems", "research", "prototype"],
+    examples: [
+      "AI systems use data.",
+      "The prototype is ready.",
+      "Research drives innovation."
+    ],
+    tip: "Data est souvent pluriel en anglais formel."
+  },
+  {
+    id: "adv-gram-5",
+    title: "Grammaire 5 : conditionnels",
+    levelLabel: "Avanc&eacute;",
+    subtitle: "Exprimer des hypoth&egrave;ses.",
+    goal: "Ma&icirc;triser les sch&eacute;mas if + tense.",
+    keywords: ["if", "would", "could", "mixed", "type 0-3"],
+    examples: [
+      "If it rains, we stay home.",
+      "If I studied more, I would pass.",
+      "If she had known, she would have come."
+    ],
+    tip: "Type 2 = situation irr&eacute;elle, Type 3 = pass&eacute; irr&eacute;el."
+  },
+  {
+    id: "adv-gram-6",
+    title: "Grammaire 6 : discours indirect",
+    levelLabel: "Avanc&eacute;",
+    subtitle: "Rapporter des paroles.",
+    goal: "Transformer une phrase directe en indirecte.",
+    keywords: ["reported speech", "backshift", "said", "told"],
+    examples: [
+      "He said he was tired.",
+      "She told me she would come.",
+      "They said they had left."
+    ],
+    tip: "Backshift : present &rarr; past, will &rarr; would."
+  },
+  {
+    id: "adv-adj-5",
+    title: "Adjectifs 5 : nuances",
+    levelLabel: "Avanc&eacute;",
+    subtitle: "Pr&eacute;ciser le sens.",
+    goal: "Exprimer des nuances fines.",
+    keywords: ["subtle", "blunt", "vague", "precise", "concise"],
+    examples: [
+      "Her answer was vague.",
+      "He gave a concise summary.",
+      "The difference is subtle."
+    ],
+    tip: "Subtle = subtil, blunt = direct/franc."
+  },
+  {
+    id: "adv-adj-6",
+    title: "Adjectifs 6 : style &eacute;crit et formel",
+    levelLabel: "Avanc&eacute;",
+    subtitle: "Am&eacute;liorer le style &eacute;crit.",
+    goal: "Adopter un ton formel et clair.",
+    keywords: ["formal tone", "academic", "therefore", "however", "moreover"],
+    examples: [
+      "However, the results were mixed.",
+      "Moreover, the method is reliable.",
+      "The report uses a formal tone."
+    ],
+    tip: "Connecteurs formels = therefore, however, moreover."
   }
 ];

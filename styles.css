@@ -237,6 +237,46 @@ h4 {
   margin-right: 8px;
 }
 
+.course-link {
+  color: var(--sea);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.course-link:hover {
+  text-decoration: underline;
+}
+
+.course-content {
+  display: grid;
+  gap: 18px;
+}
+
+.course-block {
+  background: #fff;
+  border-radius: var(--radius-md);
+  padding: 18px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  display: grid;
+  gap: 12px;
+}
+
+.course-tags,
+.course-examples {
+  list-style: none;
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.course-tags li::before,
+.course-examples li::before {
+  content: "•";
+  color: var(--accent);
+  margin-right: 8px;
+}
+
 .translation-content {
   display: grid;
   gap: 18px;

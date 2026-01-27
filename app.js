@@ -8,6 +8,9 @@
   if (page === "module") {
     renderModule();
   }
+  if (page === "course") {
+    renderCourse();
+  }
 
   function renderHome() {
     const grid = document.getElementById("modules-grid");
@@ -255,5 +258,47 @@
         });
       });
     }
+  }
+
+  function renderCourse() {
+    const params = new URLSearchParams(window.location.search);
+    const courseId = params.get("course");
+    const courses = window.GENIUS_COURSES || [];
+    const course = courses.find((item) => item.id === courseId) || courses[0];
+    if (!course) return;
+
+    const title = document.getElementById("course-title");
+    const level = document.getElementById("course-level");
+    const subtitle = document.getElementById("course-subtitle");
+    const tag = document.getElementById("course-tag");
+    const content = document.getElementById("course-content");
+
+    title.textContent = course.title;
+    level.textContent = course.levelLabel;
+    subtitle.textContent = course.subtitle;
+    tag.textContent = course.levelLabel;
+
+    content.innerHTML = `
+      <div class="course-block">
+        <h3>Objectif</h3>
+        <p>${course.goal}</p>
+      </div>
+      <div class="course-block">
+        <h3>Mots cl&eacute;s</h3>
+        <ul class="course-tags">
+          ${course.keywords.map((word) => `<li>${word}</li>`).join("")}
+        </ul>
+      </div>
+      <div class="course-block">
+        <h3>Exemples</h3>
+        <ul class="course-examples">
+          ${course.examples.map((example) => `<li>${example}</li>`).join("")}
+        </ul>
+      </div>
+      <div class="course-block">
+        <h3>Rappel rapide</h3>
+        <p>${course.tip}</p>
+      </div>
+    `;
   }
 })();
