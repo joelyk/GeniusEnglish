@@ -2106,7 +2106,9 @@
       "Partie A : phase th&eacute;orique.",
       "1) Les parties du discours ou cat&eacute;gories grammaticales.",
       "1.1) Les mots variables. 1.2) Les mots invariables.",
-      "2) Les accents dans la langue fran&ccedil;aise : accent aigu, accent grave, accent circonflexe."
+      "2) Les accents dans la langue fran&ccedil;aise : accent aigu, accent grave, accent circonflexe.",
+      "Exemples : &eacute;cole (aigu), p&egrave;re (grave), for&ecirc;t (circonflexe).",
+      "Rappel : noms, adjectifs et verbes sont variables ; pr&eacute;positions, conjonctions, adverbes sont souvent invariables."
     ],
     questions: [
       {
@@ -2168,6 +2170,60 @@
         choices: ["Noms, adjectifs, verbes", "Conjonctions", "Pr&eacute;positions", "Adverbes"],
         answer: 0,
         explanation: "Noms, adjectifs, verbes varient."
+      },
+      {
+        prompt: "Dans le mot &laquo; &eacute;cole &raquo;, l'accent est :",
+        choices: ["Aigu", "Grave", "Circonflexe", "Aucun"],
+        answer: 0,
+        explanation: "&eacute; = accent aigu."
+      },
+      {
+        prompt: "Dans le mot &laquo; p&egrave;re &raquo;, l'accent est :",
+        choices: ["Aigu", "Grave", "Circonflexe", "Aucun"],
+        answer: 1,
+        explanation: "&egrave; = accent grave."
+      },
+      {
+        prompt: "Dans le mot &laquo; for&ecirc;t &raquo;, l'accent est :",
+        choices: ["Aigu", "Grave", "Circonflexe", "Aucun"],
+        answer: 2,
+        explanation: "&ecirc; = accent circonflexe."
+      },
+      {
+        prompt: "Lequel est un mot invariable ?",
+        choices: ["rapidement", "grand", "manger", "livre"],
+        answer: 0,
+        explanation: "Les adverbes comme rapidement sont invariables."
+      },
+      {
+        prompt: "Lequel est un mot variable ?",
+        choices: ["et", "dans", "chat", "tr&egrave;s"],
+        answer: 2,
+        explanation: "Un nom comme chat varie (chat/chats)."
+      },
+      {
+        prompt: "Lequel est une pr&eacute;position ?",
+        choices: ["dans", "joli", "chanter", "vite"],
+        answer: 0,
+        explanation: "Dans est une pr&eacute;position (mot invariable)."
+      },
+      {
+        prompt: "Lequel est un adjectif ?",
+        choices: ["beau", "vite", "manger", "demain"],
+        answer: 0,
+        explanation: "Beau d&eacute;crit un nom."
+      },
+      {
+        prompt: "Lequel est un verbe ?",
+        choices: ["courir", "rouge", "tr&egrave;s", "au"],
+        answer: 0,
+        explanation: "Courir exprime une action."
+      },
+      {
+        prompt: "Dans &laquo; &agrave; &raquo;, l'accent est :",
+        choices: ["Grave", "Aigu", "Circonflexe", "Aucun"],
+        answer: 0,
+        explanation: "&agrave; prend un accent grave."
       }
     ]
   },
@@ -2245,6 +2301,110 @@
         choices: ["Communication respectueuse", "Silence", "Col&egrave;re", "Tristesse"],
         answer: 0,
         explanation: "C'est une communication respectueuse."
+      },
+      {
+        prompt: "Le vouvoiement utilise le pronom :",
+        choices: ["Vous", "Tu", "Il", "Nous"],
+        answer: 0,
+        explanation: "Le vouvoiement utilise &laquo; vous &raquo;."
+      },
+      {
+        prompt: "Quelle formule est polie ?",
+        choices: ["S'il vous pla&icirc;t", "H&eacute;!", "Ouais", "Ben non"],
+        answer: 0,
+        explanation: "&laquo; S'il vous pla&icirc;t &raquo; est une formule de politesse."
+      },
+      {
+        prompt: "Pour demander un renseignement, on peut dire :",
+        choices: ["Excusez-moi, o&ugrave; est la salle ?", "Va-t-en", "Chante", "Silence"],
+        answer: 0,
+        explanation: "C'est une demande polie d'information."
+      },
+      {
+        prompt: "Une expression &eacute;crite est :",
+        choices: ["Un petit texte r&eacute;dig&eacute;", "Un geste", "Un cri", "Un bruit"],
+        answer: 0,
+        explanation: "Expression &eacute;crite = texte r&eacute;dig&eacute;."
+      },
+      {
+        prompt: "Les travaux dirig&eacute;s servent &agrave; :",
+        choices: ["S'entra&icirc;ner avec un encadrement", "Dormir", "Voyager", "Jouer"],
+        answer: 0,
+        explanation: "TD = exercices guid&eacute;s."
+      }
+    ]
+  }
+];
+
+  {
+    id: 16,
+    title: "Social Expressions — Short Dialogues",
+    type: "quiz",
+    duration: "00:10:00",
+    level: "Interm&eacute;diaire",
+    summary: "Compl&eacute;ter des dialogues avec les expressions correctes.",
+    text: [
+      "Complete the conversations with the correct social expressions.",
+      "List 1: I’m sorry, Pardon, Excuse me, sit down.",
+      "List 2: Well, Safe journey, You’re welcome, Thanks for having us, Oh what a pity! Bye."
+    ],
+    questions: [
+      {
+        prompt: "1- A- ______ Is anybody sitting here?",
+        choices: ["Excuse me", "Pardon", "I’m sorry", "Sit down"],
+        answer: 0,
+        explanation: "Use &ldquo;Excuse me&rdquo; to ask politely."
+      },
+      {
+        prompt: "1- B- ______ ?",
+        choices: ["Pardon", "Excuse me", "I’m sorry", "Sit down"],
+        answer: 0,
+        explanation: "&ldquo;Pardon?&rdquo; is used when you did not hear."
+      },
+      {
+        prompt:
+          "1- A- Is it OK if I sit here? B- ______ I couldn’t hear you. My music’s a bit loud…",
+        choices: ["I’m sorry", "Pardon", "Excuse me", "Sit down"],
+        answer: 0,
+        explanation: "Apology: &ldquo;I’m sorry.&rdquo;"
+      },
+      {
+        prompt: "1- B- Yes, sure, please ______.",
+        choices: ["sit down", "pardon", "excuse me", "I’m sorry"],
+        answer: 0,
+        explanation: "Invite someone to sit: &ldquo;sit down&rdquo;."
+      },
+      {
+        prompt:
+          "2- A- ______, I think it’s time for us to go. We’ve got a long journey back to Yaounde.",
+        choices: ["Well", "Bye", "Safe journey", "Thanks for having us"],
+        answer: 0,
+        explanation: "&ldquo;Well,&rdquo; introduces the decision to leave."
+      },
+      {
+        prompt: "2- B- ______ ! The time went so quickly!",
+        choices: ["Oh what a pity!", "You’re welcome", "Safe journey", "Bye"],
+        answer: 0,
+        explanation: "Regret: &ldquo;Oh what a pity!&rdquo;"
+      },
+      {
+        prompt:
+          "2- A- Yes, it did. Anyway, we’ve had a lovely time here with you. ______",
+        choices: ["Thanks for having us", "Safe journey", "Bye", "Well"],
+        answer: 0,
+        explanation: "Thank the host: &ldquo;Thanks for having us.&rdquo;"
+      },
+      {
+        prompt: "2- B- ______ . It was a pleasure.",
+        choices: ["You’re welcome", "Bye", "Safe journey", "Oh what a pity!"],
+        answer: 0,
+        explanation: "Reply to thanks: &ldquo;You’re welcome.&rdquo;"
+      },
+      {
+        prompt: "2- B- Yes, hope so ______ ! ______ !",
+        choices: ["Bye / Safe journey", "Well / Bye", "Safe journey / Well", "You’re welcome / Bye"],
+        answer: 0,
+        explanation: "Closing: &ldquo;Bye! Safe journey!&rdquo;"
       }
     ]
   }
