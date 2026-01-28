@@ -1617,6 +1617,237 @@
           "Le texte dit : access it efficiently."
       }
     ]
+  },
+  {
+    id: 14,
+    title: "Everyday English Expressions",
+    type: "quiz",
+    duration: "00:18:00",
+    level: "Interm&eacute;diaire",
+    summary: "Expressions courantes et r&eacute;ponses sociales.",
+    text: [
+      "Lesson V: Everyday English. Ce module pratique les expressions sociales et les r&eacute;ponses appropri&eacute;es.",
+      "Astuce : observe le contexte (salutation, excuse, remerciement, invitation)."
+    ],
+    questions: [
+      {
+        prompt: "Match: Good morning",
+        choices: [
+          "Bye! See you later.",
+          "Good morning! Lovely day again.",
+          "How do you do? Pleased to meet you.",
+          "Cheers!"
+        ],
+        answer: 1,
+        explanation: "R&eacute;ponse naturelle &agrave; &ldquo;Good morning&rdquo;."
+      },
+      {
+        prompt: "Match: How do you do?",
+        choices: [
+          "No, thank you. I'm just looking.",
+          "How do you do? Pleased to meet you.",
+          "Thanks. Same to you.",
+          "It doesn't matter. You're here now."
+        ],
+        answer: 1,
+        explanation: "Formule de pr&eacute;sentation."
+      },
+      {
+        prompt: "Match: Thanks very much indeed.",
+        choices: [
+          "Not at all. Don't mention it.",
+          "Bye! See you later.",
+          "Yes. Can I help you?",
+          "Cheers!"
+        ],
+        answer: 0,
+        explanation: "R&eacute;ponse &agrave; un remerciement."
+      },
+      {
+        prompt: "Match: Excuse me!",
+        choices: [
+          "Yes. Can I help you?",
+          "Never mind. Perhaps another time.",
+          "Thanks. Same to you.",
+          "Cheers!"
+        ],
+        answer: 0,
+        explanation: "Formule pour attirer l'attention."
+      },
+      {
+        prompt: "Match: Sorry! I can’t come tonight.",
+        choices: [
+          "Never mind. Perhaps another time.",
+          "How do you do? Pleased to meet you.",
+          "Bye! See you later.",
+          "Cheers!"
+        ],
+        answer: 0,
+        explanation: "R&eacute;ponse polie &agrave; un refus."
+      },
+      {
+        prompt: "Match: Can you help me with this exercise?",
+        choices: [
+          "Of course! I can. No problem.",
+          "No, thank you. I'm just looking.",
+          "Thanks. Same to you.",
+          "Good morning! Lovely day again."
+        ],
+        answer: 0,
+        explanation: "R&eacute;ponse positive &agrave; une demande d'aide."
+      },
+      {
+        prompt: "Match: Can I help you?",
+        choices: [
+          "No, thank you. I'm just looking.",
+          "Cheers!",
+          "Bye! See you later.",
+          "It doesn't matter. You're here now."
+        ],
+        answer: 0,
+        explanation: "R&eacute;ponse quand on n'a pas besoin d'aide."
+      },
+      {
+        prompt: "Match: Bye!",
+        choices: [
+          "Bye! See you later.",
+          "Good morning! Lovely day again.",
+          "Thanks. Same to you.",
+          "Of course! I can. No problem."
+        ],
+        answer: 0,
+        explanation: "Formule d'au revoir."
+      },
+      {
+        prompt: "Match: Bye! Have a good weekend.",
+        choices: [
+          "Thanks. Same to you.",
+          "Cheers!",
+          "Yes. Can I help you?",
+          "How do you do? Pleased to meet you."
+        ],
+        answer: 0,
+        explanation: "R&eacute;ponse &agrave; un souhait."
+      },
+      {
+        prompt: "Match: See you tomorrow.",
+        choices: [
+          "Yeah! About nine in the coffee bar.",
+          "It doesn't matter. You're here now.",
+          "Bye! See you later.",
+          "Not at all. Don't mention it."
+        ],
+        answer: 2,
+        explanation: "Formule d'au revoir proche."
+      },
+      {
+        prompt: "Match: Sorry I’m late.",
+        choices: [
+          "It doesn't matter. You're here now.",
+          "Thanks. Same to you.",
+          "Good morning! Lovely day again.",
+          "No, thank you. I'm just looking."
+        ],
+        answer: 0,
+        explanation: "R&eacute;ponse pour rassurer."
+      },
+      {
+        prompt: "Match: Cheers!",
+        choices: [
+          "Cheers!",
+          "Bye! See you later.",
+          "Never mind. Perhaps another time.",
+          "Yes. Can I help you?"
+        ],
+        answer: 0,
+        explanation: "Formule de toast / remerciement."
+      },
+      {
+        prompt:
+          "Replace the incorrect response: A- I got 10/10 in my test. B- What a pity!",
+        choices: [
+          "Congratulations!",
+          "You're welcome.",
+          "Good luck!",
+          "Excuse me."
+        ],
+        answer: 0,
+        explanation: "On f&eacute;licite pour une bonne note."
+      },
+      {
+        prompt:
+          "Replace the incorrect response: A- Would you like a hamburger? B- Of course. I'm a vegetarian.",
+        choices: [
+          "No, of course not.",
+          "Good idea.",
+          "Same to you.",
+          "See you later."
+        ],
+        answer: 0,
+        explanation: "Un v&eacute;g&eacute;tarien refuse : &ldquo;No, of course not.&rdquo;"
+      },
+      {
+        prompt:
+          "Replace the incorrect response: A- Pardon. Have you got the time? B- Yes, it's ten past three.",
+        choices: ["Excuse me.", "That's right.", "Good luck!", "See you later."],
+        answer: 0,
+        explanation: "On utilise &ldquo;Excuse me&rdquo; pour demander l'heure."
+      },
+      {
+        prompt:
+          "Replace the incorrect response: A- Let’s go to the theatre on Sunday. B- Good luck.",
+        choices: ["Good idea.", "Same to you.", "You're welcome.", "How about you?"],
+        answer: 0,
+        explanation: "R&eacute;ponse &agrave; une suggestion : &ldquo;Good idea.&rdquo;"
+      },
+      {
+        prompt:
+          "Replace the incorrect response: A- Good luck in your exam! B- Congratulations!",
+        choices: ["Good luck!", "Same to you.", "You're welcome.", "Excuse me."],
+        answer: 2,
+        explanation: "On r&eacute;pond &agrave; un souhait par &ldquo;You're welcome&rdquo; ou &ldquo;Thanks&rdquo;. Ici : You're welcome."
+      },
+      {
+        prompt:
+          "Replace the incorrect response: A- I really enjoyed the concert. Same to you? B- Yes; I thought it was fantastic.",
+        choices: ["How about you?", "That's right.", "Good idea.", "See you later."],
+        answer: 0,
+        explanation: "La bonne relance est &ldquo;How about you?&rdquo;"
+      },
+      {
+        prompt: "Replace the incorrect response: Thanks for having me. B- Don’t worry.",
+        choices: ["You're welcome.", "Same to you.", "Congratulations!", "Good luck!"],
+        answer: 0,
+        explanation: "R&eacute;ponse &agrave; un remerciement."
+      },
+      {
+        prompt:
+          "Replace the incorrect response: A- I hear you’re taking salsa lessons. B- Well.",
+        choices: ["That's right.", "Excuse me.", "Good idea.", "See you later."],
+        answer: 0,
+        explanation: "On confirme avec &ldquo;That's right.&rdquo;"
+      },
+      {
+        prompt:
+          "Replace the incorrect response: A- OK. I’m going now. B- Right. Same to you, at the caf&eacute;.",
+        choices: ["See you later.", "How about you?", "Good luck!", "Excuse me."],
+        answer: 0,
+        explanation: "Formule d'au revoir : &ldquo;See you later.&rdquo;"
+      },
+      {
+        prompt:
+          "Replace the incorrect response: I’ve got my driving test tomorrow. B- Safe journey.",
+        choices: ["Good luck!", "Same to you.", "You're welcome.", "Excuse me."],
+        answer: 0,
+        explanation: "On souhaite bonne chance pour un test."
+      },
+      {
+        prompt: "Complete: ____ Is anybody sitting here?",
+        choices: ["Excuse me,", "Sit down", "Cheers!", "Congratulations!"],
+        answer: 0,
+        explanation: "On dit &ldquo;Excuse me&rdquo; pour demander poliment."
+      }
+    ]
   }
 ];
 
