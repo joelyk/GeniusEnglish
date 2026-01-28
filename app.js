@@ -217,6 +217,9 @@
       if (prompt.includes("avant")) {
         return `${base} It is the number that comes before the given one in counting order.`;
       }
+      if (module.title.includes("Reading") || module.title.includes("Texte")) {
+        return `${base} This is a reading comprehension question. The correct answer is stated directly in the passage, so look for the matching sentence.`;
+      }
       return `${base} This is stated in the text or is a basic fact for this level. Use the key words in the question to confirm it.`;
     }
 

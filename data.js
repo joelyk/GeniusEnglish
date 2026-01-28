@@ -2010,6 +2010,243 @@
         explanation: "Complaint about weather fits with agreement: C4."
       }
     ]
+  },
+  {
+    id: 15,
+    title: "Social Expressions — Conversations",
+    type: "quiz",
+    duration: "00:12:00",
+    level: "Interm&eacute;diaire",
+    summary: "Compl&eacute;ter des dialogues avec les expressions correctes.",
+    text: [
+      "Complete the conversations with the correct social expressions.",
+      "Astuce : pense au contexte (politesse, excuse, au revoir)."
+    ],
+    questions: [
+      {
+        prompt: "Conversation 1: A- ______ Is anybody sitting here?",
+        choices: ["Excuse me", "Pardon", "I'm sorry", "Sit down"],
+        answer: 0,
+        explanation:
+          "We say &ldquo;Excuse me&rdquo; to get attention politely before asking a question."
+      },
+      {
+        prompt: "Conversation 1: B- ______ ?",
+        choices: ["Pardon", "Excuse me", "I'm sorry", "Sit down"],
+        answer: 0,
+        explanation:
+          "B did not hear, so the natural response is &ldquo;Pardon?&rdquo;"
+      },
+      {
+        prompt:
+          "Conversation 1: B- ______ I couldn’t hear you. My music’s a bit loud.",
+        choices: ["I'm sorry", "Pardon", "Excuse me", "Sit down"],
+        answer: 0,
+        explanation:
+          "&ldquo;I'm sorry&rdquo; is used to apologize for not hearing the question."
+      },
+      {
+        prompt:
+          "Conversation 1: B- Yes, sure, please ______.",
+        choices: ["sit down", "pardon", "excuse me", "I'm sorry"],
+        answer: 0,
+        explanation:
+          "Inviting someone to take a seat uses &ldquo;sit down&rdquo;."
+      },
+      {
+        prompt:
+          "Conversation 2: A- ______, I think it’s time for us to go. We’ve got a long journey back to Yaounde.",
+        choices: ["Well", "Bye", "Safe journey", "Thanks for having us"],
+        answer: 0,
+        explanation:
+          "&ldquo;Well,&rdquo; introduces a decision or change in the conversation."
+      },
+      {
+        prompt:
+          "Conversation 2: B- ______ ! The time went so quickly!",
+        choices: ["Oh what a pity!", "You're welcome", "Safe journey", "Bye"],
+        answer: 0,
+        explanation:
+          "&ldquo;Oh what a pity!&rdquo; expresses regret that they are leaving."
+      },
+      {
+        prompt:
+          "Conversation 2: A- Yes, it did. Anyway, we’ve had a lovely time here with you. ______",
+        choices: ["Thanks for having us", "Safe journey", "Bye", "Well"],
+        answer: 0,
+        explanation:
+          "You thank the host with &ldquo;Thanks for having us.&rdquo;"
+      },
+      {
+        prompt:
+          "Conversation 2: B- ______ . It was a pleasure.",
+        choices: ["You’re welcome", "Bye", "Safe journey", "Oh what a pity!"],
+        answer: 0,
+        explanation:
+          "The host responds to thanks with &ldquo;You’re welcome.&rdquo;"
+      },
+      {
+        prompt:
+          "Conversation 2: B- Yes, hope so ______ ! ______ !",
+        choices: ["Bye / Safe journey", "Well / Bye", "Safe journey / Well", "You’re welcome / Bye"],
+        answer: 0,
+        explanation:
+          "A natural closing is &ldquo;Bye! Safe journey!&rdquo;"
+      }
+    ]
+  },
+  {
+    id: 8,
+    title: "Phase th&eacute;orique — Grammaire",
+    type: "quiz",
+    duration: "00:14:00",
+    level: "A2",
+    summary: "Cat&eacute;gories grammaticales et accents fran&ccedil;ais.",
+    text: [
+      "Partie A : phase th&eacute;orique.",
+      "1) Les parties du discours ou cat&eacute;gories grammaticales.",
+      "1.1) Les mots variables. 1.2) Les mots invariables.",
+      "2) Les accents dans la langue fran&ccedil;aise : accent aigu, accent grave, accent circonflexe."
+    ],
+    questions: [
+      {
+        prompt: "Les mots variables sont :",
+        choices: ["Des mots qui changent", "Des mots fixes", "Des chiffres", "Des verbes anglais"],
+        answer: 0,
+        explanation: "Ils changent selon le genre, le nombre ou le temps."
+      },
+      {
+        prompt: "Les mots invariables sont :",
+        choices: ["Des mots qui ne changent pas", "Des verbes conjugu&eacute;s", "Des adjectifs", "Des noms propres"],
+        answer: 0,
+        explanation: "Ils ne varient pas."
+      },
+      {
+        prompt: "L'accent aigu s'&eacute;crit sur :",
+        choices: ["&eacute;", "&agrave;", "&ocirc;", "&ugrave;"],
+        answer: 0,
+        explanation: "L'accent aigu se met sur &eacute;."
+      },
+      {
+        prompt: "L'accent grave s'&eacute;crit sur :",
+        choices: ["&egrave;", "&eacute;", "&ocirc;", "&icirc;"],
+        answer: 0,
+        explanation: "L'accent grave se met sur &egrave;, &agrave;, &ugrave;."
+      },
+      {
+        prompt: "L'accent circonflexe s'&eacute;crit comme :",
+        choices: ["&ecirc;", "&eacute;", "&egrave;", "&auml;"],
+        answer: 0,
+        explanation: "Exemple : &ecirc;, &ocirc;, &acirc;."
+      },
+      {
+        prompt: "Les parties du discours sont :",
+        choices: ["Des cat&eacute;gories grammaticales", "Des sports", "Des outils", "Des couleurs"],
+        answer: 0,
+        explanation: "Ce sont des cat&eacute;gories grammaticales."
+      },
+      {
+        prompt: "Un adjectif est un mot :",
+        choices: ["Variable", "Invariable", "Toujours un verbe", "Toujours un adverbe"],
+        answer: 0,
+        explanation: "L'adjectif varie (genre, nombre)."
+      },
+      {
+        prompt: "Un adverbe est g&eacute;n&eacute;ralement :",
+        choices: ["Invariable", "Variable", "Un nom propre", "Un pronom"],
+        answer: 0,
+        explanation: "L'adverbe est invariable."
+      },
+      {
+        prompt: "L'accent aide &agrave; :",
+        choices: ["La prononciation", "La cuisine", "Le sport", "La vitesse"],
+        answer: 0,
+        explanation: "Il change la prononciation et le sens."
+      },
+      {
+        prompt: "Les mots variables incluent :",
+        choices: ["Noms, adjectifs, verbes", "Conjonctions", "Pr&eacute;positions", "Adverbes"],
+        answer: 0,
+        explanation: "Noms, adjectifs, verbes varient."
+      }
+    ]
+  },
+  {
+    id: 9,
+    title: "Phase pratique — Communication",
+    type: "quiz",
+    duration: "00:14:00",
+    level: "A2",
+    summary: "Lecture, expression orale et &eacute;crite.",
+    text: [
+      "Partie B : phase pratique.",
+      "1) Lire et comprendre un texte.",
+      "2) Expression orale : sons de l'alphabet, formules de politesse, vouvoiement, formules de renseignement.",
+      "3) Produire une expression &eacute;crite.",
+      "4) Application : th&egrave;mes d'expos&eacute;. 5) Travaux dirig&eacute;s."
+    ],
+    questions: [
+      {
+        prompt: "Lire et comprendre un texte signifie :",
+        choices: ["Comprendre le sens global", "Compter les mots", "Dormir", "Chanter"],
+        answer: 0,
+        explanation: "On cherche le sens global."
+      },
+      {
+        prompt: "L'expression orale concerne :",
+        choices: ["Parler", "Dormir", "Lire", "Dessiner"],
+        answer: 0,
+        explanation: "Expression orale = parler."
+      },
+      {
+        prompt: "Les sons de l'alphabet sont utiles pour :",
+        choices: ["La prononciation", "La cuisine", "La danse", "La peinture"],
+        answer: 0,
+        explanation: "Ils aident &agrave; prononcer."
+      },
+      {
+        prompt: "Le vouvoiement est une forme :",
+        choices: ["Polie", "Famili&egrave;re", "Violente", "Musicale"],
+        answer: 0,
+        explanation: "Le vouvoiement est poli."
+      },
+      {
+        prompt: "Une formule de politesse sert &agrave; :",
+        choices: ["&Ecirc;tre respectueux", "Se f&acirc;cher", "Courir", "Chanter"],
+        answer: 0,
+        explanation: "Elle montre le respect."
+      },
+      {
+        prompt: "Produire une expression &eacute;crite veut dire :",
+        choices: ["R&eacute;diger un texte", "Parler", "Danser", "Jouer"],
+        answer: 0,
+        explanation: "C'est &eacute;crire un texte."
+      },
+      {
+        prompt: "Les th&egrave;mes d'expos&eacute; servent &agrave; :",
+        choices: ["Pr&eacute;senter un sujet", "Cuisiner", "Dormir", "Nager"],
+        answer: 0,
+        explanation: "Un expos&eacute; pr&eacute;sente un sujet."
+      },
+      {
+        prompt: "Les travaux dirig&eacute;s sont :",
+        choices: ["Des exercices guid&eacute;s", "Des vacances", "Des films", "Des sports"],
+        answer: 0,
+        explanation: "Travaux dirig&eacute;s = exercices guid&eacute;s."
+      },
+      {
+        prompt: "Les formules de renseignement servent &agrave; :",
+        choices: ["Demander une information", "Dire bonjour", "Dire merci", "Dire au revoir"],
+        answer: 0,
+        explanation: "Elles servent &agrave; demander une information."
+      },
+      {
+        prompt: "Expression orale + politesse =",
+        choices: ["Communication respectueuse", "Silence", "Col&egrave;re", "Tristesse"],
+        answer: 0,
+        explanation: "C'est une communication respectueuse."
+      }
+    ]
   }
 ];
 
