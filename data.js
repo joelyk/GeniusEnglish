@@ -1849,6 +1849,96 @@
       },
       {
         prompt:
+          "Exercise 2: A- I got 10/10 in my test. B- What a pity!",
+        choices: [
+          "Congratulations!",
+          "You're welcome.",
+          "Good luck!",
+          "Excuse me."
+        ],
+        answer: 0,
+        explanation:
+          "On f&eacute;licite pour une bonne note : Congratulations!"
+      },
+      {
+        prompt:
+          "Exercise 2: A- Would you like a hamburger? B- Of course. I’m a vegetarian.",
+        choices: [
+          "No, of course not.",
+          "Good idea.",
+          "Same to you.",
+          "See you later."
+        ],
+        answer: 0,
+        explanation:
+          "Un v&eacute;g&eacute;tarien refuse : No, of course not."
+      },
+      {
+        prompt:
+          "Exercise 2: A- Pardon. Have you got the time? B- Yes, it’s ten past three.",
+        choices: ["Excuse me.", "That’s right.", "Good luck!", "See you later."],
+        answer: 0,
+        explanation:
+          "Pour demander l'heure : Excuse me."
+      },
+      {
+        prompt:
+          "Exercise 2: A- Let’s go to the theatre on Sunday. B- Good luck.",
+        choices: ["Good idea.", "Same to you.", "You're welcome.", "How about you?"],
+        answer: 0,
+        explanation:
+          "R&eacute;ponse &agrave; une proposition : Good idea."
+      },
+      {
+        prompt:
+          "Exercise 2: A- Good luck in your exam! B- Congratulations!",
+        choices: ["You’re welcome.", "Same to you.", "Good luck!", "Excuse me."],
+        answer: 0,
+        explanation:
+          "On r&eacute;pond &agrave; un souhait par You’re welcome / Thanks. Ici : You’re welcome."
+      },
+      {
+        prompt:
+          "Exercise 2: A- I really enjoyed the concert. Same to you? B- Yes, I thought it was fantastic.",
+        choices: ["How about you?", "That’s right.", "Good idea.", "See you later."],
+        answer: 0,
+        explanation:
+          "La bonne relance est How about you?"
+      },
+      {
+        prompt:
+          "Exercise 2: A- Thanks for having me. B- Don’t worry.",
+        choices: ["You’re welcome.", "Same to you.", "Congratulations!", "Good luck!"],
+        answer: 0,
+        explanation:
+          "R&eacute;ponse &agrave; un remerciement : You’re welcome."
+      },
+      {
+        prompt:
+          "Exercise 2: A- I hear you’re taking salsa lessons. B- Well.",
+        choices: ["That’s right.", "Excuse me.", "Good idea.", "See you later."],
+        answer: 0,
+        explanation:
+          "On confirme : That’s right."
+      },
+      {
+        prompt:
+          "Exercise 2: A- OK. I’m going now. B- Right. Same to you, at the caf&eacute;.",
+        choices: ["See you later.", "How about you?", "Good luck!", "Excuse me."],
+        answer: 0,
+        explanation:
+          "Formule d'au revoir : See you later."
+      },
+      {
+        prompt:
+          "Exercise 2: A- I’ve got my driving test tomorrow. B- Safe journey.",
+        choices: ["Good luck!", "Same to you.", "You’re welcome.", "Excuse me."],
+        answer: 0,
+        explanation:
+          "On souhaite bonne chance : Good luck!"
+      },
+      {
+        prompt:
           "Match (A1): I feel a bit nervous. (A) / f) I’ve got an exam today. (B)",
         choices: [
           "C1: Cheer up! You’ve got me. I’m always here for you.",
