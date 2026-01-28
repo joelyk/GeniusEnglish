@@ -2108,7 +2108,8 @@
       "1.1) Les mots variables. 1.2) Les mots invariables.",
       "2) Les accents dans la langue fran&ccedil;aise : accent aigu, accent grave, accent circonflexe.",
       "Exemples : &eacute;cole (aigu), p&egrave;re (grave), for&ecirc;t (circonflexe).",
-      "Rappel : noms, adjectifs et verbes sont variables ; pr&eacute;positions, conjonctions, adverbes sont souvent invariables."
+      "Rappel : noms, adjectifs et verbes sont variables ; pr&eacute;positions, conjonctions, adverbes sont souvent invariables.",
+      "Note : les d&eacute;terminants et pronoms sont aussi des cat&eacute;gories grammaticales importantes."
     ],
     questions: [
       {
@@ -2224,6 +2225,24 @@
         choices: ["Grave", "Aigu", "Circonflexe", "Aucun"],
         answer: 0,
         explanation: "&agrave; prend un accent grave."
+      },
+      {
+        prompt: "Le mot &laquo; un &raquo; est :",
+        choices: ["Un d&eacute;terminant", "Un verbe", "Un adverbe", "Un pronom"],
+        answer: 0,
+        explanation: "&laquo; un &raquo; d&eacute;termine un nom, c'est un d&eacute;terminant."
+      },
+      {
+        prompt: "Dans &laquo; il parle &raquo;, &laquo; il &raquo; est :",
+        choices: ["Un pronom", "Un adjectif", "Un adverbe", "Une pr&eacute;position"],
+        answer: 0,
+        explanation: "&laquo; il &raquo; remplace un nom : c'est un pronom."
+      },
+      {
+        prompt: "Le mot &laquo; mais &raquo; est :",
+        choices: ["Une conjonction", "Un nom", "Un verbe", "Un adjectif"],
+        answer: 0,
+        explanation: "&laquo; mais &raquo; relie deux id&eacute;es : conjonction."
       }
     ]
   },
@@ -2331,84 +2350,101 @@
         choices: ["S'entra&icirc;ner avec un encadrement", "Dormir", "Voyager", "Jouer"],
         answer: 0,
         explanation: "TD = exercices guid&eacute;s."
+      },
+      {
+        prompt: "Une formule de salutation formelle est :",
+        choices: ["Bonjour Madame", "Salut mec", "Yo", "H&eacute;!"],
+        answer: 0,
+        explanation: "&laquo; Bonjour Madame &raquo; est une salutation polie."
+      },
+      {
+        prompt: "Pour remercier poliment, on dit :",
+        choices: ["Merci beaucoup", "Vas-y", "Tais-toi", "H&eacute;"],
+        answer: 0,
+        explanation: "&laquo; Merci beaucoup &raquo; est une formule de politesse."
+      },
+      {
+        prompt: "Une expression orale r&eacute;ussie doit &ecirc;tre :",
+        choices: ["Clair et compr&eacute;hensible", "Confuse", "Tr&egrave;s rapide", "Sans sens"],
+        answer: 0,
+        explanation: "On cherche &agrave; &ecirc;tre clair."
       }
     ]
   }
 ];
 
-  {
-    id: 16,
-    title: "Social Expressions — Short Dialogues",
-    type: "quiz",
-    duration: "00:10:00",
-    level: "Interm&eacute;diaire",
-    summary: "Compl&eacute;ter des dialogues avec les expressions correctes.",
-    text: [
-      "Complete the conversations with the correct social expressions.",
-      "List 1: I’m sorry, Pardon, Excuse me, sit down.",
-      "List 2: Well, Safe journey, You’re welcome, Thanks for having us, Oh what a pity! Bye."
-    ],
-    questions: [
-      {
-        prompt: "1- A- ______ Is anybody sitting here?",
-        choices: ["Excuse me", "Pardon", "I’m sorry", "Sit down"],
-        answer: 0,
-        explanation: "Use &ldquo;Excuse me&rdquo; to ask politely."
-      },
-      {
-        prompt: "1- B- ______ ?",
-        choices: ["Pardon", "Excuse me", "I’m sorry", "Sit down"],
-        answer: 0,
-        explanation: "&ldquo;Pardon?&rdquo; is used when you did not hear."
-      },
-      {
-        prompt:
-          "1- A- Is it OK if I sit here? B- ______ I couldn’t hear you. My music’s a bit loud…",
-        choices: ["I’m sorry", "Pardon", "Excuse me", "Sit down"],
-        answer: 0,
-        explanation: "Apology: &ldquo;I’m sorry.&rdquo;"
-      },
-      {
-        prompt: "1- B- Yes, sure, please ______.",
-        choices: ["sit down", "pardon", "excuse me", "I’m sorry"],
-        answer: 0,
-        explanation: "Invite someone to sit: &ldquo;sit down&rdquo;."
-      },
-      {
-        prompt:
-          "2- A- ______, I think it’s time for us to go. We’ve got a long journey back to Yaounde.",
-        choices: ["Well", "Bye", "Safe journey", "Thanks for having us"],
-        answer: 0,
-        explanation: "&ldquo;Well,&rdquo; introduces the decision to leave."
-      },
-      {
-        prompt: "2- B- ______ ! The time went so quickly!",
-        choices: ["Oh what a pity!", "You’re welcome", "Safe journey", "Bye"],
-        answer: 0,
-        explanation: "Regret: &ldquo;Oh what a pity!&rdquo;"
-      },
-      {
-        prompt:
-          "2- A- Yes, it did. Anyway, we’ve had a lovely time here with you. ______",
-        choices: ["Thanks for having us", "Safe journey", "Bye", "Well"],
-        answer: 0,
-        explanation: "Thank the host: &ldquo;Thanks for having us.&rdquo;"
-      },
-      {
-        prompt: "2- B- ______ . It was a pleasure.",
-        choices: ["You’re welcome", "Bye", "Safe journey", "Oh what a pity!"],
-        answer: 0,
-        explanation: "Reply to thanks: &ldquo;You’re welcome.&rdquo;"
-      },
-      {
-        prompt: "2- B- Yes, hope so ______ ! ______ !",
-        choices: ["Bye / Safe journey", "Well / Bye", "Safe journey / Well", "You’re welcome / Bye"],
-        answer: 0,
-        explanation: "Closing: &ldquo;Bye! Safe journey!&rdquo;"
-      }
-    ]
-  }
-];
+window.GENIUS_MODULES.push({
+  id: 16,
+  title: "Social Expressions — Short Dialogues",
+  type: "quiz",
+  duration: "00:10:00",
+  level: "Interm&eacute;diaire",
+  summary: "Compl&eacute;ter des dialogues avec les expressions correctes.",
+  text: [
+    "Complete the conversations with the correct social expressions.",
+    "List 1: I’m sorry, Pardon, Excuse me, sit down.",
+    "List 2: Well, Safe journey, You’re welcome, Thanks for having us, Oh what a pity! Bye."
+  ],
+  questions: [
+    {
+      prompt: "1- A- ______ Is anybody sitting here?",
+      choices: ["Excuse me", "Pardon", "I’m sorry", "Sit down"],
+      answer: 0,
+      explanation: "Use &ldquo;Excuse me&rdquo; to ask politely."
+    },
+    {
+      prompt: "1- B- ______ ?",
+      choices: ["Pardon", "Excuse me", "I’m sorry", "Sit down"],
+      answer: 0,
+      explanation: "&ldquo;Pardon?&rdquo; is used when you did not hear."
+    },
+    {
+      prompt:
+        "1- A- Is it OK if I sit here? B- ______ I couldn’t hear you. My music’s a bit loud…",
+      choices: ["I’m sorry", "Pardon", "Excuse me", "Sit down"],
+      answer: 0,
+      explanation: "Apology: &ldquo;I’m sorry.&rdquo;"
+    },
+    {
+      prompt: "1- B- Yes, sure, please ______.",
+      choices: ["sit down", "pardon", "excuse me", "I’m sorry"],
+      answer: 0,
+      explanation: "Invite someone to sit: &ldquo;sit down&rdquo;."
+    },
+    {
+      prompt:
+        "2- A- ______, I think it’s time for us to go. We’ve got a long journey back to Yaounde.",
+      choices: ["Well", "Bye", "Safe journey", "Thanks for having us"],
+      answer: 0,
+      explanation: "&ldquo;Well,&rdquo; introduces the decision to leave."
+    },
+    {
+      prompt: "2- B- ______ ! The time went so quickly!",
+      choices: ["Oh what a pity!", "You’re welcome", "Safe journey", "Bye"],
+      answer: 0,
+      explanation: "Regret: &ldquo;Oh what a pity!&rdquo;"
+    },
+    {
+      prompt:
+        "2- A- Yes, it did. Anyway, we’ve had a lovely time here with you. ______",
+      choices: ["Thanks for having us", "Safe journey", "Bye", "Well"],
+      answer: 0,
+      explanation: "Thank the host: &ldquo;Thanks for having us.&rdquo;"
+    },
+    {
+      prompt: "2- B- ______ . It was a pleasure.",
+      choices: ["You’re welcome", "Bye", "Safe journey", "Oh what a pity!"],
+      answer: 0,
+      explanation: "Reply to thanks: &ldquo;You’re welcome.&rdquo;"
+    },
+    {
+      prompt: "2- B- Yes, hope so ______ ! ______ !",
+      choices: ["Bye / Safe journey", "Well / Bye", "Safe journey / Well", "You’re welcome / Bye"],
+      answer: 0,
+      explanation: "Closing: &ldquo;Bye! Safe journey!&rdquo;"
+    }
+  ]
+});
 
 window.GENIUS_COURSES = [
   {
