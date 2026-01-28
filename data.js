@@ -2095,282 +2095,7 @@
       }
     ]
   },
-  {
-    id: 8,
-    title: "Phase th&eacute;orique — Grammaire",
-    type: "quiz",
-    duration: "00:14:00",
-    level: "A2",
-    summary: "Cat&eacute;gories grammaticales et accents fran&ccedil;ais.",
-    text: [
-      "Partie A : phase th&eacute;orique.",
-      "1) Les parties du discours ou cat&eacute;gories grammaticales.",
-      "1.1) Les mots variables. 1.2) Les mots invariables.",
-      "2) Les accents dans la langue fran&ccedil;aise : accent aigu, accent grave, accent circonflexe.",
-      "Exemples : &eacute;cole (aigu), p&egrave;re (grave), for&ecirc;t (circonflexe).",
-      "Rappel : noms, adjectifs et verbes sont variables ; pr&eacute;positions, conjonctions, adverbes sont souvent invariables.",
-      "Note : les d&eacute;terminants et pronoms sont aussi des cat&eacute;gories grammaticales importantes."
-    ],
-    questions: [
-      {
-        prompt: "Les mots variables sont :",
-        choices: ["Des mots qui changent", "Des mots fixes", "Des chiffres", "Des verbes anglais"],
-        answer: 0,
-        explanation: "Ils changent selon le genre, le nombre ou le temps."
-      },
-      {
-        prompt: "Les mots invariables sont :",
-        choices: ["Des mots qui ne changent pas", "Des verbes conjugu&eacute;s", "Des adjectifs", "Des noms propres"],
-        answer: 0,
-        explanation: "Ils ne varient pas."
-      },
-      {
-        prompt: "L'accent aigu s'&eacute;crit sur :",
-        choices: ["&eacute;", "&agrave;", "&ocirc;", "&ugrave;"],
-        answer: 0,
-        explanation: "L'accent aigu se met sur &eacute;."
-      },
-      {
-        prompt: "L'accent grave s'&eacute;crit sur :",
-        choices: ["&egrave;", "&eacute;", "&ocirc;", "&icirc;"],
-        answer: 0,
-        explanation: "L'accent grave se met sur &egrave;, &agrave;, &ugrave;."
-      },
-      {
-        prompt: "L'accent circonflexe s'&eacute;crit comme :",
-        choices: ["&ecirc;", "&eacute;", "&egrave;", "&auml;"],
-        answer: 0,
-        explanation: "Exemple : &ecirc;, &ocirc;, &acirc;."
-      },
-      {
-        prompt: "Les parties du discours sont :",
-        choices: ["Des cat&eacute;gories grammaticales", "Des sports", "Des outils", "Des couleurs"],
-        answer: 0,
-        explanation: "Ce sont des cat&eacute;gories grammaticales."
-      },
-      {
-        prompt: "Un adjectif est un mot :",
-        choices: ["Variable", "Invariable", "Toujours un verbe", "Toujours un adverbe"],
-        answer: 0,
-        explanation: "L'adjectif varie (genre, nombre)."
-      },
-      {
-        prompt: "Un adverbe est g&eacute;n&eacute;ralement :",
-        choices: ["Invariable", "Variable", "Un nom propre", "Un pronom"],
-        answer: 0,
-        explanation: "L'adverbe est invariable."
-      },
-      {
-        prompt: "L'accent aide &agrave; :",
-        choices: ["La prononciation", "La cuisine", "Le sport", "La vitesse"],
-        answer: 0,
-        explanation: "Il change la prononciation et le sens."
-      },
-      {
-        prompt: "Les mots variables incluent :",
-        choices: ["Noms, adjectifs, verbes", "Conjonctions", "Pr&eacute;positions", "Adverbes"],
-        answer: 0,
-        explanation: "Noms, adjectifs, verbes varient."
-      },
-      {
-        prompt: "Dans le mot &laquo; &eacute;cole &raquo;, l'accent est :",
-        choices: ["Aigu", "Grave", "Circonflexe", "Aucun"],
-        answer: 0,
-        explanation: "&eacute; = accent aigu."
-      },
-      {
-        prompt: "Dans le mot &laquo; p&egrave;re &raquo;, l'accent est :",
-        choices: ["Aigu", "Grave", "Circonflexe", "Aucun"],
-        answer: 1,
-        explanation: "&egrave; = accent grave."
-      },
-      {
-        prompt: "Dans le mot &laquo; for&ecirc;t &raquo;, l'accent est :",
-        choices: ["Aigu", "Grave", "Circonflexe", "Aucun"],
-        answer: 2,
-        explanation: "&ecirc; = accent circonflexe."
-      },
-      {
-        prompt: "Lequel est un mot invariable ?",
-        choices: ["rapidement", "grand", "manger", "livre"],
-        answer: 0,
-        explanation: "Les adverbes comme rapidement sont invariables."
-      },
-      {
-        prompt: "Lequel est un mot variable ?",
-        choices: ["et", "dans", "chat", "tr&egrave;s"],
-        answer: 2,
-        explanation: "Un nom comme chat varie (chat/chats)."
-      },
-      {
-        prompt: "Lequel est une pr&eacute;position ?",
-        choices: ["dans", "joli", "chanter", "vite"],
-        answer: 0,
-        explanation: "Dans est une pr&eacute;position (mot invariable)."
-      },
-      {
-        prompt: "Lequel est un adjectif ?",
-        choices: ["beau", "vite", "manger", "demain"],
-        answer: 0,
-        explanation: "Beau d&eacute;crit un nom."
-      },
-      {
-        prompt: "Lequel est un verbe ?",
-        choices: ["courir", "rouge", "tr&egrave;s", "au"],
-        answer: 0,
-        explanation: "Courir exprime une action."
-      },
-      {
-        prompt: "Dans &laquo; &agrave; &raquo;, l'accent est :",
-        choices: ["Grave", "Aigu", "Circonflexe", "Aucun"],
-        answer: 0,
-        explanation: "&agrave; prend un accent grave."
-      },
-      {
-        prompt: "Le mot &laquo; un &raquo; est :",
-        choices: ["Un d&eacute;terminant", "Un verbe", "Un adverbe", "Un pronom"],
-        answer: 0,
-        explanation: "&laquo; un &raquo; d&eacute;termine un nom, c'est un d&eacute;terminant."
-      },
-      {
-        prompt: "Dans &laquo; il parle &raquo;, &laquo; il &raquo; est :",
-        choices: ["Un pronom", "Un adjectif", "Un adverbe", "Une pr&eacute;position"],
-        answer: 0,
-        explanation: "&laquo; il &raquo; remplace un nom : c'est un pronom."
-      },
-      {
-        prompt: "Le mot &laquo; mais &raquo; est :",
-        choices: ["Une conjonction", "Un nom", "Un verbe", "Un adjectif"],
-        answer: 0,
-        explanation: "&laquo; mais &raquo; relie deux id&eacute;es : conjonction."
-      }
-    ]
-  },
-  {
-    id: 9,
-    title: "Phase pratique — Communication",
-    type: "quiz",
-    duration: "00:14:00",
-    level: "A2",
-    summary: "Lecture, expression orale et &eacute;crite.",
-    text: [
-      "Partie B : phase pratique.",
-      "1) Lire et comprendre un texte.",
-      "2) Expression orale : sons de l'alphabet, formules de politesse, vouvoiement, formules de renseignement.",
-      "3) Produire une expression &eacute;crite.",
-      "4) Application : th&egrave;mes d'expos&eacute;. 5) Travaux dirig&eacute;s."
-    ],
-    questions: [
-      {
-        prompt: "Lire et comprendre un texte signifie :",
-        choices: ["Comprendre le sens global", "Compter les mots", "Dormir", "Chanter"],
-        answer: 0,
-        explanation: "On cherche le sens global."
-      },
-      {
-        prompt: "L'expression orale concerne :",
-        choices: ["Parler", "Dormir", "Lire", "Dessiner"],
-        answer: 0,
-        explanation: "Expression orale = parler."
-      },
-      {
-        prompt: "Les sons de l'alphabet sont utiles pour :",
-        choices: ["La prononciation", "La cuisine", "La danse", "La peinture"],
-        answer: 0,
-        explanation: "Ils aident &agrave; prononcer."
-      },
-      {
-        prompt: "Le vouvoiement est une forme :",
-        choices: ["Polie", "Famili&egrave;re", "Violente", "Musicale"],
-        answer: 0,
-        explanation: "Le vouvoiement est poli."
-      },
-      {
-        prompt: "Une formule de politesse sert &agrave; :",
-        choices: ["&Ecirc;tre respectueux", "Se f&acirc;cher", "Courir", "Chanter"],
-        answer: 0,
-        explanation: "Elle montre le respect."
-      },
-      {
-        prompt: "Produire une expression &eacute;crite veut dire :",
-        choices: ["R&eacute;diger un texte", "Parler", "Danser", "Jouer"],
-        answer: 0,
-        explanation: "C'est &eacute;crire un texte."
-      },
-      {
-        prompt: "Les th&egrave;mes d'expos&eacute; servent &agrave; :",
-        choices: ["Pr&eacute;senter un sujet", "Cuisiner", "Dormir", "Nager"],
-        answer: 0,
-        explanation: "Un expos&eacute; pr&eacute;sente un sujet."
-      },
-      {
-        prompt: "Les travaux dirig&eacute;s sont :",
-        choices: ["Des exercices guid&eacute;s", "Des vacances", "Des films", "Des sports"],
-        answer: 0,
-        explanation: "Travaux dirig&eacute;s = exercices guid&eacute;s."
-      },
-      {
-        prompt: "Les formules de renseignement servent &agrave; :",
-        choices: ["Demander une information", "Dire bonjour", "Dire merci", "Dire au revoir"],
-        answer: 0,
-        explanation: "Elles servent &agrave; demander une information."
-      },
-      {
-        prompt: "Expression orale + politesse =",
-        choices: ["Communication respectueuse", "Silence", "Col&egrave;re", "Tristesse"],
-        answer: 0,
-        explanation: "C'est une communication respectueuse."
-      },
-      {
-        prompt: "Le vouvoiement utilise le pronom :",
-        choices: ["Vous", "Tu", "Il", "Nous"],
-        answer: 0,
-        explanation: "Le vouvoiement utilise &laquo; vous &raquo;."
-      },
-      {
-        prompt: "Quelle formule est polie ?",
-        choices: ["S'il vous pla&icirc;t", "H&eacute;!", "Ouais", "Ben non"],
-        answer: 0,
-        explanation: "&laquo; S'il vous pla&icirc;t &raquo; est une formule de politesse."
-      },
-      {
-        prompt: "Pour demander un renseignement, on peut dire :",
-        choices: ["Excusez-moi, o&ugrave; est la salle ?", "Va-t-en", "Chante", "Silence"],
-        answer: 0,
-        explanation: "C'est une demande polie d'information."
-      },
-      {
-        prompt: "Une expression &eacute;crite est :",
-        choices: ["Un petit texte r&eacute;dig&eacute;", "Un geste", "Un cri", "Un bruit"],
-        answer: 0,
-        explanation: "Expression &eacute;crite = texte r&eacute;dig&eacute;."
-      },
-      {
-        prompt: "Les travaux dirig&eacute;s servent &agrave; :",
-        choices: ["S'entra&icirc;ner avec un encadrement", "Dormir", "Voyager", "Jouer"],
-        answer: 0,
-        explanation: "TD = exercices guid&eacute;s."
-      },
-      {
-        prompt: "Une formule de salutation formelle est :",
-        choices: ["Bonjour Madame", "Salut mec", "Yo", "H&eacute;!"],
-        answer: 0,
-        explanation: "&laquo; Bonjour Madame &raquo; est une salutation polie."
-      },
-      {
-        prompt: "Pour remercier poliment, on dit :",
-        choices: ["Merci beaucoup", "Vas-y", "Tais-toi", "H&eacute;"],
-        answer: 0,
-        explanation: "&laquo; Merci beaucoup &raquo; est une formule de politesse."
-      },
-      {
-        prompt: "Une expression orale r&eacute;ussie doit &ecirc;tre :",
-        choices: ["Clair et compr&eacute;hensible", "Confuse", "Tr&egrave;s rapide", "Sans sens"],
-        answer: 0,
-        explanation: "On cherche &agrave; &ecirc;tre clair."
-      }
-    ]
-  }
+
 ];
 
 window.GENIUS_MODULES.push({
@@ -3553,6 +3278,245 @@ window.GENIUS_FRENCH_MODULES = [
       { prompt: "Imparfait : Tu (faire)", choices: ["fais", "faisais", "feras", "as fait"], answer: 1, explanation: "Imparfait : tu faisais." },
       { prompt: "Pr&eacute;sent : Elle (venir)", choices: ["vient", "venait", "viendra", "est venue"], answer: 0, explanation: "Pr&eacute;sent : elle vient." },
       { prompt: "Pass&eacute; compos&eacute; : Vous (être)", choices: ["&ecirc;tes", "avez &eacute;t&eacute;", "&eacute;tiez", "serez"], answer: 1, explanation: "Pass&eacute; compos&eacute; : vous avez &eacute;t&eacute;." }
+    ]
+  },
+  {
+    id: 8,
+    title: "Phase th&eacute;orique — Cat&eacute;gories grammaticales & accents",
+    type: "quiz",
+    duration: "00:18:00",
+    level: "A2",
+    summary: "Cat&eacute;gories grammaticales, mots variables/invariables et accents fran&ccedil;ais.",
+    text: [
+      "Partie A : phase th&eacute;orique (version approfondie).",
+      "1) Les parties du discours ou cat&eacute;gories grammaticales : noms, adjectifs, verbes, pronoms, d&eacute;terminants, pr&eacute;positions, conjonctions, adverbes.",
+      "1.1) Mots variables : nom, adjectif, verbe, d&eacute;terminant, pronom (ils changent selon genre, nombre, personne, temps).",
+      "1.2) Mots invariables : adverbes, pr&eacute;positions, conjonctions, interjections.",
+      "2) Accents : aigu (&eacute;), grave (&egrave;, &agrave;, &ugrave;), circonflexe (&acirc;, &ecirc;, &icirc;, &ocirc;, &ucirc;).",
+      "Exemples : &eacute;cole (aigu), p&egrave;re (grave), for&ecirc;t (circonflexe), o&ugrave; (grave)."
+    ],
+    questions: [
+      {
+        prompt: "Dans la phrase : &quot;Les &eacute;tudiants s&eacute;rieux travaillent vite&quot;, le mot &quot;vite&quot; est :",
+        choices: ["Un adverbe (invariable)", "Un adjectif", "Un verbe", "Un nom"],
+        answer: 0
+      },
+      {
+        prompt: "Dans : &quot;La grande maison blanche&quot;, le mot &quot;grande&quot; est :",
+        choices: ["Un adjectif (variable)", "Un adverbe", "Un pr&eacute;position", "Un pronom"],
+        answer: 0
+      },
+      {
+        prompt: "Dans : &quot;Ils vont &agrave; l'universit&eacute;&quot;, le mot &quot;&agrave;&quot; est :",
+        choices: ["Une pr&eacute;position (invariable)", "Un verbe", "Un adjectif", "Un nom"],
+        answer: 0
+      },
+      {
+        prompt: "Le mot &quot;mais&quot; est :",
+        choices: ["Une conjonction", "Un d&eacute;terminant", "Un verbe", "Un adjectif"],
+        answer: 0
+      },
+      {
+        prompt: "Quel mot est variable ?",
+        choices: ["rapidement", "tr&egrave;s", "chat", "et"],
+        answer: 2
+      },
+      {
+        prompt: "Quel mot est invariable ?",
+        choices: ["heureux", "chanter", "dans", "enfants"],
+        answer: 2
+      },
+      {
+        prompt: "L'accent aigu se trouve sur :",
+        choices: ["&eacute;", "&egrave;", "&agrave;", "&ocirc;"],
+        answer: 0
+      },
+      {
+        prompt: "L'accent grave peut s'&eacute;crire sur :",
+        choices: ["&egrave;, &agrave;, &ugrave;", "&eacute; seulement", "&icirc; seulement", "&ocirc; seulement"],
+        answer: 0
+      },
+      {
+        prompt: "L'accent circonflexe s'&eacute;crit comme :",
+        choices: ["&ecirc;", "&eacute;", "&egrave;", "&auml;"],
+        answer: 0
+      },
+      {
+        prompt: "Dans &quot;for&ecirc;t&quot;, l'accent est :",
+        choices: ["Circonflexe", "Aigu", "Grave", "Aucun"],
+        answer: 0
+      },
+      {
+        prompt: "Dans &quot;p&egrave;re&quot;, l'accent est :",
+        choices: ["Grave", "Aigu", "Circonflexe", "Aucun"],
+        answer: 0
+      },
+      {
+        prompt: "Dans la phrase : &quot;Elle parle doucement&quot;, le mot &quot;doucement&quot; est :",
+        choices: ["Un adverbe", "Un adjectif", "Un nom", "Un verbe"],
+        answer: 0
+      },
+      {
+        prompt: "Le mot &quot;leurs&quot; (dans &quot;leurs livres&quot;) est :",
+        choices: ["Un d&eacute;terminant", "Un adjectif", "Un adverbe", "Un verbe"],
+        answer: 0
+      },
+      {
+        prompt: "Le mot &quot;qui&quot; (dans &quot;l'&eacute;tudiant qui r&eacute;ussit&quot;) est :",
+        choices: ["Un pronom", "Un nom", "Un adverbe", "Un verbe"],
+        answer: 0
+      },
+      {
+        prompt: "Le mot &quot;tr&egrave;s&quot; est :",
+        choices: ["Un adverbe (invariable)", "Un adjectif", "Un nom", "Un verbe"],
+        answer: 0
+      },
+      {
+        prompt: "Dans &quot;Nous &eacute;crivons une lettre&quot;, le mot &quot;&eacute;crivons&quot; est :",
+        choices: ["Un verbe", "Un nom", "Un adjectif", "Un pr&eacute;position"],
+        answer: 0
+      },
+      {
+        prompt: "Le mot &quot;et&quot; est :",
+        choices: ["Une conjonction", "Un adverbe", "Un pronom", "Un adjectif"],
+        answer: 0
+      },
+      {
+        prompt: "Quel mot contient un accent grave ?",
+        choices: ["m&egrave;re", "&eacute;quipe", "for&ecirc;t", "&icirc;le"],
+        answer: 0
+      },
+      {
+        prompt: "Quel mot contient un accent aigu ?",
+        choices: ["&eacute;tude", "&agrave;", "o&ugrave;", "for&ecirc;t"],
+        answer: 0
+      },
+      {
+        prompt: "Quel mot contient un accent circonflexe ?",
+        choices: ["h&ocirc;pital", "m&egrave;re", "&eacute;cole", "rue"],
+        answer: 0
+      },
+      {
+        prompt: "Dans &quot;Les filles parlent&quot;, le mot &quot;parlent&quot; est :",
+        choices: ["Un verbe", "Un adjectif", "Un adverbe", "Un pronom"],
+        answer: 0
+      }
+    ]
+  },
+  {
+    id: 9,
+    title: "Phase pratique — Communication & expression",
+    type: "quiz",
+    duration: "00:18:00",
+    level: "A2",
+    summary: "Lecture, expression orale, politesse, vouvoiement et production &eacute;crite.",
+    text: [
+      "Partie B : phase pratique (version approfondie).",
+      "1) Lire et comprendre un texte. 2) Expression orale : sons de l'alphabet, politesse, vouvoiement, demandes d'information.",
+      "3) Produire une expression &eacute;crite : messages, notes, courriers courts.",
+      "4) Application : th&egrave;mes d'expos&eacute; et travaux dirig&eacute;s."
+    ],
+    questions: [
+      {
+        prompt: "Dans un contexte universitaire, on dit plut&ocirc;t :",
+        choices: ["Bonjour, Monsieur.", "Salut, gars !", "H&eacute;, toi !", "Yo !"],
+        answer: 0
+      },
+      {
+        prompt: "Le vouvoiement convient pour parler &agrave; :",
+        choices: ["Un professeur", "Un petit fr&egrave;re", "Un camarade proche", "Un ami intime"],
+        answer: 0
+      },
+      {
+        prompt: "Pour demander un renseignement poliment :",
+        choices: ["Excusez-moi, pourriez-vous m'aider ?", "Dis-moi vite.", "H&eacute; toi !", "Je veux savoir."],
+        answer: 0
+      },
+      {
+        prompt: "Une formule de politesse en fin de lettre :",
+        choices: ["Veuillez agr&eacute;er, Monsieur, mes salutations.", "Ciao.", "OK.", "A+"],
+        answer: 0
+      },
+      {
+        prompt: "Pour s'excuser poliment :",
+        choices: ["Je vous prie de m'excuser.", "C'est pas ma faute.", "Tant pis.", "Pas grave."],
+        answer: 0
+      },
+      {
+        prompt: "L'expression orale se travaille en :",
+        choices: ["Parlant r&eacute;guli&egrave;rement", "Restant silencieux", "Copiant sans dire", "Evitant les questions"],
+        answer: 0
+      },
+      {
+        prompt: "Les sons de l'alphabet servent &agrave; :",
+        choices: ["Lire, &eacute;peler et prononcer", "Dessiner", "Courir", "Cuisiner"],
+        answer: 0
+      },
+      {
+        prompt: "Quel choix est une demande d'information ?",
+        choices: ["O&ugrave; se trouve la biblioth&egrave;que ?", "Je pars.", "Je dors.", "Je cuisine."],
+        answer: 0
+      },
+      {
+        prompt: "Un expos&eacute; sert &agrave; :",
+        choices: ["Pr&eacute;senter un sujet clairement", "Crier", "Dormir", "Danser"],
+        answer: 0
+      },
+      {
+        prompt: "Une production &eacute;crite peut &ecirc;tre :",
+        choices: ["Un compte rendu", "Un geste", "Un bruit", "Un sourire"],
+        answer: 0
+      },
+      {
+        prompt: "Choisis la r&eacute;ponse polie : &quot;Puis-je entrer ?&quot;",
+        choices: ["Oui, entrez.", "Non, d&eacute;gage.", "Tu veux quoi ?", "Pas question."],
+        answer: 0
+      },
+      {
+        prompt: "Dans &quot;S'il vous pla&icirc;t&quot;, le registre est :",
+        choices: ["Poli", "Familier", "Agressif", "Ironique"],
+        answer: 0
+      },
+      {
+        prompt: "Pour r&eacute;pondre &agrave; un remerciement :",
+        choices: ["Je vous en prie.", "Bof.", "Laisse tomber.", "Je m'en fiche."],
+        answer: 0
+      },
+      {
+        prompt: "Dans un message administratif, on &eacute;vite :",
+        choices: ["Les abr&eacute;viations famili&egrave;res", "Les formules polies", "Les salutations", "La clart&eacute;"],
+        answer: 0
+      },
+      {
+        prompt: "Un travail dirig&eacute; signifie :",
+        choices: ["Un exercice avec encadrement", "Une f&ecirc;te", "Une course", "Une pause"],
+        answer: 0
+      },
+      {
+        prompt: "Choisis la bonne formule pour demander l'heure :",
+        choices: ["Excusez-moi, avez-vous l'heure ?", "Dis-moi l'heure.", "Hey, l'heure !", "C'est quoi l'heure ?"],
+        answer: 0
+      },
+      {
+        prompt: "Le tutoiement est adapt&eacute; pour :",
+        choices: ["Un camarade proche", "Un directeur", "Un inconnu &acirc;g&eacute;", "Un jury"],
+        answer: 0
+      },
+      {
+        prompt: "Pour commencer un expos&eacute; :",
+        choices: ["Bonjour &agrave; tous, aujourd'hui je vais pr&eacute;senter...", "Eh !", "Bon, bref.", "Euh..."],
+        answer: 0
+      },
+      {
+        prompt: "Une demande &eacute;crite claire doit &ecirc;tre :",
+        choices: ["Pr&eacute;cise et structur&eacute;e", "Floue", "Tr&egrave;s longue sans plan", "Pleine d'abr&eacute;viations"],
+        answer: 0
+      },
+      {
+        prompt: "Dans &quot;Pouvez-vous me donner plus d'informations ?&quot;, c'est :",
+        choices: ["Une demande polie", "Une insulte", "Une blague", "Une menace"],
+        answer: 0
+      }
     ]
   }
 ];
