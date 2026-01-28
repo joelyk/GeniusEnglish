@@ -180,6 +180,52 @@
       });
     }
 
+    function buildEnglishExplanation(question) {
+      const correctChoice = question.choices[question.answer];
+      const prompt = question.prompt || "";
+      if (module.title.includes("Adjectif") || module.title.includes("Verbe")) {
+        if (question.answer === 0) {
+          return `Correct answer: ${correctChoice}. It describes a quality, so it is an adjective.`;
+        }
+        if (question.answer === 1) {
+          return `Correct answer: ${correctChoice}. It expresses an action, so it is a verb.`;
+        }
+      }
+      if (module.title.includes("Conjugaison")) {
+        const tenseMatch = prompt.match(/^([^:]+):\s*(.+)\s+\(([^)]+)\)/);
+        if (tenseMatch) {
+          const tense = tenseMatch[1].trim();
+          const subject = tenseMatch[2].trim();
+          const verb = tenseMatch[3].trim();
+          return `Correct answer: ${correctChoice}. In ${tense.toLowerCase()} tense, "${subject} + ${verb}" becomes "${correctChoice}".`;
+        }
+      }
+      if (prompt.startsWith("Combien font")) {
+        const mathMatch = prompt.match(/Combien font\s+(\d+)\s*([+\-])\s*(\d+)/);
+        if (mathMatch) {
+          const a = Number(mathMatch[1]);
+          const op = mathMatch[2];
+          const b = Number(mathMatch[3]);
+          const result = op === "+" ? a + b : a - b;
+          return `Correct answer: ${correctChoice}. Because ${a} ${op} ${b} = ${result}.`;
+        }
+      }
+      if (prompt.includes("après")) {
+        return `Correct answer: ${correctChoice}. It is the number that comes after the given one.`;
+      }
+      if (prompt.includes("avant")) {
+        return `Correct answer: ${correctChoice}. It is the number that comes before the given one.`;
+      }
+      return `Correct answer: ${correctChoice}. This is stated in the text or is a basic fact for this level.`;
+    }
+
+    function getExplanation(question) {
+      if (lang === "fr" && module.type === "quiz") {
+        return buildEnglishExplanation(question);
+      }
+      return question.explanation;
+    }
+
     function showFeedback(isCorrect) {
       feedback.classList.remove("hidden");
       feedbackTitle.textContent = isCorrect
@@ -188,8 +234,8 @@
       feedbackText.textContent = isCorrect
         ? "Tu as trouvé la bonne option. Continue comme ça."
         : "Regarde la correction et retiens le point clé.";
-      feedbackExplain.innerHTML = module.questions[currentIndex].explanation;
-      feedbackIcon.textContent = isCorrect ? "âœ“" : "!";
+      feedbackExplain.innerHTML = getExplanation(module.questions[currentIndex]);
+      feedbackIcon.textContent = isCorrect ? "✓" : "!";
       feedbackIcon.classList.toggle("bad", !isCorrect);
     }
 
@@ -201,7 +247,9 @@
         feedbackText.textContent =
           "Clique sur une option puis valide pour voir la correction.";
         feedbackExplain.textContent =
-          "Rappel : lis bien la question et repère les mots-clés.";
+          lang === "fr"
+            ? "Reminder: read the question carefully and focus on key words."
+            : "Rappel : lis bien la question et repère les mots-clés.";
         feedbackIcon.textContent = "!";
         feedbackIcon.classList.add("bad");
         return;
