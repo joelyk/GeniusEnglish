@@ -1846,6 +1846,78 @@
         choices: ["Excuse me,", "Sit down", "Cheers!", "Congratulations!"],
         answer: 0,
         explanation: "On dit &ldquo;Excuse me&rdquo; pour demander poliment."
+      },
+      {
+        prompt:
+          "Match (A1): I feel a bit nervous. (A) / f) I’ve got an exam today. (B)",
+        choices: [
+          "C1: Cheer up! You’ve got me. I’m always here for you.",
+          "C2: Oh dear! Why didn’t you go home to bed?",
+          "C3: Oh no! Didn’t you get one last week as well?",
+          "C4: I know. We really …"
+        ],
+        answer: 2,
+        explanation: "Nervous fits with having an exam today. The response is C3."
+      },
+      {
+        prompt:
+          "Match (A2): I don’t feel very well. (A) / d) I think I’m getting a cold. (B)",
+        choices: [
+          "C1: Cheer up! You’ve got me. I’m always here for you.",
+          "C2: Oh dear! Why didn’t you go home to bed?",
+          "C3: Oh no! Didn’t you get one last week as well?",
+          "C4: I know. We really …"
+        ],
+        answer: 1,
+        explanation: "Feeling unwell matches getting a cold. The response is C2."
+      },
+      {
+        prompt:
+          "Match (A3): I’m feeling a lot better, thanks. (A) / e) My grandfather’s going into hospital for tests. (B)",
+        choices: [
+          "C1: Cheer up! You’ve got me. I’m always here for you.",
+          "C2: Oh dear! Why didn’t you go home to bed?",
+          "C3: Oh no! Didn’t you get one last week as well?",
+          "C4: I know. We really …"
+        ],
+        answer: 0,
+        explanation: "This is a supportive response: C1."
+      },
+      {
+        prompt:
+          "Match (A4): I’m so angry! (A) / c) We’re in love! (B)",
+        choices: [
+          "C1: Cheer up! You’ve got me. I’m always here for you.",
+          "C2: Oh dear! Why didn’t you go home to bed?",
+          "C3: Oh no! Didn’t you get one last week as well?",
+          "C4: I know. We really …"
+        ],
+        answer: 3,
+        explanation: "The response continues: “I know. We really …” (C4)."
+      },
+      {
+        prompt:
+          "Match (A5): I’m really excited! (A) / b) I’m going on holiday to Australia tomorrow! (B)",
+        choices: [
+          "C1: Cheer up! You’ve got me. I’m always here for you.",
+          "C2: Oh dear! Why didn’t you go home to bed?",
+          "C3: Oh no! Didn’t you get one last week as well?",
+          "C4: I know. We really …"
+        ],
+        answer: 0,
+        explanation: "Excitement about a trip needs encouragement: C1."
+      },
+      {
+        prompt:
+          "Match (A6): I’m fed up with this weather. (A) / a) It’s so wet and miserable. (B)",
+        choices: [
+          "C1: Cheer up! You’ve got me. I’m always here for you.",
+          "C2: Oh dear! Why didn’t you go home to bed?",
+          "C3: Oh no! Didn’t you get one last week as well?",
+          "C4: I know. We really …"
+        ],
+        answer: 3,
+        explanation: "Complaint about weather fits with agreement: C4."
       }
     ]
   }

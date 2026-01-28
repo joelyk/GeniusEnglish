@@ -183,12 +183,13 @@
     function buildEnglishExplanation(question) {
       const correctChoice = question.choices[question.answer];
       const prompt = question.prompt || "";
+      const base = `Correct answer: ${correctChoice}.`;
       if (module.title.includes("Adjectif") || module.title.includes("Verbe")) {
         if (question.answer === 0) {
-          return `Correct answer: ${correctChoice}. It describes a quality, so it is an adjective.`;
+          return `${base} It describes a quality or state, so it is an adjective. Look for words that describe how someone or something is.`;
         }
         if (question.answer === 1) {
-          return `Correct answer: ${correctChoice}. It expresses an action, so it is a verb.`;
+          return `${base} It expresses an action or process, so it is a verb. Verbs answer the question “what happens / what do you do?”`;
         }
       }
       if (module.title.includes("Conjugaison")) {
@@ -197,7 +198,7 @@
           const tense = tenseMatch[1].trim();
           const subject = tenseMatch[2].trim();
           const verb = tenseMatch[3].trim();
-          return `Correct answer: ${correctChoice}. In ${tense.toLowerCase()} tense, "${subject} + ${verb}" becomes "${correctChoice}".`;
+          return `${base} In ${tense.toLowerCase()} tense, "${subject} + ${verb}" becomes "${correctChoice}". Check the subject and the tense marker to choose the right form.`;
         }
       }
       if (prompt.startsWith("Combien font")) {
@@ -207,16 +208,16 @@
           const op = mathMatch[2];
           const b = Number(mathMatch[3]);
           const result = op === "+" ? a + b : a - b;
-          return `Correct answer: ${correctChoice}. Because ${a} ${op} ${b} = ${result}.`;
+          return `${base} Because ${a} ${op} ${b} = ${result}. This is a basic arithmetic fact.`;
         }
       }
       if (prompt.includes("après")) {
-        return `Correct answer: ${correctChoice}. It is the number that comes after the given one.`;
+        return `${base} It is the number that comes after the given one in counting order.`;
       }
       if (prompt.includes("avant")) {
-        return `Correct answer: ${correctChoice}. It is the number that comes before the given one.`;
+        return `${base} It is the number that comes before the given one in counting order.`;
       }
-      return `Correct answer: ${correctChoice}. This is stated in the text or is a basic fact for this level.`;
+      return `${base} This is stated in the text or is a basic fact for this level. Use the key words in the question to confirm it.`;
     }
 
     function getExplanation(question) {
